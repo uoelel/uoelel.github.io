@@ -3357,11 +3357,25 @@ input, select, textarea {
   		padding-bottom: 100%;
 	}
 
-h1, h2, h3 {
-	margin-top: 30px;
-	margin-bottom: 20px;
+
+/* Custom */
+
+h2, h3 {
+	margin-top: 2em;
+	margin-bottom: 1em;
+}
+
+h2 {
+	font-size: 2em;
 }
 
 h3 {
+	font-size: 1em;
 	font-style: italic;
+}
+
+
+p {
+	margin: 1em 0 1em 0;
+	line-height: 1.25;
 }
