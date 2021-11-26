@@ -50,6 +50,14 @@ GAMMs are particularly useful with time series data and geographic coordinates.
 Another excellent resource is [Hierarchical generalized additive models in ecology: an introduction with mgcv](https://peerj.com/articles/6876/) by Pedersen and colleagues.
 In particular, [Figure 4](https://doi.org/10.7717/peerj.6876/fig-4) is a beatiful visual summary of how different types of trends and groupings can be modelled with GAMs.
 
+The paper [Generalized Additive Mixed Models for intraspeaker variation](https://www.degruyter.com/document/doi/10.1515/lingvan-2016-0030/html) by Tamminga and colleagues advocates for the adoption of GAMMs to advance the use of naturalistic data for studying psycholinguistic questions about intraspeaker variation.
+
+### Bayesian inference
+
+The overview by Etz et al., [How to become a Bayesian in eight easy steps: An annotated reading list](https://doi.org/10.3758/s13423-017-1317-5), is a good place to start from if you want to learn more about Bayesian statistics and inference.
+
+For an more practice-oriented introduction, you should read [Statistical (Re)thinking](https://discovered.ed.ac.uk/permalink/44UOE_INST/110jsec/alma9924362502302466) (see above).
+
 ### Functional Data Analysis for Speech Research
 
 [Functional Data Analysis for Speech Research](http://lands.let.ru.nl/FDA/index.htm) by Michele Gubian is a collection of resources, workshop materials and papers on Functional Data Analysis and Functional PCA focussed on speech research data.
