@@ -5,6 +5,7 @@ description: "meh"
 ---
 
 There are several resources you can use to teach yourself data analysis and statistic skills, depending on your level.
+Don't forget to also check out the [Research skills](research-skills/) page.
 
 ## Beginners
 

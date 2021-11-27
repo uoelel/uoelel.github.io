@@ -4,10 +4,12 @@ draft: false
 description: "meh"
 ---
 
-## Statistics and Experimental Design
+LEL students can take the following research methods and statistics courses.
 
-## Introduction to Language Research
+- Statistics and Experimental Design
 
-## Research Methods in Developmental Linguistics
+- Introduction to Language Research
 
-## Sociolinguistic Research Design
+- Research Methods in Developmental Linguistics
+
+- Sociolinguistic Research Design

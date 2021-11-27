@@ -19,32 +19,32 @@ name = "Research skills"
 url = "research-skills"
 weight = 4
 
-[[main]]
-name = "Blog"
-url = "blog/"
-weight = 50
+# [[main]]
+# name = "Blog"
+# url = "blog/"
+# weight = 50
 
-[[main]]
-weight = 100
-name = "Pages"
-hasChildren = true
+# [[main]]
+# weight = 100
+# name = "Pages"
+# hasChildren = true
 
-  [[main]]
-  parent = "Pages"
-  name = "Blog Details"
-  url = "blog/post-1/"
-  weight = 1
+#   [[main]]
+#   parent = "Pages"
+#   name = "Blog Details"
+#   url = "blog/post-1/"
+#   weight = 1
 
-  [[main]]
-  parent = "Pages"
-  name = "Terms & Conditions"
-  url = "terms-and-conditions/"
-  weight = 7
+#   [[main]]
+#   parent = "Pages"
+#   name = "Terms & Conditions"
+#   url = "terms-and-conditions/"
+#   weight = 7
   
-[[main]]
-name = "Contact"
-url = "contact/"
-weight = 200
+# [[main]]
+# name = "Contact"
+# url = "contact/"
+# weight = 200
 
 
 # footer menu

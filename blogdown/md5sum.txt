@@ -1,0 +1,2 @@
+"file" "checksum"
+"content/blog/2020-12-01-r-rmarkdown/index.Rmd" "3d9f0f264c6cd40ae24e9e64430a2bcd"
