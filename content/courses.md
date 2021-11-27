@@ -1,7 +1,7 @@
 ---
 title: "Courses"
 draft: false
-description: "meh"
+description: "List of courses offered at LEL"
 ---
 
 LEL students can take the following research methods and statistics courses.

@@ -5,19 +5,32 @@ url = ""
 weight = 1
 
 [[main]]
-name = "Courses"
-url = "courses/"
 weight = 2
+name = "Learn"
+hasChildren = true
+
+    [[main]]
+    parent = "Learn"
+    name = "Courses"
+    url = "courses/"
+    weight = 2
+
+    [[main]]
+    parent = "Learn"
+    name = "Learning Resources"
+    url = "resources/"
+    weight = 3
+
+    [[main]]
+    parent = "Learn"
+    name = "Research Management"
+    url = "research-skills"
+    weight = 4
 
 [[main]]
-name = "Resources"
-url = "resources/"
+name = "Ask for help"
+url = "support/"
 weight = 3
-
-[[main]]
-name = "Research skills"
-url = "research-skills"
-weight = 4
 
 # [[main]]
 # name = "Blog"

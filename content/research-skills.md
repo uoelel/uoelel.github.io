@@ -1,7 +1,7 @@
 ---
-title: "Research skills"
+title: "Research Management"
 draft: false
-description: "meh"
+description: "Research Management Skills"
 ---
 
 ### Research best practices

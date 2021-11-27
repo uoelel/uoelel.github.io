@@ -129,16 +129,25 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://uoeling.github.io/resources/</guid>
-      <description>There are several resources you can use to teach yourself data analysis and statistic skills, depending on your level.</description>
+      <description>There are several resources you can use to teach yourself data analysis and statistics skills, depending on your level.</description>
     </item>
     
     <item>
-      <title>Research skills</title>
+      <title>Research Management</title>
       <link>https://uoeling.github.io/research-skills/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://uoeling.github.io/research-skills/</guid>
       <description>Research best practices Best practices for researchers compiled by the Open Science Foundation.</description>
+    </item>
+    
+    <item>
+      <title>Support</title>
+      <link>https://uoeling.github.io/support/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://uoeling.github.io/support/</guid>
+      <description>We have different support channels for students who are writing their dissertation, PhD students, and researchers/staff.</description>
     </item>
     
   </channel>
