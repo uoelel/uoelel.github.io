@@ -6,29 +6,29 @@ weight = 1
 
 [[main]]
 weight = 2
-name = "Learn"
+name = "Learning"
 hasChildren = true
 
     [[main]]
-    parent = "Learn"
+    parent = "Learning"
     name = "Courses"
     url = "courses/"
     weight = 2
 
     [[main]]
-    parent = "Learn"
+    parent = "Learning"
     name = "Learning Resources"
     url = "resources/"
     weight = 3
 
     [[main]]
-    parent = "Learn"
+    parent = "Learning"
     name = "Research Management"
     url = "research-skills"
     weight = 4
 
 [[main]]
-name = "Ask for help"
+name = "Support"
 url = "support/"
 weight = 3
 

@@ -2,8 +2,8 @@
 # banner
 banner:
   title: "Data Analysis @ UoE LEL"
-  button: "Go to resources"
-  button_link: "resources/"
+  button: "Looking for help?"
+  button_link: "support/"
   image: "images/banner-app.png"
 
 
