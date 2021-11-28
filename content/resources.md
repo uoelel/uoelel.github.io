@@ -22,7 +22,7 @@ The following resources are suitable for beginners who want to learn data analys
 ### Statistics
 
 * [Statistics for Linguists: An introduction using R](https://discovered.ed.ac.uk/permalink/44UOE_INST/7g3mt6/alma9924344853202466) by Bodo Winter is ideal both for absolute beginners and experienced researchers.
-It is packed with everything you need to succesfully and effectively conduct statistical analyses.
+It is packed with everything you need to successfully and effectively conduct statistical analyses.
 
 * [Statistical (Re)thinking](https://discovered.ed.ac.uk/permalink/44UOE_INST/110jsec/alma9924362502302466) by Richard McElreath is an excellent introduction for absolute beginners, by Richard McElreath, which covers a wide variety of linear models.
 It focusses on Bayesian inference and how this framework can help us directly answer research questions, assess evidence for different hypothesis, and quantify uncertainty.
@@ -38,7 +38,7 @@ If you have a basic understanding of data analysis, statistics, and R, these res
 
 ### Dimensionality reduction
 
-If you're data is *highly dimensional*, i.e. you have a lot of different variables, some of which are correlated to each other, you can emply data dimensionality reduction techniques to "synthesise" all the variables into fewer componens or clusters.
+If you're data is *highly dimensional*, i.e. you have a lot of different variables, some of which are correlated to each other, you can employ data dimensionality reduction techniques to "synthesise" all the variables into fewer components or clusters.
 
 A common reduction technique is **Principal Component Analysis** (PCA).
 This method combines all of your variables into a limited set of numeric *principal components*.
@@ -49,17 +49,17 @@ Another dimensionality reduction technique is **Cluster Analysis** (CA, aka hier
 [This tutorial](https://www.datanovia.com/en/blog/cluster-analysis-in-r-practical-guide/) guides you through a CA in R.
 
 
-### Time series and geographic analysis
+### Time series and coordinates
 
 **Generalised Additive (Mixed) Models** are a flexible extension of linear models that allows us to fit non-linear effects.
-They are particularly useful with data that come from time series (e.g. f0 and formants, corpus occurrences across time, longitudinal data, etc.) and they can be employed with any kind of 2-dimensional or higher *N*-dimensional data (e.g., geographic variation, electroencephalographic (EEG) data, 3D tongue imaging, etc).
+They are particularly useful with data that come from time series (e.g. f0 and formants, corpus occurrences across time, longitudinal data, etc.) and they can be employed with any kind of data that can be thought of as being represented on a coordinate space (e.g., geolocations, electroencephalographic (EEG) data, 3D tongue imaging, etc).
 
 The tutorial [Generalised additive mixed models for dynamic analysis in linguistics: a practical introduction](https://eprints.whiterose.ac.uk/113858/2/1703_05339v1.pdf) by Márton Sóskuthy is an excellent introduction to Generalised Additive Mixed Models (GAMMs).
 
 Another excellent resource is [Hierarchical generalized additive models in ecology: an introduction with mgcv](https://peerj.com/articles/6876/) by Pedersen and colleagues.
-In particular, [Figure 4](https://doi.org/10.7717/peerj.6876/fig-4) is a beatiful visual summary of how different types of trends and groupings can be modelled with GAMs.
+In particular, [Figure 4](https://doi.org/10.7717/peerj.6876/fig-4) is a beautiful visual summary of how different types of trends and groupings can be modelled with GAMs.
 
-The paper [Generalized Additive Mixed Models for intraspeaker variation](https://www.degruyter.com/document/doi/10.1515/lingvan-2016-0030/html) by Tamminga and colleagues advocates for the adoption of GAMMs to advance the use of naturalistic data for studying psycholinguistic questions about intraspeaker variation.
+The paper [Generalized Additive Mixed Models for intra-speaker variation](https://www.degruyter.com/document/doi/10.1515/lingvan-2016-0030/html) by Tamminga and colleagues advocates for the adoption of GAMMs to advance the use of naturalistic data for studying psycholinguistic questions about intra-speaker variation.
 
 ### Bayesian inference
 

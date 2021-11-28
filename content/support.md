@@ -11,7 +11,7 @@ We have different support channels for students who are writing their dissertati
 
 If you are a student writing your Honours or MSc dissertation, you can book a **1:1 appointment** through the PPLS Skills Centre.
 
-<u>**Before booking an appointment**</u> make sure you have agreed upon the details of your research design and the analysis plan with your supervisor.
+<u>**Before booking an appointment**</u> make sure you have agreed with your supervisor on the details of your research design and the analysis plan.
 When making the booking, you will have to fill a form with these details.
 
 
@@ -22,7 +22,7 @@ When making the booking, you will have to fill a form with these details.
 
 ### Consultation for PhD students, postdocs and staff
 
-Many of the issues arising during the data analyisis stage can be prevented by planning your analysis while designing the study and ahead of data collection.
+Many of the issues arising during the data analysis stage can be prevented by planning your analysis while designing the study and ahead of data collection.
 <u>**We strongly recommend you to work out your data analysis plan in details as early as possible.**</u>
 This expedient will save you time later on.
 
@@ -40,4 +40,6 @@ Help is offered for the following areas:
 
 ### Statistical service for staff
 
-Postdocs and staff seeking for a collaborator to be tasked with planning and execution of statistical analyses, including reporting, can get in contact with Dr Stefano Coretta.
+Dr Stefano Coretta is available as collaborator on projects or papers requiring the planning and execution of statistical analyses.
+
+Interested postdocs or staff should contact Stefano for enquiries.
