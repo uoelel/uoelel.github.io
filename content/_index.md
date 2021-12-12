@@ -63,17 +63,17 @@ intro_video:
 
 # how_it_works
 how_it_works:   
-  enable: false
+  enable: true
   block:
-  - subtitle: "Primary Speciality"
-    title: "You Will Not miss Your All misunderstandings"
-    description: "Protect your design vision and leave nothing up to interpretation with interaction recipes. Quickly share and access all your team members interactions by using libraries, ensuring consistency throughout the."
-    image: "images/features-01.png"
+  - subtitle: "Learn"
+    title: "Want to learn about data analysis for linguistics?"
+    description: "If you want to learn data analysis, check out the [Courses](./courses/) offered at LEL and the [Learning Resources](./resources/) page. For more general research skills, check the [Research Management](./research-skills/) page."
+    image: "images/streamline/61-programmer-female-african-american.png"
 
-  - subtitle: "Secondary Speciality"
-    title: "Say hello to no-code The Advance Creation"
-    description: "From the simplest of interactions to those that use Excel-gradeing formulas, ProtoPie can handle them all. Make mind-blowing of New interactions everyday without ever having to write any new code."
-    image: "images/features-02.png"
+  - subtitle: "Find support"
+    title: "Need help with data analysis or statistics?"
+    description: "If you need help with data analysis or statistical aspects of your research or dissertation, please find the available support channels on the [Support](./support/) page."
+    image: "images/streamline/65-osx-programmer-male-asian.png"
 
 
 # testimonials
