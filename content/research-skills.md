@@ -4,6 +4,10 @@ draft: false
 description: "Research Management Skills"
 ---
 
+### Research study planning
+
+Mits Ota has created a slide deck on how to plan a study for your research project. You can find the slides [here](docs/W2_preparing_projects.pdf).
+
 ### Research best practices
 
 [Best practices](https://help.osf.io/hc/en-us/categories/360001530634-Best-Practices) for researchers compiled by the Open Science Foundation. From file management to publishing research output.
