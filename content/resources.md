@@ -29,6 +29,9 @@ It focusses on Bayesian inference and how this framework can help us directly an
 
 * The code from the Statistical (Re)thinking book has been translated into the tidyverse by Solomon Kurz, and it can be accessed here: [Statistical rethinking with brms, ggplot2, and the tidyverse](https://bookdown.org/content/4857/).
 
+* [The Art of Statistics: Learning from data](https://www.penguin.co.uk/books/294/294857/learning-from-data/9780241258767.html) by David Spiegelhalter uses real-world examples to explain principles of data visualisation and analysis.
+It touches upon a wide range of topics and disciplines, from communicating proportions, to probability and Bayesian inference, making it a great complement to the other books and resources mentioned here.
+If you just wish to dip your toes in statistics without committing (yet) to learning how to do statistics, this book is the right start.
 
 ----------
 
