@@ -23,7 +23,7 @@ hasChildren = true
 
     [[main]]
     parent = "Learning"
-    name = "Research Management"
+    name = "Research Skills"
     url = "research-skills"
     weight = 4
 

@@ -4,7 +4,7 @@ banner:
   title: "Data Analysis @ UoE LEL"
   button: "Looking for help?"
   button_link: "support/"
-  image: "images/banner-app.png"
+  # image: "images/banner-app.png"
 
 
 # brands

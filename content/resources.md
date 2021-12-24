@@ -5,7 +5,7 @@ description: "Learning resources to teach yourself data analysis and statistics"
 ---
 
 There are several resources you can use to teach yourself data analysis and statistics skills, depending on your level.
-Don't forget to also check the [Research Management](research-skills/) page, for more general research-related skills.
+Don't forget to also check the [Research Skills](research-skills/) page, for more general research-related skills.
 
 ## Beginners
 
