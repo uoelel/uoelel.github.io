@@ -28,9 +28,14 @@ hasChildren = true
     weight = 4
 
 [[main]]
+name = "Software"
+url = "software/"
+weight = 3
+
+[[main]]
 name = "Support"
 url = "support/"
-weight = 3
+weight = 4
 
 # [[main]]
 # name = "Blog"

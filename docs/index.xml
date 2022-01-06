@@ -142,6 +142,15 @@
     </item>
     
     <item>
+      <title>Software</title>
+      <link>https://uoeling.github.io/software/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://uoeling.github.io/software/</guid>
+      <description>AntConc: A freeware corpus analysis toolkit for concordancing and text analysis.</description>
+    </item>
+    
+    <item>
       <title>Support</title>
       <link>https://uoeling.github.io/support/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
