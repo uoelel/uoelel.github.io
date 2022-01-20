@@ -106,6 +106,15 @@
     </item>
     
     <item>
+      <title>Analysis plan checklist</title>
+      <link>https://uoeling.github.io/analysis-checklist/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://uoeling.github.io/analysis-checklist/</guid>
+      <description>Make sure you plan ahead and think about the analysis of your data as early as possible during the project.</description>
+    </item>
+    
+    <item>
       <title>contact</title>
       <link>https://uoeling.github.io/contact/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -121,6 +130,15 @@
       
       <guid>https://uoeling.github.io/courses/</guid>
       <description>LEL students can take the following research methods and statistics courses.</description>
+    </item>
+    
+    <item>
+      <title>Falsifiability</title>
+      <link>https://uoeling.github.io/falsifiable/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://uoeling.github.io/falsifiable/</guid>
+      <description>Definition  A statement is falsifiable if it can be contradicted by an observation.</description>
     </item>
     
     <item>
@@ -157,6 +175,15 @@
       
       <guid>https://uoeling.github.io/support/</guid>
       <description>We have different support channels for students who are writing their dissertation, PhD students, and researchers/staff.</description>
+    </item>
+    
+    <item>
+      <title>Variable types</title>
+      <link>https://uoeling.github.io/variable-types/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://uoeling.github.io/variable-types/</guid>
+      <description>Continuous variables   The variable can take on any positive and negative real number, including 0: Gaussian (aka normal) distribution.</description>
     </item>
     
   </channel>

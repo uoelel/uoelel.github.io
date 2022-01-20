@@ -58,9 +58,13 @@
   </url><url>
     <loc>https://uoeling.github.io/about/</loc>
   </url><url>
+    <loc>https://uoeling.github.io/analysis-checklist/</loc>
+  </url><url>
     <loc>https://uoeling.github.io/contact/</loc>
   </url><url>
     <loc>https://uoeling.github.io/courses/</loc>
+  </url><url>
+    <loc>https://uoeling.github.io/falsifiable/</loc>
   </url><url>
     <loc>https://uoeling.github.io/resources/</loc>
   </url><url>
@@ -69,5 +73,7 @@
     <loc>https://uoeling.github.io/software/</loc>
   </url><url>
     <loc>https://uoeling.github.io/support/</loc>
+  </url><url>
+    <loc>https://uoeling.github.io/variable-types/</loc>
   </url>
 </urlset>
