@@ -9,11 +9,9 @@ We have different support channels for students who are writing their dissertati
 
 ### Undergraduate and Postgraduate students
 
-If you are a student writing your Honours or MSc dissertation, you can book a **1:1 appointment** through the PPLS Skills Centre.
+If you are a student writing your Honours or MSc dissertation, you can book a **1:1 appointment** through the PPLS Skills Centre (login required).
 
-<u>**Before booking an appointment**</u> make sure you have agreed with your supervisor on the details of your research design and the analysis plan.
-When making the booking, you will have to fill a form with these details.
-
+<u>**Before booking an appointment**</u> make sure you have agreed with your supervisor on the details of your research design and the analysis plan by going through [this checklist](analysis-checklist/).
 
 {{<button "Book an appointment" "https://forms.office.com/Pages/ResponsePage.aspx?id=sAafLmkWiUWHiRCgaTTcYcpxyfWPFX1JozHoxSFlublUNVhOV1pFR0haWDhXRU8yUjNSQlJFRFQ0Vi4u">}}
 
