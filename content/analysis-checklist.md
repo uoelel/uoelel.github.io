@@ -18,7 +18,7 @@ It is important that you are able to answer all of these questions if you wish t
 1. **Have you clearly defined the concepts/objects of study in your research question and hypothesis?**
 1. **Have you operationalised the concepts/objects of study into clearly measurable variables?**
 1. **Which are your outcome variable(s) and your predictor variable(s)?**
-1. **Your outcome variable(s) is of [which type](variable-type/)?**
+1. **Your outcome variable(s) is of [which type](variable-types/)?**
 1. **Which statistical model or test will you use to answer your research question or test your research hypothesis?**
 1. **What is the justification for the chosen minimal sample size?**
 
