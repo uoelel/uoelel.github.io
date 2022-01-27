@@ -37,17 +37,30 @@ description: "Linguistic data analysis software"
 
 ## Typefaces
 
-- [Atkinson Hyperlegible](https://brailleinstitute.org/freefont) font.
+### Serif
+
 - [Brill typeface](https://brill.com/page/BrillFont/brill-typeface).
-- [Constructium](https://www.cufonfonts.com/font/constructium) font.
-- [DejaVu](https://dejavu-fonts.github.io) fonts.
+- [Constructium](https://www.cufonfonts.com/font/constructium).
+- [Heuristica](https://www.fontsquirrel.com/fonts/heuristica).
+- [Junicode](https://junicode.sourceforge.io).
+- [Linguistics Pro](https://github.com/StefanPeev/Linguistics-Pro).
+- [Tinos](https://fonts.google.com/specimen/Tinos).
+
+### Sans-serif
+
+- [Atkinson Hyperlegible](https://brailleinstitute.org/freefont).
+- [Voces](https://fonts.google.com/specimen/Voces).
+
+### Mono-space
+
+- [Iosevka](https://typeof.net/Iosevka/).
+
+### Bundles
+
+- [DejaVu](https://dejavu-fonts.github.io).
 - Fira fonts: [Fira Sans](https://fonts.google.com/specimen/Fira+Sans), [Fira Code](https://fonts.google.com/specimen/Fira+Code), [Fira Mono](https://fonts.google.com/specimen/Fira+Mono).
 - [GNU FreeFont](https://www.gnu.org/software/freefont/).
-- [Junicode](https://junicode.sourceforge.io) font.
-- [Linguistics Pro](https://github.com/StefanPeev/Linguistics-Pro) fonts.
-- [Noto](https://fonts.google.com/noto) fonts.
-- [Tinos](https://fonts.google.com/specimen/Tinos) font.
-- [Voces](https://fonts.google.com/specimen/Voces) font.
+- [Noto](https://fonts.google.com/noto).
 
 ## Input methods
 
