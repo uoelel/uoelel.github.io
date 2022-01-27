@@ -1,24 +1,29 @@
 ---
-title: "Analysis plan checklist"
+title: "Quantitative analysis plan"
 draft: false
-description: "Analysis plan checklist"
+description: "Quantitative analysis plan checklist"
 ---
 
-Make sure you plan ahead and think about the analysis of your data as early as possible during the project.
-**The best time to do so is when you are planning your study/project**. Do not wait until after you started collecting data.
+**The information given on this page concerns only students who will carry out quantitative analyses** (so it does not apply to students doing qualitative analyses).
 
-We have compiled a check list for you and your supervisor to go over at the beginning of your supervision, while thinking about the project you will carry out.
+**Make sure you plan ahead and think about the quantitative analysis of the data you will collect for your study.**
+The best time to do so is when you are planning your study/project. Do not wait until after you started collecting data.
 
-It is important that you are able to answer all of these questions if you wish to make the most out of the statistical support we offer and more importantly **if you want to avoid irreparable issues later on**.
+We have compiled a **checklist for you and your supervisor to go over** at the beginning of your supervision, while thinking about the project you will carry out.
+
+It is **important that you are able to answer all of these questions** if you wish to make the most out of the statistical support we offer and more importantly if you want to avoid irreparable issues later on.
 
 ## The checklist
 
-1. **Can you clearly state, in simple language, what the research question(s) of your project is/are?**
-1. **If you are testing a specific hypothesis, did you formulate it so that it is a [falsifiable statement](falsifiable/)?**
-1. **Have you clearly defined the concepts/objects of study in your research question and hypothesis?**
-1. **Have you operationalised the concepts/objects of study into clearly measurable variables?**
-1. **Which are your outcome variable(s) and your predictor variable(s)?**
-1. **Your outcome variable(s) is of [which type](variable-types/)?**
-1. **Which statistical model or test will you use to answer your research question or test your research hypothesis?**
-1. **What is the justification for the chosen minimal sample size?**
+During the early stages of your project, bring this list of questions to your supervisor and discuss them.
+If, after talking to your supervisor, you are still unsure about any of these points, please [book an appointment](https://uoeling.github.io/support/) with Stefano.
+
+1. Can you clearly state, in simple language, what the **research question(s)** of your project is/are?
+1. **If you are testing a specific hypothesis**, did you formulate it so that it is a [**falsifiable statement**](falsifiable/)?
+1. Have you clearly **defined the concepts/objects** of study in your research question and hypothesis?
+1. Have you operationalised the concepts/objects of study into **clearly measurable variables**?
+1. Which are your **outcome** (dependent) variable(s) and your **predictor** (independent) variable(s)?
+1. Your outcome variable(s) is of [**which type**](variable-types/)?
+1. **Which statistical model or test** will you use to answer your research question or test your research hypothesis?
+1. Have you **specified and justified the minimal sample size** you would need to obtain the required estimate precision or statistical power?
 
