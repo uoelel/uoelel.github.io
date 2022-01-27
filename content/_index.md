@@ -71,8 +71,8 @@ how_it_works:
     image: "images/streamline/61-programmer-female-african-american.png"
 
   - subtitle: "Find support"
-    title: "Need help with data analysis or statistics?"
-    description: "If you need help with data analysis or statistical aspects of your research or dissertation, please find the available support channels on the [Support](./support/) page."
+    title: "Need help with quantitative data analysis and statistics?"
+    description: "If you need help with quantitative data analysis or statistical aspects of your research or dissertation, please find the available support channels on the [Support](./support/) page."
     image: "images/streamline/65-osx-programmer-male-asian.png"
 
 

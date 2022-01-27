@@ -1,15 +1,23 @@
 ---
 title: "Courses"
 draft: false
-description: "List of courses offered at LEL"
+description: "List of data analysis courses offered at LEL"
 ---
 
-LEL students can take the following research methods and statistics courses.
+LEL students can take the following courses that focus on research methods and data analysis.
 
-- Statistics and Experimental Design
+### Quantitative methods
 
-- Introduction to Language Research
+- Statistics and Experimental Design (10 or 20 credits).
 
-- Research Methods in Developmental Linguistics
+- Research Methods in Developmental Linguistics (20 credits).
 
-- Sociolinguistic Research Design
+### Qualitative methods
+
+- Introduction to Language Research (10 credits).
+
+- Sociolinguistic Research Design (10 credits).
+
+- Introduction to Discourse Analysis (10 credits).
+
+- Discourse Analysis (20 credits).
