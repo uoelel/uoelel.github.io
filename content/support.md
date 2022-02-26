@@ -5,15 +5,24 @@ description: "Data analysis and statistical support for students and staff"
 ---
 
 
-We have different support channels for students who are writing their dissertation, PhD students, and researchers/staff who are seeking help with any aspect of quantitative data analysis.
+There are different support channels for Hons/MSc/PhD students who are writing their dissertation, and researchers/staff who are seeking help with any aspect of quantitative data analysis.
 
-### Undergraduate and Postgraduate students
+### General support
 
-If you are a student writing your Honours or MSc dissertation and you are looking after help with your quantitative data analysis/statistics, you can book a **1:1 appointment** through the PPLS Skills Centre (login required).
+As a general guideline aimed at students, supervisors, and staff, we have compiled a checklist that covers all the main aspects of quantitative analyses.
 
-<u>**Before booking an appointment**</u> make sure you have agreed with your supervisor on the details of your research design and the quantitative analysis plan by going through [this checklist](analysis-checklist/).
+You can use the checklist as a template to think about your quantitative analysis plan at the early stages of your dissertation/research project.
 
-{{<button "Book an appointment" "https://forms.office.com/Pages/ResponsePage.aspx?id=sAafLmkWiUWHiRCgaTTcYcpxyfWPFX1JozHoxSFlublUNVhOV1pFR0haWDhXRU8yUjNSQlJFRFQ0Vi4u">}}
+{{<button "Go to checklist" "https://uoeling.github.io/analysis-checklist/">}}
+
+<br>
+<br>
+
+### Honours and MSc students
+
+If you are a student writing your Honours or MSc dissertation and you are looking after help with your quantitative data analysis/statistics, you can book an appointment with Stefano, the LEL Stats coordinator (a university account is required).
+
+{{<button "Book an appointment" "https://outlook.office365.com/owa/calendar/Stefanosofficehours@uoe.onmicrosoft.com/bookings/s/CYTtarS6AUSqGdZi5dzBzw2">}}
 
 <br>
 <br>
@@ -21,10 +30,15 @@ If you are a student writing your Honours or MSc dissertation and you are lookin
 ### Consultation for PhD students, postdocs and staff
 
 Many of the issues arising during the data analysis stage can be prevented by planning your analysis while designing the study and ahead of data collection.
-<u>**We strongly recommend you to work out your data analysis plan in details as early as possible.**</u>
+<u>**We strongly recommend you to work out your quantitative data analysis plan in details as early as possible.**</u>
 This expedient will save you time later on.
 
-PhD students, postdoc researchers and staff can get in touch with the LEL Senior Teaching Coordinator for Statistics, Dr Stefano Coretta, to book an appointment.
+PhD students, postdoc researchers and staff can get in touch with the LEL Senior Teaching Coordinator for Statistics, Dr Stefano Coretta, or directly book an appointment via the link below (a university account is required).
+
+{{<button "Book an appointment" "https://outlook.office365.com/owa/calendar/Stefanosofficehours@uoe.onmicrosoft.com/bookings/s/CYTtarS6AUSqGdZi5dzBzw2">}}
+
+<br>
+<br>
 
 Help is offered for the following areas:
 
@@ -35,9 +49,8 @@ Help is offered for the following areas:
 * Reporting.
 * Open Science practices.
 
-
 ### Statistical service for staff
 
-Dr Stefano Coretta is available as collaborator on projects or papers requiring the planning and execution of statistical analyses.
+Dr Stefano Coretta is available as a collaborator on projects or papers requiring the planning and execution of quantitative and statistical analyses.
 
 Interested postdocs or staff should contact Stefano for enquiries.
