@@ -5,19 +5,27 @@ description: "List of data analysis courses offered at LEL"
 ---
 
 LEL students can take the following courses that focus on research methods and data analysis.
+See [DRPS](http://www.drps.ed.ac.uk/22-23/dpt/cx_sb_lasc.htm) for course info.
 
-### Quantitative methods
+- Computer Programming for Speech and Language Processing.
 
-- Statistics and Experimental Design (10 or 20 credits).
+- Discourse Analysis.
 
-- Research Methods in Developmental Linguistics (20 credits).
+- Introduction to Discourse Analysis.
 
-### Qualitative methods
+- Introduction to Language Research.
 
-- Introduction to Language Research (10 credits).
+- Linguistic Fieldwork and Language Description.
 
-- Sociolinguistic Research Design (10 credits).
+- Online Experiments for Language Scientists.
 
-- Introduction to Discourse Analysis (10 credits).
+- Research Ethics Training in Linguistics & English Language.
 
-- Discourse Analysis (20 credits).
+- Research Methods in Developmental Linguistics.
+
+- Sociolinguistic Research Design.
+
+- Statistics and Quantitative Methods (Semester 1: Frequentist).
+
+- Statistics and Quantitative Methods (Semester 2: Bayesian).
+
