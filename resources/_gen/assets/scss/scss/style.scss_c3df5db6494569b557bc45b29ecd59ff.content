@@ -601,7 +601,7 @@ header {
       header .dropdown-menu::after {
         position: absolute;
         content: "";
-        height: 0;
+        height: auto;
         width: 100%;
         top: 0;
         left: 0;
@@ -617,7 +617,7 @@ header {
         transition: .1s; }
     header .dropdown:hover .dropdown-menu {
       visibility: visible;
-      height: 0; }
+      height: auto; }
       header .dropdown:hover .dropdown-menu::after {
         transition: 0.5s cubic-bezier(0.165, 0.84, 0.44, 1);
         height: 100%; }
@@ -1388,3 +1388,6 @@ a {
 .content a {
   color: #fe6019;
   text-decoration: underline; }
+
+.dropdown-menu.show {
+  height: auto !important; }
