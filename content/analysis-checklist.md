@@ -19,7 +19,7 @@ During the early stages of your project, bring this list of questions to your su
 If, after talking to your supervisor, you are still unsure about any of these points, please [book an appointment](https://uoeling.github.io/support/) with Stefano.
 
 1. Can you clearly state, in simple language, what the **research question(s)** of your project is/are?
-1. **If you are testing a specific hypothesis**, did you formulate it so that it is a [**falsifiable statement**](falsifiable/)?
+1. **If you are testing a specific hypothesis**, did you formulate it so that it is a [**falsifiable statement**](falsifiable/)? **Note** that it is OK if you don't or cannot formulate a hypothesis!
 1. Have you clearly **defined the concepts/objects** of study in your research question and hypothesis?
 1. Have you operationalised the concepts/objects of study into **clearly measurable variables**?
 1. Which are your **outcome** (dependent) variable(s) and your **predictor** (independent) variable(s)?
