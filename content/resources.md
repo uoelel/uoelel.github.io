@@ -30,7 +30,7 @@ The following resources are suitable for beginners who want to learn **quantitat
 
 > The numbers have no way of speaking for themselves. We speak for them. We imbue them with meaning.
 >
-> — Nate Silver, *The Signal and the Noise*
+> —Nate Silver, *The Signal and the Noise*
 
 Statistics and statistical modelling are about finding meaning in the patterns that can be observed in the data.
 
@@ -43,6 +43,23 @@ It focusses on Bayesian inference and how this framework can help us directly an
 * [The Art of Statistics: Learning from data](https://www.penguin.co.uk/books/294/294857/learning-from-data/9780241258767.html) by David Spiegelhalter uses real-world examples to explain principles of data visualisation and analysis.
 It touches upon a wide range of topics and disciplines, from communicating proportions, to probability and Bayesian inference, making it a great complement to the other books and resources mentioned here.
 If you just wish to dip your toes in statistics without committing (yet) to learning how to do statistics, this book is the right start.
+
+### Linear models
+
+> One model to rule them all, one model to fit them,<br>
+> One model to shrink them all, and in probability bind them;<br>
+> In the Land of Inference where the distributions lie.
+> 
+> —The Statistical Hobbit.
+
+**Linear models are a very flexible and relatively straightforward way to model and analyse quantitative data**.
+They have gained momentum and are increasingly being adopted across the entire field of linguistics.
+
+The main perk of learning linear models is that they **can be applied to many different types of data**, so that once you learn this approach you will be able to apply it to a lot of data analysis scenarios.
+
+The resources mentioned above all focus on linear modelling, so whether you are just starting your statistical journey or you are an experienced researcher who wants to consolidate their understanding of linear modelling, those resources are right for you.
+
+After you have learnt the basics, the [Linear models cheet-sheet](https://stefanocoretta.github.io/post/2021-08-21-regression-models-a-cheat-sheet/) can guide you through the process of choosing among the appropriate types of linear model depending on the nature of your data.
 
 ----------
 
