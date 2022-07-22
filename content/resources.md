@@ -61,6 +61,8 @@ The resources mentioned above all focus on linear modelling, so whether you are 
 
 After you have learnt the basics, the [Linear models cheet-sheet](https://stefanocoretta.github.io/post/2021-08-21-regression-models-a-cheat-sheet/) can guide you through the process of choosing among the appropriate types of linear model depending on the nature of your data.
 
+Confused about all the model names? Check out [this post](https://stefanocoretta.github.io/post/2022-07-22-one-thousand-and-one-names/) on how we don't really need to use all of those names: they are all linear models!
+
 ----------
 
 ## Intermediate
