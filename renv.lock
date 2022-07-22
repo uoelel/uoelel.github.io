@@ -2008,21 +2008,6 @@
       "Hash": "06c85365a03fdaf699966cc1d3cf53ea",
       "Requirements": []
     },
-    "rticles": {
-      "Package": "rticles",
-      "Version": "0.23.5",
-      "Source": "Repository",
-      "Repository": "CRAN",
-      "Remotes": "rstudio/rmarkdown",
-      "Hash": "e8c6207ea5071dbf9f7563b484b4a311",
-      "Requirements": [
-        "knitr",
-        "rmarkdown",
-        "tinytex",
-        "xfun",
-        "yaml"
-      ]
-    },
     "rversions": {
       "Package": "rversions",
       "Version": "2.1.1",
