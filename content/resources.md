@@ -7,6 +7,14 @@ description: "Learning resources to teach yourself quantitative data analysis"
 There are several resources you can use to teach yourself quantitative data analysis skills, depending on your level.
 Don't forget to also check the [Research Skills](research-skills/) page, for more general research-related skills.
 
+<div class="alert alert-warning">
+  <strong>Note!</strong> This page provides resources on how to analyse measurements (e.g. formant values, word counts, collexeme association metrics, semantic distance, etc.) you have obtained from your data.
+</div>
+
+<div class="alert alert-success">
+  For methods to obtain such type of measurements in the first place, please check the (work-in-progress) <a href="metrics/">Measurements and metrics</a> page.
+</div>
+
 ## Beginners
 
 The following resources are suitable for beginners who want to learn **quantitative data analysis from scratch**.

@@ -17,17 +17,17 @@ description: "Linguistic data analysis software"
 
 - [AntConc](http://www.laurenceanthony.net/software/antconc/): A freeware corpus analysis toolkit for concordancing and text analysis.
 - [Multidimensional Analysis Tagger](https://sites.google.com/site/multidimensionaltagger/): The Multidimensional Analysis Tagger (MAT) is a program that replicates Biber's (1988) Variation across Speech and Writing tagger for the multidimensional functional analysis of English texts, generally applied for studies on text type or genre variation.
-- [SketchEngine](https://www.sketchengine.eu) [payed].
+- [SketchEngine](https://www.sketchengine.eu) [license needed].
 
 ## Qualitative analysis
 
-- [NVivo](https://www.qsrinternational.com/nvivo-qualitative-data-analysis-software/home) [payed].
+- [NVivo](https://www.qsrinternational.com/nvivo-qualitative-data-analysis-software/home) [license needed].
 - [RQDA](http://rqda.r-forge.r-project.org) R package.
 - [Taguette](https://www.taguette.org).
 
 ## Speech analysis and audio processing
 
-- [Articulate Assistant Advanced](http://www.articulateinstruments.com/aaa/): Articulate Assistant Advanced (AAA)  is software designed to record and analyse speech production data from instruments such as ultrasound, video, EMA, VICON, MRI and EPG [payed].
+- [Articulate Assistant Advanced](http://www.articulateinstruments.com/aaa/): Articulate Assistant Advanced (AAA)  is software designed to record and analyse speech production data from instruments such as ultrasound, video, EMA, VICON, MRI and EPG [license needed].
 - [Audacity](https://www.audacityteam.org): free, open source, cross-platform audio software.
 - [BAS Web Services](https://clarin.phonetik.uni-muenchen.de/BASWebServices/interface).
 - [EMU Speech Database Management System](https://ips-lmu.github.io/EMU.html).
@@ -45,9 +45,10 @@ description: "Linguistic data analysis software"
 
 ## Behavioural experiments
 
-- [Gorilla Experiment Builder](https://gorilla.sc) [payed].
+- [Gorilla Experiment Builder](https://gorilla.sc) [license needed].
 - [PsychoPy](https://www.psychopy.org): PsychoPy is a free cross-platform package allowing you to run a wide range of experiments in the behavioral sciences.
-- [Qualtrics](https://www.ed.ac.uk/information-services/learning-technology/survey-tools/qualtrics-for-cahss-members): Survey platform [payed].
+- [Qualtrics](https://www.ed.ac.uk/information-services/learning-technology/survey-tools/qualtrics-for-cahss-members): Survey platform [license needed].
+- [Testable](https://www.testable.org): Solution for behavioural expreiments, surveys and data collection [free and licensed options].
 
 ## Miscellanea
 
