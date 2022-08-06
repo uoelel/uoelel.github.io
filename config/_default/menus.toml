@@ -17,14 +17,14 @@ hasChildren = true
 
     [[main]]
     parent = "Learning"
-    name = "Learning Resources"
-    url = "resources/"
+    name = "Measure"
+    url = "metrics/"
     weight = 3
 
     [[main]]
     parent = "Learning"
-    name = "Metrics"
-    url = "metrics/"
+    name = "Analyse"
+    url = "analyse/"
     weight = 4
 
     [[main]]

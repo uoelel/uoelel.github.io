@@ -33,10 +33,18 @@ With git you can easily keep "snapshots" of your code, papers or dissertation, a
 
 ## Write
 
-### Dynamic documents in Rmarkdown
+### Dynamic documents with Quarto and Rmarkdown
 
-Write dynamic documents, from papers to dissertations, with Rmarkdown.
-More information [here](https://rmarkdown.rstudio.com/docs/).
+Write dynamic documents, from papers to dissertations, with [Quarto](https://quarto.org) or [Rmarkdown](https://rmarkdown.rstudio.com/docs/).
+
+**Dynamic documents** are documents that mix plain text and code, so that you can embed your analyses straight into the document.
+
+Code output like model summaries and plots are directly rendered within the document, and you don't have to include them manually.
+The benefit is that if your data or analysis has changed, you can simply render the document again and everything will be up-to-date!
+
+<div class="alert alert-warning">
+  <strong>Quarto or Rmarkdown?</strong> Quarto is the <a href="https://quarto.org/docs/faq/rmarkdown.html">official successor of Rmarkdown</a> and it is heavily based on Rmarkdown. In fact, Quarto is 100% backward compatible with Rmarkdown. Rmarkdown will not go away!
+</div>
 
 ### Write with LaTeX
 

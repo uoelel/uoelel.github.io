@@ -1,21 +1,31 @@
 ---
-title: "Learning resources"
+title: "Analyse"
 draft: false
-description: "Learning resources to teach yourself quantitative data analysis"
+description: "Resources on quantitative data analysis"
 ---
 
-There are several resources you can use to teach yourself quantitative data analysis skills, depending on your level.
-Don't forget to also check the [Research Skills](research-skills/) page, for more general research-related skills.
+
 
 <div class="alert alert-warning">
   <strong>Note!</strong> This page provides resources on how to analyse measurements (e.g. formant values, word counts, collexeme association metrics, semantic distance, etc.) you have obtained from your data.
 </div>
 
 <div class="alert alert-success">
-  For methods to obtain such type of measurements in the first place, please check the (work-in-progress) <a href="metrics/">Measurements and metrics</a> page.
+  For methods to obtain specialised measurements and metrics (e.g. formant values, word counts, collexeme association metrics, semantic distance, etc.), please check the (work-in-progress) <a href="measure/">Measure</a> page.
 </div>
 
+<div class="alert alert-danger">
+  <strong>Disclaimer.</strong> This is <strong>not intended to be an exhaustive list</strong>, but rather a compendium of approaches and techniques that are currently gaining momentum across linguistic research. For specialised approaches, we recommend to consult methods books written with specific audiences in mind. Note that the methods presentend here are general enough that they can be applied to a diverse range of data types.
+</div>
+
+There are several resources you can use to teach yourself quantitative data analysis skills, depending on your level.
+Don't forget to also check [Measure](measure/) and the [Research Skills](research-skills/) page, for more general research-related skills.
+
 ## Beginners
+
+<div class="alert alert-warning">
+  <strong>Terminology in applied statistics tends to be unruly</strong>, so that one same thing can have different names in different disciplines and vice versa one same name can mean different things. We tried here to use a terminological set that is as "neutral" as possible, although we recognise the limitations of this approach. Where relevant, we note alternative terms and their uses.
+</div>
 
 The following resources are suitable for beginners who want to learn **quantitative data analysis from scratch**.
 
@@ -33,6 +43,14 @@ The following resources are suitable for beginners who want to learn **quantitat
 * The [Data Visualisation Catalogue](https://datavizcatalogue.com/index.html) is a project developed by Severino Ribecca to create a (non-code-based) library of different information visualisation types. The website serves as a learning and inspirational resource for those working with data visualisation.
 
 * The workshop [intRo: Data Analysis with R](https://intro-rstats.github.io) introduces absolute beginners from the Humanities to R, quantitative data analysis and visualisation.
+
+<div class="alert alert-success">
+  Most data wrangling problems can be solved with the following sets of R tidyverse functions (of course if you use Python or other languages, feel free to use their equivalents): <a href="https://dplyr.tidyverse.org/reference/mutate-joins.html">mutating joins</a> and <a href="https://tidyr.tidyverse.org/articles/pivot.html">pivoting</a>.
+</div>
+
+* **Mutating joins** allow you to join two or more tibbles together so that you can include information from one tibble into another (for example, if you have participant info in one tibble and you want to join that with the main experiment results tibble). See here for a [visual representation of join operations](https://github.com/gadenbuie/tidyexplain#mutating-joins).
+
+* **Pivoting** makes it easy to transform a data table that has all the information you need but not in the right format (for example you have a two columns with the participant's scores at time point 1 and 2, but you want one column that has the time point and one that has the score). See here for a [visual representation of pivoting](https://github.com/gadenbuie/tidyexplain#tidy-data).
 
 ### Statistical modelling
 
@@ -79,12 +97,17 @@ If you already have a basic understanding of quantitative data analysis, statist
 
 ### Dimensionality reduction
 
-If you're data is *highly dimensional*, i.e. you have a lot of different variables, some of which are correlated to each other, you can employ data dimensionality reduction techniques to "synthesise" all the variables into fewer components or clusters.
+If your data is **highly dimensional**, i.e. **you have a lot of different variables** (some of which might even be correlated to each other), you can employ data dimensionality reduction techniques to "synthesise" all the variables into fewer variables that represent components, dimensions or clusters in the data.
+
+These techniques can be used both (a) to find patterns or groupings in the data and to obtain measures that capture these patterns and groupings and (b) to simplify analyses from a set of 15/20 variables to 2/3 components or dimensions.
+
+Note that once you have reduced your data to a few variables (components or dimensions), these can still be further analysed with the other techniques mentioned on this page.
 
 * A common reduction technique is **Principal Component Analysis** (PCA).
 This method combines all of your variables into a limited set of numeric *principal components*.
 The scores of the principal components capture variation in the data and can be used for further analysis.
 You can learn how to carry out a PCA with [this tutorial](http://www.sthda.com/english/articles/31-principal-component-methods-in-r-practical-guide/).
+Also check out Functional Principal Component Analysis below.
 
 * **Multiple Correspondence Analysis** (MDA) is the discrete equivalent of PCA, i.e. it can be used with discrete/categorical variables.
 See [this tutorial](http://www.sthda.com/english/articles/31-principal-component-methods-in-r-practical-guide/114-mca-multiple-correspondence-analysis-in-r-essentials/) for an introduction.

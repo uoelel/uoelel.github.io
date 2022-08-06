@@ -21,8 +21,8 @@ contact_form_action = "https://formspree.io/f/xgernlzd" # contact form works wit
 # copyright
 copyright = "Designed by [Themefisher](https://themefisher.com/) & developed by [Dr Stefano Coretta](https://stefanocoretta.github.io)"
 
-# custom script on header, example: custom_script= "<script>console.log(\"Hello World\")</script>" 
-custom_script= "" 
+# custom script on header, example: custom_script= "<script>console.log(\"Hello World\")</script>"
+custom_script= ""
 
 # buy premium popup
 buy_premium_popup = false
@@ -32,7 +32,7 @@ mainSections= ["blog"]
 
 # contact information
 [contact_info]
-address = "Via appointment<br>Office 2.14<br>Dugald Stewart Building<br>3 Charles Sq"
+address = "<a href='https://outlook.office365.com/owa/calendar/Stefanosofficehours@uoe.onmicrosoft.com/bookings/' target='_blank'>Via appointment</a><br>Office 2.14<br>Dugald Stewart Building<br>3 Charles Sq"
 phone = [""]
 email = ["s.coretta@ed.ac.uk"]
 

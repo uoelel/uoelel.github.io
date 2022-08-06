@@ -106,6 +106,15 @@
     </item>
     
     <item>
+      <title>Analyse</title>
+      <link>https://uoeling.github.io/analyse/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://uoeling.github.io/analyse/</guid>
+      <description>Note! This page provides resources on how to analyse measurements (e.</description>
+    </item>
+    
+    <item>
       <title>contact</title>
       <link>https://uoeling.github.io/contact/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -133,20 +142,11 @@
     </item>
     
     <item>
-      <title>Learning resources</title>
-      <link>https://uoeling.github.io/resources/</link>
+      <title>Measure</title>
+      <link>https://uoeling.github.io/measure/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://uoeling.github.io/resources/</guid>
-      <description>There are several resources you can use to teach yourself quantitative data analysis skills, depending on your level.</description>
-    </item>
-    
-    <item>
-      <title>Measurements and metrics</title>
-      <link>https://uoeling.github.io/metrics/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://uoeling.github.io/metrics/</guid>
+      <guid>https://uoeling.github.io/measure/</guid>
       <description> Work in progress </description>
     </item>
     

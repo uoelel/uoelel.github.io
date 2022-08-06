@@ -67,7 +67,7 @@ how_it_works:
   block:
   - subtitle: "Learn"
     title: "Want to learn about data analysis for linguistics?"
-    description: "If you want to learn data analysis, check out the [Courses](./courses/) offered at LEL and the [Learning Resources](./resources/) page. For more general research skills, check the [Research Management](./research-skills/) page."
+    description: "If you want to learn data analysis, check out the [Courses](./courses/) offered at LEL and the [Measure](./measure/) and [Analyse](./analyse/) pages. For more general research skills, check the [Research Management](./research-skills/) page."
     image: "images/streamline/61-programmer-female-african-american.png"
 
   - subtitle: "Find support"
