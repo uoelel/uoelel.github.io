@@ -16,6 +16,7 @@ description: "Linguistic data analysis software"
 ## Corpus research
 
 - [AntConc](http://www.laurenceanthony.net/software/antconc/): A freeware corpus analysis toolkit for concordancing and text analysis.
+- [ManSeeks](https://github.com/fbkarsdorp/manseeks): Simple yet fast concordancer in an Electron app.
 - [Multidimensional Analysis Tagger](https://sites.google.com/site/multidimensionaltagger/): The Multidimensional Analysis Tagger (MAT) is a program that replicates Biber's (1988) Variation across Speech and Writing tagger for the multidimensional functional analysis of English texts, generally applied for studies on text type or genre variation.
 - [SketchEngine](https://www.sketchengine.eu) [license needed].
 
@@ -29,13 +30,19 @@ description: "Linguistic data analysis software"
 
 - [Articulate Assistant Advanced](http://www.articulateinstruments.com/aaa/): Articulate Assistant Advanced (AAA)  is software designed to record and analyse speech production data from instruments such as ultrasound, video, EMA, VICON, MRI and EPG [license needed].
 - [Audacity](https://www.audacityteam.org): free, open source, cross-platform audio software.
-- [BAS Web Services](https://clarin.phonetik.uni-muenchen.de/BASWebServices/interface).
+- [DeepLabCut](https://github.com/articulateinstruments/DeepLabCut-for-Speech-Production) for speech production.
 - [EMU Speech Database Management System](https://ips-lmu.github.io/EMU.html).
+- [Praat](https://www.fon.hum.uva.nl/praat/): acoustic analysis software.
+  - Excellent guidebook by Will Styler: <https://github.com/stylerw/usingpraat>.
+  - Praat scripting tutorial by Dr. Jörg Mayer: <https://praatscripting.lingphon.net>.
+- [WaveSurfer](https://sourceforge.net/projects/wavesurfer/): WaveSurfer is an open source tool for sound visualization and manipulation.
+
+#### Forced-aligners
+
+- [BAS Web Services](https://clarin.phonetik.uni-muenchen.de/BASWebServices/interface).
+- [SPeech Phonetization Alignment and Syllabification](http://www.sppas.org) (SPPAS).
 - [FAVE](https://github.com/JoFrhwld/FAVE): FAVE-align and FAVE-extract tools.
 - [Montreal Forced Aligner](https://montreal-forced-aligner.readthedocs.io/en/latest/#).
-- [Praat](https://www.fon.hum.uva.nl/praat/): acoustic analysis software.
-- [SPeech Phonetization Alignment and Syllabification](http://www.sppas.org) (SPPAS).
-- [WaveSurfer](https://sourceforge.net/projects/wavesurfer/): WaveSurfer is an open source tool for sound visualization and manipulation.
 
 ## Phonology
 
@@ -46,16 +53,17 @@ description: "Linguistic data analysis software"
 ## Behavioural experiments
 
 - [Gorilla Experiment Builder](https://gorilla.sc) [license needed].
-- [PsychoPy](https://www.psychopy.org): PsychoPy is a free cross-platform package allowing you to run a wide range of experiments in the behavioral sciences.
+- [Prolific](https://www.prolific.co): Quickly find research participants you can trust [paid service].
+- [PsychoPy](https://www.psychopy.org): PsychoPy is a free cross-platform package allowing you to run a wide range of experiments in the behavioural sciences.
 - [Qualtrics](https://www.ed.ac.uk/information-services/learning-technology/survey-tools/qualtrics-for-cahss-members): Survey platform [license needed].
-- [Testable](https://www.testable.org): Solution for behavioural expreiments, surveys and data collection [free and licensed options].
+- [Testable](https://www.testable.org): Solution for behavioural experiments, surveys and data collection [free and licensed options].
 
 ## Miscellanea
 
 - [QGIS](https://www.qgis.org/en/site/): A Free and Open Source Geographic Information System.
 - [Splits Tree](https://uni-tuebingen.de/en/fakultaeten/mathematisch-naturwissenschaftliche-fakultaet/fachbereiche/informatik/lehrstuehle/algorithms-in-bioinformatics/software/splitstree/): computing phylogenetic trees.
 
-## Typefaces
+## Typefaces and input methods
 
 ### Serif
 
@@ -82,7 +90,7 @@ description: "Linguistic data analysis software"
 - [GNU FreeFont](https://www.gnu.org/software/freefont/).
 - [Noto](https://fonts.google.com/noto).
 
-## Input methods
+### Input methods
 
 - [IPA Palette](https://www.blugs.com/IPAPalette/): IPA Input Method for Mac OS X 10.6 and later.
 - [SIL IPA Unicode keybords](https://scripts.sil.org/uniipakeyboard).
