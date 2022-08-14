@@ -11,8 +11,20 @@ url = "study-design/"
 
 [[main]]
 name = "Measures"
-url = "measures/"
 weight = 3
+hasChildren = true
+
+  [[main]]
+  parent = "Measures"
+  name = "Overview"
+  url = "measures/"
+  weight = 1
+
+  [[main]]
+  parent = "Measures"
+  name = "Phonetics"
+  url = "measures/phonetics/"
+  weight = 2
 
 [[main]]
 name = "Data analysis"
@@ -53,18 +65,6 @@ weight = 8
 #   parent = "Pages"
 #   name = "Blog Details"
 #   url = "blog/post-1/"
-#   weight = 1
-
-#   [[main]]
-#   parent = "Pages"
-#   name = "Terms & Conditions"
-#   url = "terms-and-conditions/"
-#   weight = 7
-
-# [[main]]
-# name = "Contact"
-# url = "contact/"
-# weight = 200
 
 
 # footer menu
