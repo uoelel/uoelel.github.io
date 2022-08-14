@@ -32,7 +32,7 @@ mainSections= ["blog"]
 
 # contact information
 [contact_info]
-address = "<a href='https://outlook.office365.com/owa/calendar/Stefanosofficehours@uoe.onmicrosoft.com/bookings/' target='_blank'>Via appointment</a><br>Office 2.14<br>Dugald Stewart Building<br>3 Charles Sq"
+address = "<a href='https://outlook.office365.com/owa/calendar/Stefanosofficehours@uoe.onmicrosoft.com/bookings/' target='_blank'>Via appointment</a><br>Office 1.03<br>Dugald Stewart Building<br>3 Charles Sq"
 phone = [""]
 email = ["s.coretta@ed.ac.uk"]
 

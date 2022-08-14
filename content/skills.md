@@ -4,17 +4,7 @@ draft: false
 description: "Research Skills"
 ---
 
-## Plan
-
-### Research questions and hypotheses
-
-The online course [Constructing a hypothesis](https://uoepsy.github.io/prs/Question_01_constructing.html), from the PPLS [Practical Research Skills](https://uoepsy.github.io/prs/index.html) website, teaches you "how to operationalise your research question into an informative and falsifiable hypothesis".
-
-### Research design
-
-Mits Ota has created a slide deck on how to plan a study for your research project. You can find the slides [here](docs/W2_preparing_projects.pdf).
-
-## Manage
+## Research management
 
 ### Best practices
 
@@ -31,7 +21,9 @@ The first thing you can do to make your research open is to share the data and a
 [Learn Version Control with Git](https://www.git-tower.com/learn/git/ebook) is a gentle introduction to version control using the software git.
 With git you can easily keep "snapshots" of your code, papers or dissertation, and track the full history of changes so that you can easily roll back to a previous state if necessary.
 
-## Write
+## Write up
+
+For help on Writing skills, please check the [Writing Skills Centre](https://uoe.sharepoint.com/sites/PPLSLearningResources/SitePages/Writing.aspx) [login required].
 
 ### Dynamic documents with Quarto and Rmarkdown
 

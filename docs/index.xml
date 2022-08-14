@@ -106,15 +106,6 @@
     </item>
     
     <item>
-      <title>Analyse</title>
-      <link>https://uoeling.github.io/analyse/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://uoeling.github.io/analyse/</guid>
-      <description>Note! This page provides resources on how to analyse measurements (e.</description>
-    </item>
-    
-    <item>
       <title>contact</title>
       <link>https://uoeling.github.io/contact/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -133,6 +124,15 @@
     </item>
     
     <item>
+      <title>Data analysis</title>
+      <link>https://uoeling.github.io/analysis/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://uoeling.github.io/analysis/</guid>
+      <description>Note! This page provides resources on how to analyse measurements (e.</description>
+    </item>
+    
+    <item>
       <title>Falsifiability</title>
       <link>https://uoeling.github.io/falsifiable/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -142,11 +142,11 @@
     </item>
     
     <item>
-      <title>Measure</title>
-      <link>https://uoeling.github.io/measure/</link>
+      <title>Measures and metrics</title>
+      <link>https://uoeling.github.io/measures/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://uoeling.github.io/measure/</guid>
+      <guid>https://uoeling.github.io/measures/</guid>
       <description> Work in progress </description>
     </item>
     
@@ -161,11 +161,11 @@
     
     <item>
       <title>Research Skills</title>
-      <link>https://uoeling.github.io/research-skills/</link>
+      <link>https://uoeling.github.io/skills/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://uoeling.github.io/research-skills/</guid>
-      <description>Plan Research questions and hypotheses The online course Constructing a hypothesis, from the PPLS Practical Research Skills website, teaches you &amp;ldquo;how to operationalise your research question into an informative and falsifiable hypothesis&amp;rdquo;.</description>
+      <guid>https://uoeling.github.io/skills/</guid>
+      <description>Research management Best practices Best practices for researchers compiled by the Open Science Foundation.</description>
     </item>
     
     <item>
@@ -175,6 +175,15 @@
       
       <guid>https://uoeling.github.io/software/</guid>
       <description>Language data management ELAN: annotation tool for audio and video recordings.</description>
+    </item>
+    
+    <item>
+      <title>Study design</title>
+      <link>https://uoeling.github.io/study-design/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://uoeling.github.io/study-design/</guid>
+      <description>Research questions and hypotheses The online course Constructing a hypothesis, from the PPLS Practical Research Skills website, teaches you &amp;ldquo;how to operationalise your research question into an informative and falsifiable hypothesis&amp;rdquo;.</description>
     </item>
     
     <item>

@@ -1,5 +1,5 @@
 ---
-title: "Measure"
+title: "Measures and metrics"
 draft: false
 description: "How to obtain commonly used measurements and metrics for linguistic data"
 ---

@@ -1,5 +1,5 @@
 ---
-title: "Analyse"
+title: "Data analysis"
 draft: false
 description: "Resources on quantitative data analysis"
 ---
@@ -15,11 +15,11 @@ description: "Resources on quantitative data analysis"
 </div>
 
 <div class="alert alert-danger">
-  <strong>Disclaimer.</strong> This is <strong>not intended to be an exhaustive list</strong>, but rather a compendium of approaches and techniques that are currently gaining momentum across linguistic research. For specialised approaches, we recommend to consult methods books written with specific audiences in mind. Note that the methods presentend here are general enough that they can be applied to a diverse range of data types.
+  <strong>Disclaimer.</strong> This is <strong>not intended to be an exhaustive list</strong>, but rather a compendium of approaches and techniques that are currently gaining momentum across linguistic research. For specialised approaches, we recommend to consult methods books written with specific audiences in mind. Note that the methods presented here are general enough that they can be applied to a diverse range of data types.
 </div>
 
 There are several resources you can use to teach yourself quantitative data analysis skills, depending on your level.
-Don't forget to also check [Measure](measure/) and the [Research Skills](research-skills/) page, for more general research-related skills.
+Don't forget to also check [Measures](measures/) and the [Skills](skills/) page, for more general research-related skills.
 
 ## Beginners
 
