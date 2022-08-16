@@ -6,11 +6,16 @@ description: "Study design"
 
 ## Research questions and hypotheses
 
+![](/images/research-problem.png)
+
+Mits Ota has created a slide deck on how to plan a study for your research project.
+You can find the slides on research questions and hypotheses [here](docs/W1_research_questions.pdf).
+
 The online course [Constructing a hypothesis](https://uoepsy.github.io/prs/Question_01_constructing.html), from the PPLS [Practical Research Skills](https://uoepsy.github.io/prs/index.html) website, teaches you "how to operationalise your research question into an informative and falsifiable hypothesis".
 
 ## Experimental designs
 
-Mits Ota has created a slide deck on how to plan a study for your research project. You can find the slides [here](docs/W2_preparing_projects.pdf).
+You can find the slides on experimental designs [here](docs/W2_preparing_projects.pdf).
 
 ## Research Ethics
 
