@@ -10,6 +10,12 @@ description: "How to obtain commonly used measurements and metrics for linguisti
 
 Common measurements are: Voice Onset Time, f0, pulses, jitter, shimmer, Harmonics-To-Noise ratio, formant frequency and bandwidth, intensity, harmonic amplitude, spectral tilt, centre of gravity, ...
 
+### Perceptual data
+
+[This tutorial](https://www.jvcasillas.com/posts/2021-05-15_logistic_regression_and_phonemic_boundaries/) by Joseph Casillas explains how to analyse categorisation data using linear models.
+
+In particular, the tutorial shows how to obtain an estimate of the category boundary and the sharpness of the boundary.
+
 ### Articulatory data
 
 ... 
