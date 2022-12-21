@@ -85,7 +85,8 @@ The main perk of learning linear models is that they **can be applied to many di
 
 The resources mentioned above all focus on linear modelling, so whether you are just starting your statistical journey or you are an experienced researcher who wants to consolidate their understanding of linear modelling, those resources are right for you.
 
-After you have learnt the basics, the [Linear models cheet-sheet](https://stefanocoretta.github.io/post/2021-08-21-regression-models-a-cheat-sheet/) can guide you through the process of choosing among the appropriate types of linear model depending on the nature of your data.
+After you have learnt the basics, the [Linear models cheat-sheet](https://stefanocoretta.github.io/post/2021-08-21-regression-models-a-cheat-sheet/) can guide you through the process of choosing among the appropriate types of linear model depending on the nature of your data.
+The post also lists tutorials on linear models that use other less common probability distribution families, like the beta, Poisson and ordinal.
 
 Confused about all the model names? Check out [this post](https://stefanocoretta.github.io/post/2022-07-22-one-thousand-and-one-names/) on how we don't really need to use all of those names: they are all linear models!
 
@@ -145,6 +146,20 @@ It requires familiarity with linear models and Null Hypothesis Significance Test
 ----------
 
 ## Advanced
+
+### Power analysis
+
+Power analysis is a fundamental, although often neglected, step in Null Hypothesis Significance Testing (the statistical framework that returns *p*-values). 
+A power analysis is a method to estimate the minimum sample size necessary to detect a particular effect.
+The statistical power of a test is the percentage of tests that correctly detect an effect when the effect indeed exists.
+The recommended statistical power is 80% or greater.
+
+Power analyses with linear models can become quite complex, especially if random effects are included.
+Simulation is a way to simplify the calculations necessary to find the minimum sample size.
+**The R package [simr](https://github.com/pitakakariki/simr) provides users with a set of functions to perform a power analysis with linear models using simulations.**
+You can find a [tutorial here](https://besjournals.onlinelibrary.wiley.com/doi/full/10.1111/2041-210X.12504).
+
+If you are running **Bayesian linear models, you can check out this post on [Bayesian CrI-width power analysis](https://stefanocoretta.github.io/post/2022-04-05-bayesian-ci-width-power-analysis/)**.
 
 ### Multivariate linear models
 
