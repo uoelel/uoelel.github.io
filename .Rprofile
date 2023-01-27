@@ -21,7 +21,7 @@ options(
 )
 
 # fix Hugo version
-options(blogdown.hugo.version = "0.108.0")
+options(blogdown.hugo.version = "0.110.0")
 
 my_build <- function() {
   blogdown::build_site(build_rmd = blogdown::filter_md5sum)

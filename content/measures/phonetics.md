@@ -10,6 +10,8 @@ description: "How to obtain commonly used measurements and metrics for linguisti
 
 Common measurements are: Voice Onset Time, f0, pulses, jitter, shimmer, Harmonics-To-Noise ratio, formant frequency and bandwidth, intensity, harmonic amplitude, spectral tilt, centre of gravity, ...
 
+This tutorial explains how to extract cepstral peak prominence (CPP) measures in Praat: *A Practical Guide to Calculating Cepstral Peak Prominence in Praat*, <https://doi.org/10.31219/osf.io/yvp4s>.
+
 ### Perceptual data
 
 [This tutorial](https://www.jvcasillas.com/posts/2021-05-15_logistic_regression_and_phonemic_boundaries/) by Joseph Casillas explains how to analyse categorisation data using linear models.
