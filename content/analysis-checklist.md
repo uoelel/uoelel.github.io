@@ -16,7 +16,7 @@ It is **important that you are able to answer all of these questions** if you wi
 ## The checklist
 
 During the early stages of your project, bring this list of questions to your supervisor and discuss them.
-If, after talking to your supervisor, you are still unsure about any of these points, please [book an appointment](https://uoeling.github.io/support/) with Stefano.
+If, after talking to your supervisor, you are still unsure about any of these points, please [book an appointment](https://uoelel.github.io/support/) with Stefano.
 
 1. Can you clearly state, in simple language, what the **research question(s)** of your project is/are?
 1. **If you are testing a specific hypothesis**, did you formulate it so that it is a [**falsifiable statement**](falsifiable/)? **Note** that it is OK if you don't or cannot formulate a hypothesis! As long as you have one meaningful research question, you are all set.

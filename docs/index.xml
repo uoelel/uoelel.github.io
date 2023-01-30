@@ -2,205 +2,123 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Data Analysis @ UoE LEL</title>
-    <link>https://uoeling.github.io/</link>
+    <link>https://uoelel.github.io/</link>
     <description>Recent content on Data Analysis @ UoE LEL</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Wed, 14 Jul 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://uoeling.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <generator>Hugo -- gohugo.io</generator><atom:link href="https://uoelel.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Terms &amp; Conditions</title>
-      <link>https://uoeling.github.io/terms-and-conditions/</link>
+      <link>https://uoelel.github.io/terms-and-conditions/</link>
       <pubDate>Fri, 16 Jul 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://uoeling.github.io/terms-and-conditions/</guid>
+      <guid>https://uoelel.github.io/terms-and-conditions/</guid>
       <description>1. Definitions We collect certain identifying personal data when you sign up to our Service such as your name, email address, PayPal address (if different from email address), and telephone number.</description>
     </item>
     
     <item>
-      <title>The Real Product From the Buyers improvements in Overflow basis.</title>
-      <link>https://uoeling.github.io/blog/post-1/</link>
-      <pubDate>Wed, 14 Jul 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://uoeling.github.io/blog/post-1/</guid>
-      <description>Laoreet mauris odio ut nec. Nisl, sed adipiscing dignissim arcu placerat ornare pharetra nec in.</description>
-    </item>
-    
-    <item>
-      <title>Why you should launch your product in phases not after done</title>
-      <link>https://uoeling.github.io/blog/post-2/</link>
-      <pubDate>Tue, 13 Jul 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://uoeling.github.io/blog/post-2/</guid>
-      <description>Laoreet mauris odio ut nec. Nisl, sed adipiscing dignissim arcu placerat ornare pharetra nec in.</description>
-    </item>
-    
-    <item>
-      <title>Three reasons you DON’T need an app on the App Store</title>
-      <link>https://uoeling.github.io/blog/post-3/</link>
-      <pubDate>Mon, 12 Jul 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://uoeling.github.io/blog/post-3/</guid>
-      <description>Laoreet mauris odio ut nec. Nisl, sed adipiscing dignissim arcu placerat ornare pharetra nec in.</description>
-    </item>
-    
-    <item>
-      <title>Five eCommerce lessons to learn from Bloom &amp; Wild</title>
-      <link>https://uoeling.github.io/blog/post-4/</link>
-      <pubDate>Sun, 11 Jul 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://uoeling.github.io/blog/post-4/</guid>
-      <description>Laoreet mauris odio ut nec. Nisl, sed adipiscing dignissim arcu placerat ornare pharetra nec in.</description>
-    </item>
-    
-    <item>
-      <title>Using Wakanda for project management when working remote</title>
-      <link>https://uoeling.github.io/blog/post-5/</link>
-      <pubDate>Sat, 10 Jul 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://uoeling.github.io/blog/post-5/</guid>
-      <description>Laoreet mauris odio ut nec. Nisl, sed adipiscing dignissim arcu placerat ornare pharetra nec in.</description>
-    </item>
-    
-    <item>
-      <title>How to write a brief for a new website or app.</title>
-      <link>https://uoeling.github.io/blog/post-6/</link>
-      <pubDate>Fri, 09 Jul 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://uoeling.github.io/blog/post-6/</guid>
-      <description>Laoreet mauris odio ut nec. Nisl, sed adipiscing dignissim arcu placerat ornare pharetra nec in.</description>
-    </item>
-    
-    <item>
-      <title>How and why we decided to launch an EMI scheme for our employees.</title>
-      <link>https://uoeling.github.io/blog/post-7/</link>
-      <pubDate>Thu, 08 Jul 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://uoeling.github.io/blog/post-7/</guid>
-      <description>Laoreet mauris odio ut nec. Nisl, sed adipiscing dignissim arcu placerat ornare pharetra nec in.</description>
-    </item>
-    
-    <item>
-      <title>What to consider before starting a business – Inside The Studio</title>
-      <link>https://uoeling.github.io/blog/post-8/</link>
-      <pubDate>Wed, 07 Jul 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://uoeling.github.io/blog/post-8/</guid>
-      <description>Laoreet mauris odio ut nec. Nisl, sed adipiscing dignissim arcu placerat ornare pharetra nec in.</description>
-    </item>
-    
-    <item>
-      <title>Hello R Markdown</title>
-      <link>https://uoeling.github.io/blog/2020-12-01-r-rmarkdown/</link>
-      <pubDate>Tue, 01 Dec 2020 21:13:14 -0500</pubDate>
-      
-      <guid>https://uoeling.github.io/blog/2020-12-01-r-rmarkdown/</guid>
-      <description>R Markdown This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents.</description>
-    </item>
-    
-    <item>
       <title>About</title>
-      <link>https://uoeling.github.io/about/</link>
+      <link>https://uoelel.github.io/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://uoeling.github.io/about/</guid>
+      <guid>https://uoelel.github.io/about/</guid>
       <description></description>
     </item>
     
     <item>
       <title>contact</title>
-      <link>https://uoeling.github.io/contact/</link>
+      <link>https://uoelel.github.io/contact/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://uoeling.github.io/contact/</guid>
+      <guid>https://uoelel.github.io/contact/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Courses</title>
-      <link>https://uoeling.github.io/courses/</link>
+      <link>https://uoelel.github.io/courses/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://uoeling.github.io/courses/</guid>
+      <guid>https://uoelel.github.io/courses/</guid>
       <description>LEL students can take the following courses that focus on research methods and data analysis.</description>
     </item>
     
     <item>
       <title>Data analysis</title>
-      <link>https://uoeling.github.io/analysis/</link>
+      <link>https://uoelel.github.io/analysis/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://uoeling.github.io/analysis/</guid>
+      <guid>https://uoelel.github.io/analysis/</guid>
       <description>Note! This page provides resources on how to analyse measurements (e.</description>
     </item>
     
     <item>
       <title>Falsifiability</title>
-      <link>https://uoeling.github.io/falsifiable/</link>
+      <link>https://uoelel.github.io/falsifiable/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://uoeling.github.io/falsifiable/</guid>
+      <guid>https://uoelel.github.io/falsifiable/</guid>
       <description>Definition A statement is falsifiable if it can be contradicted by an observation.</description>
     </item>
     
     <item>
       <title>Measures and metrics</title>
-      <link>https://uoeling.github.io/measures/phonetics/</link>
+      <link>https://uoelel.github.io/measures/phonetics/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://uoeling.github.io/measures/phonetics/</guid>
+      <guid>https://uoelel.github.io/measures/phonetics/</guid>
       <description>Acoustics Using Praat for linguistic research is an excellent starting point for learning which measurements and metrics can be used for which purposes and how to obtain them in Praat.</description>
     </item>
     
     <item>
       <title>Quantitative analysis plan</title>
-      <link>https://uoeling.github.io/analysis-checklist/</link>
+      <link>https://uoelel.github.io/analysis-checklist/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://uoeling.github.io/analysis-checklist/</guid>
+      <guid>https://uoelel.github.io/analysis-checklist/</guid>
       <description>The information given on this page concerns only students who will carry out quantitative analyses (so it does not apply to students doing qualitative analyses).</description>
     </item>
     
     <item>
       <title>Research Skills</title>
-      <link>https://uoeling.github.io/skills/</link>
+      <link>https://uoelel.github.io/skills/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://uoeling.github.io/skills/</guid>
+      <guid>https://uoelel.github.io/skills/</guid>
       <description>Research management Best practices Best practices for researchers compiled by the Open Science Foundation.</description>
     </item>
     
     <item>
       <title>Software</title>
-      <link>https://uoeling.github.io/software/</link>
+      <link>https://uoelel.github.io/software/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://uoeling.github.io/software/</guid>
+      <guid>https://uoelel.github.io/software/</guid>
       <description>Language data management ELAN: annotation tool for audio and video recordings.</description>
     </item>
     
     <item>
       <title>Study design</title>
-      <link>https://uoeling.github.io/study-design/</link>
+      <link>https://uoelel.github.io/study-design/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://uoeling.github.io/study-design/</guid>
+      <guid>https://uoelel.github.io/study-design/</guid>
       <description>Research questions and hypotheses Mits Ota has created a slide deck on how to plan a study for your research project.</description>
     </item>
     
     <item>
       <title>Support</title>
-      <link>https://uoeling.github.io/support/</link>
+      <link>https://uoelel.github.io/support/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://uoeling.github.io/support/</guid>
+      <guid>https://uoelel.github.io/support/</guid>
       <description>There are different support channels for Hons/MSc/PhD students who are writing their dissertation, and researchers/staff who are seeking help with any aspect of quantitative data analysis.</description>
     </item>
     
     <item>
       <title>Variable types</title>
-      <link>https://uoeling.github.io/variable-types/</link>
+      <link>https://uoelel.github.io/variable-types/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://uoeling.github.io/variable-types/</guid>
+      <guid>https://uoelel.github.io/variable-types/</guid>
       <description>Continuous variables The variable can take on any positive and negative real number, including 0: Gaussian (aka normal) distribution.</description>
     </item>
     

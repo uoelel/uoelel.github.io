@@ -13,7 +13,7 @@ As a general guideline aimed at students, supervisors, and staff, we have compil
 
 You can use the checklist as a template to think about your quantitative analysis plan at the early stages of your dissertation/research project.
 
-{{<button "Go to checklist" "https://uoeling.github.io/analysis-checklist/">}}
+{{<button "Go to checklist" "https://uoelel.github.io/analysis-checklist/">}}
 
 <br>
 <br>

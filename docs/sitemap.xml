@@ -2,84 +2,41 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://uoeling.github.io/terms-and-conditions/</loc>
+    <loc>https://uoelel.github.io/terms-and-conditions/</loc>
     <lastmod>2021-07-16T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://uoeling.github.io/</loc>
-    <lastmod>2021-07-14T00:00:00+00:00</lastmod>
+    <loc>https://uoelel.github.io/</loc>
   </url><url>
-    <loc>https://uoeling.github.io/blog/</loc>
-    <lastmod>2021-07-14T00:00:00+00:00</lastmod>
+    <loc>https://uoelel.github.io/about/</loc>
   </url><url>
-    <loc>https://uoeling.github.io/blog/post-1/</loc>
-    <lastmod>2021-07-14T00:00:00+00:00</lastmod>
+    <loc>https://uoelel.github.io/blog/</loc>
   </url><url>
-    <loc>https://uoeling.github.io/blog/post-2/</loc>
-    <lastmod>2021-07-13T00:00:00+00:00</lastmod>
+    <loc>https://uoelel.github.io/categories/</loc>
   </url><url>
-    <loc>https://uoeling.github.io/blog/post-3/</loc>
-    <lastmod>2021-07-12T00:00:00+00:00</lastmod>
+    <loc>https://uoelel.github.io/contact/</loc>
   </url><url>
-    <loc>https://uoeling.github.io/blog/post-4/</loc>
-    <lastmod>2021-07-11T00:00:00+00:00</lastmod>
+    <loc>https://uoelel.github.io/courses/</loc>
   </url><url>
-    <loc>https://uoeling.github.io/blog/post-5/</loc>
-    <lastmod>2021-07-10T00:00:00+00:00</lastmod>
+    <loc>https://uoelel.github.io/analysis/</loc>
   </url><url>
-    <loc>https://uoeling.github.io/blog/post-6/</loc>
-    <lastmod>2021-07-09T00:00:00+00:00</lastmod>
+    <loc>https://uoelel.github.io/falsifiable/</loc>
   </url><url>
-    <loc>https://uoeling.github.io/blog/post-7/</loc>
-    <lastmod>2021-07-08T00:00:00+00:00</lastmod>
+    <loc>https://uoelel.github.io/measures/</loc>
   </url><url>
-    <loc>https://uoeling.github.io/blog/post-8/</loc>
-    <lastmod>2021-07-07T00:00:00+00:00</lastmod>
+    <loc>https://uoelel.github.io/measures/phonetics/</loc>
   </url><url>
-    <loc>https://uoeling.github.io/categories/</loc>
-    <lastmod>2020-12-01T21:13:14-05:00</lastmod>
+    <loc>https://uoelel.github.io/analysis-checklist/</loc>
   </url><url>
-    <loc>https://uoeling.github.io/blog/2020-12-01-r-rmarkdown/</loc>
-    <lastmod>2020-12-01T21:13:14-05:00</lastmod>
+    <loc>https://uoelel.github.io/skills/</loc>
   </url><url>
-    <loc>https://uoeling.github.io/tags/plot/</loc>
-    <lastmod>2020-12-01T21:13:14-05:00</lastmod>
+    <loc>https://uoelel.github.io/software/</loc>
   </url><url>
-    <loc>https://uoeling.github.io/categories/r/</loc>
-    <lastmod>2020-12-01T21:13:14-05:00</lastmod>
+    <loc>https://uoelel.github.io/study-design/</loc>
   </url><url>
-    <loc>https://uoeling.github.io/tags/r-markdown/</loc>
-    <lastmod>2020-12-01T21:13:14-05:00</lastmod>
+    <loc>https://uoelel.github.io/support/</loc>
   </url><url>
-    <loc>https://uoeling.github.io/tags/regression/</loc>
-    <lastmod>2020-12-01T21:13:14-05:00</lastmod>
+    <loc>https://uoelel.github.io/tags/</loc>
   </url><url>
-    <loc>https://uoeling.github.io/tags/</loc>
-    <lastmod>2020-12-01T21:13:14-05:00</lastmod>
-  </url><url>
-    <loc>https://uoeling.github.io/about/</loc>
-  </url><url>
-    <loc>https://uoeling.github.io/contact/</loc>
-  </url><url>
-    <loc>https://uoeling.github.io/courses/</loc>
-  </url><url>
-    <loc>https://uoeling.github.io/analysis/</loc>
-  </url><url>
-    <loc>https://uoeling.github.io/falsifiable/</loc>
-  </url><url>
-    <loc>https://uoeling.github.io/measures/</loc>
-  </url><url>
-    <loc>https://uoeling.github.io/measures/phonetics/</loc>
-  </url><url>
-    <loc>https://uoeling.github.io/analysis-checklist/</loc>
-  </url><url>
-    <loc>https://uoeling.github.io/skills/</loc>
-  </url><url>
-    <loc>https://uoeling.github.io/software/</loc>
-  </url><url>
-    <loc>https://uoeling.github.io/study-design/</loc>
-  </url><url>
-    <loc>https://uoeling.github.io/support/</loc>
-  </url><url>
-    <loc>https://uoeling.github.io/variable-types/</loc>
+    <loc>https://uoelel.github.io/variable-types/</loc>
   </url>
 </urlset>

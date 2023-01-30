@@ -1,5 +1,5 @@
 ######################## default configuration ####################
-baseURL = "https://uoeling.github.io"
+baseURL = "https://uoelel.github.io"
 title = "Data Analysis @ UoE LEL"
 theme = "andromeda-light"
 # post pagination
