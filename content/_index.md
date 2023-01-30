@@ -11,7 +11,7 @@ how_it_works:
   enable: true
   block:
   - subtitle: "Learn"
-    title: "Want to learn about data analysis for linguistics?"
+    title: "Want to learn about data analysis for language research?"
     description: "For resources on research methods in linguistics, check out the [Study design](./study-design/), [Measures](./measures/) and [Data analysis](./analysis/) pages. For more general research skills and software, check the [Skills](./skills/) and [Software](./software/) pages. To know which courses in research methods/data analysis are offered to LEL students, see the [Courses](./courses/) page."
     image: "images/streamline/61-programmer-female-african-american.png"
 
