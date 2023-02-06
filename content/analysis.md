@@ -42,7 +42,7 @@ The following resources are suitable for beginners who want to learn **quantitat
 
 * The [Data Visualisation Catalogue](https://datavizcatalogue.com/index.html) is a project developed by Severino Ribecca to create a (non-code-based) library of different information visualisation types. The website serves as a learning and inspirational resource for those working with data visualisation.
 
-* The workshop [intRo: Data Analysis with R](https://intro-rstats.github.io) introduces absolute beginners from the Humanities to R, quantitative data analysis and visualisation.
+* The workshop [intRo: Data Analysis with R](https://intro-rstats.github.io) introduces absolute beginners from the Humanities to R, quantitative data analysis and visualisation. You can find the materials and slides here: [materials](https://intro-rstats.github.io/intRo/) and [slides](https://intro-rstats.github.io/intro-slides/).
 
 <div class="alert alert-success">
   Most data wrangling problems can be solved with the following sets of R tidyverse functions (of course if you use Python or other languages, feel free to use their equivalents): <a href="https://dplyr.tidyverse.org/reference/mutate-joins.html">mutating joins</a> and <a href="https://tidyr.tidyverse.org/articles/pivot.html">pivoting</a>.
