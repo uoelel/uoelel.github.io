@@ -11,21 +11,18 @@ See [DRPS](http://www.drps.ed.ac.uk/22-23/dpt/cx_sb_lasc.htm) for course info.
 
 - Discourse Analysis.
 
-- Introduction to Discourse Analysis.
+- Introduction to Discourse Analysis (PG).
 
-- Introduction to Language Research.
+- Linguistic Fieldwork and Language Description (UG/PG).
 
-- Linguistic Fieldwork and Language Description.
+- Methods in Theoretical Linguistics (UG).
 
-- Online Experiments for Language Scientists.
+- Online Experiments for Language Scientists (UG/PG).
 
-- Research Ethics Training in Linguistics & English Language.
+- Research Ethics Training in Linguistics & English Language (UG/PG).
 
-- Research Methods in Developmental Linguistics.
+- Research Methods in Developmental Linguistics (PG).
 
-- Sociolinguistic Research Design.
+- Sociolinguistic Research Design (PG).
 
-- Statistics and Quantitative Methods (Semester 1: Frequentist).
-
-- Statistics and Quantitative Methods (Semester 2: Bayesian).
-
+- Statistics and Quantitative Methods (Semester 1 OR Semester 2, UG/PG).
