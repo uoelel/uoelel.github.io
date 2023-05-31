@@ -4,8 +4,6 @@ draft: false
 description: "Resources on quantitative data analysis"
 ---
 
-
-
 <div class="alert alert-warning">
   <strong>Note!</strong> This page provides resources on how to analyse measurements (e.g. formant values, word counts, collexeme association metrics, semantic distance, etc.) you have obtained from your data.
 </div>
@@ -21,7 +19,7 @@ description: "Resources on quantitative data analysis"
 There are several resources you can use to teach yourself quantitative data analysis skills, depending on your level.
 Don't forget to also check [Measures](measures/) and the [Skills](skills/) page, for more general research-related skills.
 
-## Beginners
+# Beginners
 
 <div class="alert alert-warning">
   <strong>Terminology in applied statistics tends to be unruly</strong>, so that one same thing can have different names in different disciplines and vice versa one same name can mean different things. We tried here to use a terminological set that is as "neutral" as possible, although we recognise the limitations of this approach. Where relevant, we note alternative terms and their uses.
@@ -29,7 +27,7 @@ Don't forget to also check [Measures](measures/) and the [Skills](skills/) page,
 
 The following resources are suitable for beginners who want to learn **quantitative data analysis from scratch**.
 
-### Data wrangling and visualisation
+## Data wrangling and visualisation
 
 > The simple graph has brought more information to the data analyst’s mind than any other device.
 >
@@ -42,7 +40,9 @@ The following resources are suitable for beginners who want to learn **quantitat
 
 * The [Data Visualisation Catalogue](https://datavizcatalogue.com/index.html) is a project developed by Severino Ribecca to create a (non-code-based) library of different information visualisation types. The website serves as a learning and inspirational resource for those working with data visualisation.
 
-* The workshop [intRo: Data Analysis with R](https://intro-rstats.github.io) introduces absolute beginners from the Humanities to R, quantitative data analysis and visualisation. You can find the materials and slides here: [materials](https://intro-rstats.github.io/intRo/) and [slides](https://intro-rstats.github.io/intro-slides/).
+* The workshop [intRo: Data Analysis with R](https://intro-rstats.github.io) introduces absolute beginners from the Humanities to R, quantitative data analysis and visualisation. Check out the videos on YouTube: [videos](https://youtube.com/playlist?list=PLiqxyEAY_i3nqPb2bp2zufXgPoFk8Tum9). You can find the materials and slides here: [materials](https://intro-rstats.github.io/intRo/) and [slides](https://intro-rstats.github.io/intro-slides/).
+
+### *Joining and pivoting data*
 
 <div class="alert alert-success">
   Most data wrangling problems can be solved with the following sets of R tidyverse functions (of course if you use Python or other languages, feel free to use their equivalents): <a href="https://dplyr.tidyverse.org/reference/mutate-joins.html">mutating joins</a> and <a href="https://tidyr.tidyverse.org/articles/pivot.html">pivoting</a>.
@@ -52,7 +52,7 @@ The following resources are suitable for beginners who want to learn **quantitat
 
 * **Pivoting** makes it easy to transform a data table that has all the information you need but not in the right format (for example you have a two columns with the participant's scores at time point 1 and 2, but you want one column that has the time point and one that has the score). See here for a [visual representation of pivoting](https://github.com/gadenbuie/tidyexplain#tidy-data).
 
-### Statistical modelling
+## Statistical modelling
 
 > The numbers have no way of speaking for themselves. We speak for them. We imbue them with meaning.
 >
@@ -92,11 +92,11 @@ Confused about all the model names? Check out [this post](https://stefanocoretta
 
 ----------
 
-## Intermediate
+# Intermediate
 
 If you already have a basic understanding of quantitative data analysis, statistics and R, the following resources can help you develop your skills further.
 
-### Dimensionality reduction
+## Dimensionality reduction
 
 If your data is **highly dimensional**, i.e. **you have a lot of different variables** (some of which might even be correlated to each other), you can employ data dimensionality reduction techniques to "synthesise" all the variables into fewer variables that represent components, dimensions or clusters in the data.
 
@@ -117,7 +117,7 @@ See [this tutorial](http://www.sthda.com/english/articles/31-principal-component
 [This tutorial](https://www.datanovia.com/en/blog/cluster-analysis-in-r-practical-guide/) guides you through a CA in R.
 
 
-### Time series and coordinates
+## Time series and coordinates
 
 **Generalised Additive (Mixed) Models** (GAMMs) are a flexible extension of linear models that allows us to fit non-linear effects.
 They are particularly useful with data that come from time series (e.g. f0 and formants, corpus occurrences across time, longitudinal data, etc.) and they can be employed with any kind of data that can be thought of as being represented on a coordinate space (e.g., geolocations, electroencephalographic (EEG) data, 3D tongue imaging, etc).
@@ -133,7 +133,7 @@ In particular, [Figure 4](https://doi.org/10.7717/peerj.6876/fig-4) is a beautif
 
 * [Functional Data Analysis for Speech Research](http://lands.let.ru.nl/FDA/index.htm) by Michele Gubian is a collection of resources, workshop materials and papers on Functional Data Analysis with a focus on speech research data.
 
-### Bayesian inference
+## Bayesian inference
 
 * The overview by Etz et al., [How to become a Bayesian in eight easy steps: An annotated reading list](https://doi.org/10.3758/s13423-017-1317-5), is a good place to start from if you want to learn more about Bayesian statistics and inference.
 
@@ -145,9 +145,9 @@ It requires familiarity with linear models and Null Hypothesis Significance Test
 
 ----------
 
-## Advanced
+# Advanced
 
-### Power analysis
+## Power analysis
 
 Power analysis is a fundamental, although often neglected, step in Null Hypothesis Significance Testing (the statistical framework that returns *p*-values). 
 A power analysis is a method to estimate the minimum sample size necessary to detect a particular effect.
@@ -161,6 +161,6 @@ You can find a [tutorial here](https://besjournals.onlinelibrary.wiley.com/doi/f
 
 If you are running **Bayesian linear models, you can check out this post on [Bayesian CrI-width power analysis](https://stefanocoretta.github.io/post/2022-04-05-bayesian-ci-width-power-analysis/)**.
 
-### Multivariate linear models
+## Multivariate linear models
 
 [Estimating Multivariate Models with brms](https://cran.r-project.org/web/packages/brms/vignettes/brms_multivariate.html) by Paul Bürkner explains how to fit linear models with two or more outcome variables (i.e. multivariate models) using [brms](https://paul-buerkner.github.io/brms/).

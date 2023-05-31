@@ -1,7 +1,7 @@
 
 
 <!DOCTYPE html>
-<html lang="en-US">
+<html lang="en">
 
 <head>
 	<meta charset="utf-8">
@@ -19,7 +19,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5">
 <meta name="description" content="Resources on quantitative data analysis">
 <meta name="author" content="Stefano Coretta">
-<meta name="generator" content="Hugo 0.110.0">
+<meta name="generator" content="Hugo 0.112.3">
 
 
 
@@ -356,12 +356,12 @@
 </div>
 <p>There are several resources you can use to teach yourself quantitative data analysis skills, depending on your level.
 Don&rsquo;t forget to also check <a href="measures/">Measures</a> and the <a href="skills/">Skills</a> page, for more general research-related skills.</p>
-<h2 id="beginners">Beginners</h2>
+<h1 id="beginners">Beginners</h1>
 <div class="alert alert-warning">
   <strong>Terminology in applied statistics tends to be unruly</strong>, so that one same thing can have different names in different disciplines and vice versa one same name can mean different things. We tried here to use a terminological set that is as "neutral" as possible, although we recognise the limitations of this approach. Where relevant, we note alternative terms and their uses.
 </div>
 <p>The following resources are suitable for beginners who want to learn <strong>quantitative data analysis from scratch</strong>.</p>
-<h3 id="data-wrangling-and-visualisation">Data wrangling and visualisation</h3>
+<h2 id="data-wrangling-and-visualisation">Data wrangling and visualisation</h2>
 <blockquote>
 <p>The simple graph has brought more information to the data analyst’s mind than any other device.</p>
 <p>—John Tukey</p>
@@ -375,9 +375,10 @@ Don&rsquo;t forget to also check <a href="measures/">Measures</a> and the <a hre
 <p>The <a href="https://datavizcatalogue.com/index.html">Data Visualisation Catalogue</a> is a project developed by Severino Ribecca to create a (non-code-based) library of different information visualisation types. The website serves as a learning and inspirational resource for those working with data visualisation.</p>
 </li>
 <li>
-<p>The workshop <a href="https://intro-rstats.github.io">intRo: Data Analysis with R</a> introduces absolute beginners from the Humanities to R, quantitative data analysis and visualisation. You can find the materials and slides here: <a href="https://intro-rstats.github.io/intRo/">materials</a> and <a href="https://intro-rstats.github.io/intro-slides/">slides</a>.</p>
+<p>The workshop <a href="https://intro-rstats.github.io">intRo: Data Analysis with R</a> introduces absolute beginners from the Humanities to R, quantitative data analysis and visualisation. Check out the videos on YouTube: <a href="https://youtube.com/playlist?list=PLiqxyEAY_i3nqPb2bp2zufXgPoFk8Tum9">videos</a>. You can find the materials and slides here: <a href="https://intro-rstats.github.io/intRo/">materials</a> and <a href="https://intro-rstats.github.io/intro-slides/">slides</a>.</p>
 </li>
 </ul>
+<h3 id="joining-and-pivoting-data"><em>Joining and pivoting data</em></h3>
 <div class="alert alert-success">
   Most data wrangling problems can be solved with the following sets of R tidyverse functions (of course if you use Python or other languages, feel free to use their equivalents): <a href="https://dplyr.tidyverse.org/reference/mutate-joins.html">mutating joins</a> and <a href="https://tidyr.tidyverse.org/articles/pivot.html">pivoting</a>.
 </div>
@@ -389,7 +390,7 @@ Don&rsquo;t forget to also check <a href="measures/">Measures</a> and the <a hre
 <p><strong>Pivoting</strong> makes it easy to transform a data table that has all the information you need but not in the right format (for example you have a two columns with the participant&rsquo;s scores at time point 1 and 2, but you want one column that has the time point and one that has the score). See here for a <a href="https://github.com/gadenbuie/tidyexplain#tidy-data">visual representation of pivoting</a>.</p>
 </li>
 </ul>
-<h3 id="statistical-modelling">Statistical modelling</h3>
+<h2 id="statistical-modelling">Statistical modelling</h2>
 <blockquote>
 <p>The numbers have no way of speaking for themselves. We speak for them. We imbue them with meaning.</p>
 <p>—Nate Silver, <em>The Signal and the Noise</em></p>
@@ -425,9 +426,9 @@ They have gained momentum and are increasingly being adopted across the entire f
 The post also lists tutorials on linear models that use other less common probability distribution families, like the beta, Poisson and ordinal.</p>
 <p>Confused about all the model names? Check out <a href="https://stefanocoretta.github.io/post/2022-07-22-one-thousand-and-one-names/">this post</a> on how we don&rsquo;t really need to use all of those names: they are all linear models!</p>
 <hr>
-<h2 id="intermediate">Intermediate</h2>
+<h1 id="intermediate">Intermediate</h1>
 <p>If you already have a basic understanding of quantitative data analysis, statistics and R, the following resources can help you develop your skills further.</p>
-<h3 id="dimensionality-reduction">Dimensionality reduction</h3>
+<h2 id="dimensionality-reduction">Dimensionality reduction</h2>
 <p>If your data is <strong>highly dimensional</strong>, i.e. <strong>you have a lot of different variables</strong> (some of which might even be correlated to each other), you can employ data dimensionality reduction techniques to &ldquo;synthesise&rdquo; all the variables into fewer variables that represent components, dimensions or clusters in the data.</p>
 <p>These techniques can be used both (a) to find patterns or groupings in the data and to obtain measures that capture these patterns and groupings and (b) to simplify analyses from a set of 15/20 variables to 2/3 components or dimensions.</p>
 <p>Note that once you have reduced your data to a few variables (components or dimensions), these can still be further analysed with the other techniques mentioned on this page.</p>
@@ -448,7 +449,7 @@ See <a href="http://www.sthda.com/english/articles/31-principal-component-method
 <a href="https://www.datanovia.com/en/blog/cluster-analysis-in-r-practical-guide/">This tutorial</a> guides you through a CA in R.</p>
 </li>
 </ul>
-<h3 id="time-series-and-coordinates">Time series and coordinates</h3>
+<h2 id="time-series-and-coordinates">Time series and coordinates</h2>
 <p><strong>Generalised Additive (Mixed) Models</strong> (GAMMs) are a flexible extension of linear models that allows us to fit non-linear effects.
 They are particularly useful with data that come from time series (e.g. f0 and formants, corpus occurrences across time, longitudinal data, etc.) and they can be employed with any kind of data that can be thought of as being represented on a coordinate space (e.g., geolocations, electroencephalographic (EEG) data, 3D tongue imaging, etc).</p>
 <ul>
@@ -467,7 +468,7 @@ In particular, <a href="https://doi.org/10.7717/peerj.6876/fig-4">Figure 4</a> i
 <ul>
 <li><a href="http://lands.let.ru.nl/FDA/index.htm">Functional Data Analysis for Speech Research</a> by Michele Gubian is a collection of resources, workshop materials and papers on Functional Data Analysis with a focus on speech research data.</li>
 </ul>
-<h3 id="bayesian-inference">Bayesian inference</h3>
+<h2 id="bayesian-inference">Bayesian inference</h2>
 <ul>
 <li>
 <p>The overview by Etz et al., <a href="https://doi.org/10.3758/s13423-017-1317-5">How to become a Bayesian in eight easy steps: An annotated reading list</a>, is a good place to start from if you want to learn more about Bayesian statistics and inference.</p>
@@ -481,8 +482,8 @@ It requires familiarity with linear models and Null Hypothesis Significance Test
 </li>
 </ul>
 <hr>
-<h2 id="advanced">Advanced</h2>
-<h3 id="power-analysis">Power analysis</h3>
+<h1 id="advanced">Advanced</h1>
+<h2 id="power-analysis">Power analysis</h2>
 <p>Power analysis is a fundamental, although often neglected, step in Null Hypothesis Significance Testing (the statistical framework that returns <em>p</em>-values).
 A power analysis is a method to estimate the minimum sample size necessary to detect a particular effect.
 The statistical power of a test is the percentage of tests that correctly detect an effect when the effect indeed exists.
@@ -492,7 +493,7 @@ Simulation is a way to simplify the calculations necessary to find the minimum s
 <strong>The R package <a href="https://github.com/pitakakariki/simr">simr</a> provides users with a set of functions to perform a power analysis with linear models using simulations.</strong>
 You can find a <a href="https://besjournals.onlinelibrary.wiley.com/doi/full/10.1111/2041-210X.12504">tutorial here</a>.</p>
 <p>If you are running <strong>Bayesian linear models, you can check out this post on <a href="https://stefanocoretta.github.io/post/2022-04-05-bayesian-ci-width-power-analysis/">Bayesian CrI-width power analysis</a></strong>.</p>
-<h3 id="multivariate-linear-models">Multivariate linear models</h3>
+<h2 id="multivariate-linear-models">Multivariate linear models</h2>
 <p><a href="https://cran.r-project.org/web/packages/brms/vignettes/brms_multivariate.html">Estimating Multivariate Models with brms</a> by Paul Bürkner explains how to fit linear models with two or more outcome variables (i.e. multivariate models) using <a href="https://paul-buerkner.github.io/brms/">brms</a>.</p>
 
         </div>
