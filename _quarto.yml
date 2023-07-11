@@ -1,0 +1,45 @@
+project:
+  type: website
+  output-dir: docs
+  execute-dir: project
+  render:
+    - "*.qmd"
+    - "!data/"
+    - "!content/"
+  resources:
+    - "assets/"
+
+website:
+  title: "Data Analysis @ UoE LEL"
+  navbar:
+    background: dark
+    left:
+      - href: index.qmd
+        text: Home
+      - href: study-design.qmd
+        text: Study design
+      - text: Measures
+        menu:
+          - href: measures/overview.qmd
+            text: Overview
+          - href: measures/phonetics.qmd
+            text: Phonetics
+      - href: analysis.qmd
+        text: Data analysis
+      - href: skills.qmd
+        text: Skills
+      - href: software.qmd
+        text: Software
+      - href: support.qmd
+        text: Support
+
+format:
+  html:
+    theme: united
+    css: styles.css
+    toc: true
+    df-print: paged
+    number-sections: true
+
+callout-icon: false
+

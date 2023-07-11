@@ -1,0 +1,579 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.3.433">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Data Analysis @ UoE LEL - Data analysis</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<script src="site_libs/quarto-html/quarto.js"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 20,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="nav-fixed">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark ">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container">
+    <a class="navbar-brand" href="./index.html">
+    <span class="navbar-title">Data Analysis @ UoE LEL</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="./index.html" rel="" target="">
+ <span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./study-design.html" rel="" target="">
+ <span class="menu-text">Study design</span></a>
+  </li>  
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-measures" role="button" data-bs-toggle="dropdown" aria-expanded="false" rel="" target="">
+ <span class="menu-text">Measures</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-measures">    
+        <li>
+    <a class="dropdown-item" href="./measures/overview.html" rel="" target="">
+ <span class="dropdown-text">Overview</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./measures/phonetics.html" rel="" target="">
+ <span class="dropdown-text">Phonetics</span></a>
+  </li>  
+    </ul>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link active" href="./analysis.html" rel="" target="" aria-current="page">
+ <span class="menu-text">Data analysis</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./skills.html" rel="" target="">
+ <span class="menu-text">Skills</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./software.html" rel="" target="">
+ <span class="menu-text">Software</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./support.html" rel="" target="">
+ <span class="menu-text">Support</span></a>
+  </li>  
+</ul>
+            <div class="quarto-navbar-tools ms-auto">
+</div>
+          </div> <!-- /navcollapse -->
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#beginners" id="toc-beginners" class="nav-link active" data-scroll-target="#beginners"><span class="header-section-number">1</span> Beginners</a>
+  <ul class="collapse">
+  <li><a href="#data-wrangling-and-visualisation" id="toc-data-wrangling-and-visualisation" class="nav-link" data-scroll-target="#data-wrangling-and-visualisation"><span class="header-section-number">1.1</span> Data wrangling and visualisation</a></li>
+  <li><a href="#statistical-modelling" id="toc-statistical-modelling" class="nav-link" data-scroll-target="#statistical-modelling"><span class="header-section-number">1.2</span> Statistical modelling</a>
+  <ul class="collapse">
+  <li><a href="#linear-models" id="toc-linear-models" class="nav-link" data-scroll-target="#linear-models"><span class="header-section-number">1.2.1</span> Linear models</a></li>
+  </ul></li>
+  </ul></li>
+  <li><a href="#intermediate" id="toc-intermediate" class="nav-link" data-scroll-target="#intermediate"><span class="header-section-number">2</span> Intermediate</a>
+  <ul class="collapse">
+  <li><a href="#dimensionality-reduction" id="toc-dimensionality-reduction" class="nav-link" data-scroll-target="#dimensionality-reduction"><span class="header-section-number">2.1</span> Dimensionality reduction</a></li>
+  <li><a href="#time-series-and-coordinates" id="toc-time-series-and-coordinates" class="nav-link" data-scroll-target="#time-series-and-coordinates"><span class="header-section-number">2.2</span> Time series and coordinates</a></li>
+  <li><a href="#bayesian-inference" id="toc-bayesian-inference" class="nav-link" data-scroll-target="#bayesian-inference"><span class="header-section-number">2.3</span> Bayesian inference</a></li>
+  </ul></li>
+  <li><a href="#advanced" id="toc-advanced" class="nav-link" data-scroll-target="#advanced"><span class="header-section-number">3</span> Advanced</a>
+  <ul class="collapse">
+  <li><a href="#power-analysis" id="toc-power-analysis" class="nav-link" data-scroll-target="#power-analysis"><span class="header-section-number">3.1</span> Power analysis</a></li>
+  <li><a href="#multivariate-linear-models" id="toc-multivariate-linear-models" class="nav-link" data-scroll-target="#multivariate-linear-models"><span class="header-section-number">3.2</span> Multivariate linear models</a></li>
+  </ul></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Data analysis</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+</header>
+
+<div class="callout callout-style-default callout-note no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>This page provides resources on how to <strong>analyse measurements</strong> (e.g.&nbsp;formant values, word counts, collexeme association metrics, semantic distance, etc.) you have obtained from your data.</p>
+<p>For methods to <strong>obtain specialised measurements and metrics</strong> (e.g.&nbsp;formant values, word counts, collexeme association metrics, semantic distance, etc.), please check the (work-in-progress) <a href="./measures/overview.html">Measure</a> page.</p>
+</div>
+</div>
+<div class="callout callout-style-default callout-warning no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Disclaimer
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>This is not intended to be an exhaustive list, but rather a compendium of approaches and techniques that are currently gaining momentum across linguistic research. For specialised approaches, we recommend to consult methods books written with specific audiences in mind. Note that the methods presented here are general enough that they can be applied to a diverse range of data types.</p>
+</div>
+</div>
+<p>There are several resources you can use to teach yourself quantitative data analysis skills, depending on your level. Don’t forget to also check <a href="./measures/overview.html">Measures</a> and the <a href="./skills.html">Skills</a> page, for more general research-related skills.</p>
+<section id="beginners" class="level1" data-number="1">
+<h1 data-number="1"><span class="header-section-number">1</span> Beginners</h1>
+<div class="callout callout-style-default callout-note no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p><strong>Terminology in applied statistics tends to be unruly</strong>, so that one same thing can have different names in different disciplines and vice versa one same name can mean different things. We tried here to use a terminological set that is as “neutral” as possible, although we recognise the limitations of this approach. Where relevant, we note alternative terms and their uses.</p>
+</div>
+</div>
+<p>The following resources are suitable for beginners who want to learn <strong>quantitative data analysis from scratch</strong>.</p>
+<section id="data-wrangling-and-visualisation" class="level2" data-number="1.1">
+<h2 data-number="1.1" class="anchored" data-anchor-id="data-wrangling-and-visualisation"><span class="header-section-number">1.1</span> Data wrangling and visualisation</h2>
+<blockquote class="blockquote">
+<p>The simple graph has brought more information to the data analyst’s mind than any other device.</p>
+<p>—John Tukey</p>
+</blockquote>
+<p><a href="https://r4ds.had.co.nz/wrangle-intro.html">Data wrangling</a> is about getting your data into a useful format for <a href="https://r4ds.had.co.nz/data-visualisation.html">visualisation</a> and <a href="https://r4ds.had.co.nz/model-intro.html">modelling</a>.</p>
+<p>The programming languages <strong>Python and R</strong> are two very common languages used for data analysis.</p>
+<p><strong>Python</strong> is a general-purpose programming language while <strong>R</strong> is specifically developed for statistical analysis and visualisation. Most academic research uses R for data analysis, although Python is also employed especially for data processing.</p>
+<p>If you want to teach yourself R, the following resources are an excellent place to start from:</p>
+<ul>
+<li><p>The <a href="https://r4ds.had.co.nz">R for Data Science</a> (R4DS) free online book is an excellent introduction to R and quantitative data analysis.</p></li>
+<li><p>The <a href="https://datavizcatalogue.com/index.html">Data Visualisation Catalogue</a> is a project developed by Severino Ribecca to create a (non-code-based) library of different information visualisation types. The website serves as a learning and inspirational resource for those working with data visualisation.</p></li>
+<li><p>The workshop <a href="https://intro-rstats.github.io">intRo: Data Analysis with R</a> introduces absolute beginners from the Humanities to R, quantitative data analysis and visualisation. Check out the videos on YouTube: <a href="https://youtube.com/playlist?list=PLiqxyEAY_i3nqPb2bp2zufXgPoFk8Tum9">videos</a>. You can find the materials and slides here: <a href="https://intro-rstats.github.io/intRo/">materials</a> and <a href="https://intro-rstats.github.io/intro-slides/">slides</a>.</p></li>
+</ul>
+<div class="callout callout-style-default callout-note no-icon callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-4-contents" aria-controls="callout-4" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Joining and pivoting data
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-4" class="callout-4-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>Most data wrangling problems can be solved with the following sets of R tidyverse functions (of course if you use Python or other languages, feel free to use their equivalents): <a href="https://dplyr.tidyverse.org/reference/mutate-joins.html">mutating joins</a> and <a href="https://tidyr.tidyverse.org/articles/pivot.html">pivoting</a>.</p>
+<ul>
+<li><p><strong>Mutating joins</strong> allow you to join two or more tibbles together so that you can include information from one tibble into another (for example, if you have participant info in one tibble and you want to join that with the main experiment results tibble). See here for a <a href="https://github.com/gadenbuie/tidyexplain#mutating-joins">visual representation of join operations</a>.</p></li>
+<li><p><strong>Pivoting</strong> makes it easy to transform a data table that has all the information you need but not in the right format (for example you have a two columns with the participant’s scores at time point 1 and 2, but you want one column that has the time point and one that has the score). See here for a <a href="https://github.com/gadenbuie/tidyexplain#tidy-data">visual representation of pivoting</a>.</p></li>
+</ul>
+</div>
+</div>
+</div>
+</section>
+<section id="statistical-modelling" class="level2" data-number="1.2">
+<h2 data-number="1.2" class="anchored" data-anchor-id="statistical-modelling"><span class="header-section-number">1.2</span> Statistical modelling</h2>
+<blockquote class="blockquote">
+<p>The numbers have no way of speaking for themselves. We speak for them. We imbue them with meaning.</p>
+<p>—Nate Silver, <em>The Signal and the Noise</em></p>
+</blockquote>
+<p>Statistics and statistical modelling are about finding meaning in the patterns that can be observed in the data.</p>
+<ul>
+<li><p><a href="https://discovered.ed.ac.uk/permalink/44UOE_INST/7g3mt6/alma9924344853202466">Statistics for Linguists: An introduction using R</a> by Bodo Winter is ideal both for absolute beginners and experienced researchers. It is packed with everything you need to successfully and effectively conduct statistical analyses.</p></li>
+<li><p><a href="https://discovered.ed.ac.uk/permalink/44UOE_INST/110jsec/alma9924362502302466">Statistical (Re)thinking</a> by Richard McElreath is an excellent introduction for absolute beginners, by Richard McElreath, which covers a wide variety of linear models. It focusses on Bayesian inference and how this framework can help us directly answer research questions, assess evidence for different hypothesis, and quantify uncertainty. If you are familiar with the <a href="https://www.tidyverse.org">tidyverse</a>, the code from the <em>Statistical (Re)thinking</em> book has been translated into tidyverse by Solomon Kurz, and it can be accessed here: <a href="https://bookdown.org/content/4857/">Statistical rethinking with brms, ggplot2, and the tidyverse</a>.</p></li>
+<li><p><a href="https://www.penguin.co.uk/books/294/294857/learning-from-data/9780241258767.html">The Art of Statistics: Learning from data</a> by David Spiegelhalter uses real-world examples to explain principles of data visualisation and analysis. It touches upon a wide range of topics and disciplines, from communicating proportions, to probability and Bayesian inference, making it a great complement to the other books and resources mentioned here. If you just wish to dip your toes in statistics without committing (yet) to learning how to do statistics, this book is for you.</p></li>
+</ul>
+<section id="linear-models" class="level3" data-number="1.2.1">
+<h3 data-number="1.2.1" class="anchored" data-anchor-id="linear-models"><span class="header-section-number">1.2.1</span> Linear models</h3>
+<blockquote class="blockquote">
+<p>One model to rule them all, one model to fit them,<br> One model to shrink them all, and in probability bind them;<br> In the Land of Inference where the distributions lie.</p>
+<p>—The Statistical Hobbit.</p>
+</blockquote>
+<p><strong>Linear models are a very flexible and relatively straightforward way to model and analyse quantitative data</strong>. They have gained momentum and are increasingly being adopted across the entire field of linguistics.</p>
+<p>The main perk of learning linear models is that they <strong>can be applied to many different types of data</strong>, so that once you learn this approach you will be able to apply it to a lot of data analysis scenarios.</p>
+<p>The resources mentioned above all focus on linear modelling, so whether you are just starting your statistical journey or you are an experienced researcher who wants to consolidate their understanding of linear modelling, those resources are right for you.</p>
+<p>After you have learnt the basics, the <a href="https://stefanocoretta.github.io/post/2021-08-21-regression-models-a-cheat-sheet/">Linear models cheat-sheet</a> can guide you through the process of choosing among the appropriate types of linear model depending on the nature of your data. The post also lists tutorials on linear models that use other less common probability distribution families, like the beta, Poisson and ordinal.</p>
+<p>Confused about all the model names? Check out <a href="https://stefanocoretta.github.io/post/2022-07-22-one-thousand-and-one-names/">this post</a> on how we don’t really need to use all of those names: they are all linear models!</p>
+<hr>
+</section>
+</section>
+</section>
+<section id="intermediate" class="level1" data-number="2">
+<h1 data-number="2"><span class="header-section-number">2</span> Intermediate</h1>
+<p>If you already have a basic understanding of quantitative data analysis, statistics and R, the following resources can help you develop your skills further.</p>
+<section id="dimensionality-reduction" class="level2" data-number="2.1">
+<h2 data-number="2.1" class="anchored" data-anchor-id="dimensionality-reduction"><span class="header-section-number">2.1</span> Dimensionality reduction</h2>
+<p>If your data is <strong>highly dimensional</strong>, i.e.&nbsp;<strong>you have a lot of different variables</strong> (some of which might even be correlated to each other), you can employ data dimensionality reduction techniques to “synthesise” all the variables into fewer variables that represent components, dimensions or clusters in the data.</p>
+<p>These techniques can be used both (a) to find patterns or groupings in the data and to obtain measures that capture these patterns and groupings and (b) to simplify analyses from a set of 15/20 variables to 2/3 components or dimensions.</p>
+<p>Note that once you have reduced your data to a few variables (components or dimensions), these can still be further analysed with the other techniques mentioned on this page.</p>
+<ul>
+<li><p>A common reduction technique is <strong>Principal Component Analysis</strong> (PCA). This method combines all of your variables into a limited set of numeric <em>principal components</em>. The scores of the principal components capture variation in the data and can be used for further analysis. You can learn how to carry out a PCA with <a href="http://www.sthda.com/english/articles/31-principal-component-methods-in-r-practical-guide/">this tutorial</a>. Also check out Functional Principal Component Analysis below.</p></li>
+<li><p><strong>Multiple Correspondence Analysis</strong> (McA) is the discrete equivalent of PCA, i.e.&nbsp;it can be used with discrete/categorical variables. See <a href="http://www.sthda.com/english/articles/31-principal-component-methods-in-r-practical-guide/114-mca-multiple-correspondence-analysis-in-r-essentials/">this tutorial</a> for an introduction.</p></li>
+<li><p>Another dimensionality reduction technique is <strong>Cluster Analysis</strong> (CA, aka hierarchical clustering). <a href="https://www.datanovia.com/en/blog/cluster-analysis-in-r-practical-guide/">This tutorial</a> guides you through a CA in R.</p></li>
+</ul>
+</section>
+<section id="time-series-and-coordinates" class="level2" data-number="2.2">
+<h2 data-number="2.2" class="anchored" data-anchor-id="time-series-and-coordinates"><span class="header-section-number">2.2</span> Time series and coordinates</h2>
+<p><strong>Generalised Additive (Mixed) Models</strong> (GAMMs) are a flexible extension of linear models that allows us to fit non-linear effects. They are particularly useful with data that come from time series (e.g.&nbsp;f0 and formants, corpus occurrences across time, longitudinal data, etc.) and they can be employed with any kind of data that can be thought of as being represented on a coordinate space (e.g., geolocations, electroencephalographic (EEG) data, 3D tongue imaging, etc).</p>
+<ul>
+<li><p>The tutorial <a href="https://eprints.whiterose.ac.uk/113858/2/1703_05339v1.pdf">Generalised additive mixed models for dynamic analysis in linguistics: a practical introduction</a> by Márton Sóskuthy is an excellent introduction to Generalised Additive Mixed Models (GAMMs).</p></li>
+<li><p>Another excellent resource is <a href="https://peerj.com/articles/6876/">Hierarchical generalized additive models in ecology: an introduction with mgcv</a> by Pedersen and colleagues. In particular, <a href="https://doi.org/10.7717/peerj.6876/fig-4">Figure 4</a> is a beautiful visual summary of how different types of trends and groupings can be modelled with GAMs.</p></li>
+<li><p>The paper <a href="https://www.degruyter.com/document/doi/10.1515/lingvan-2016-0030/html">Generalized Additive Mixed Models for intra-speaker variation</a> by Tamminga and colleagues advocates for the adoption of GAMMs to advance the use of naturalistic data for studying psycholinguistic questions about intra-speaker variation.</p></li>
+</ul>
+<p><strong>Functional Principal Component Analysis</strong> (FPCA) is another approach to modelling time-series data.</p>
+<ul>
+<li><a href="http://lands.let.ru.nl/FDA/index.htm">Functional Data Analysis for Speech Research</a> by Michele Gubian is a collection of resources, workshop materials and papers on Functional Data Analysis with a focus on speech research data.</li>
+</ul>
+</section>
+<section id="bayesian-inference" class="level2" data-number="2.3">
+<h2 data-number="2.3" class="anchored" data-anchor-id="bayesian-inference"><span class="header-section-number">2.3</span> Bayesian inference</h2>
+<ul>
+<li><p>The overview by Etz et al., <a href="https://doi.org/10.3758/s13423-017-1317-5">How to become a Bayesian in eight easy steps: An annotated reading list</a>, is a good place to start from if you want to learn more about Bayesian statistics and inference.</p></li>
+<li><p>For an more practice-oriented introduction, you should read <a href="https://discovered.ed.ac.uk/permalink/44UOE_INST/110jsec/alma9924362502302466">Statistical (Re)thinking</a> (see above).</p></li>
+<li><p>The <a href="https://learnb4ss.github.io">learnB4SS</a> workshop is an introduction to <strong>Bayesian analysis for the Speech Sciences</strong>. It requires familiarity with linear models and Null Hypothesis Significance Testing.</p></li>
+</ul>
+<hr>
+</section>
+</section>
+<section id="advanced" class="level1" data-number="3">
+<h1 data-number="3"><span class="header-section-number">3</span> Advanced</h1>
+<section id="power-analysis" class="level2" data-number="3.1">
+<h2 data-number="3.1" class="anchored" data-anchor-id="power-analysis"><span class="header-section-number">3.1</span> Power analysis</h2>
+<p>Power analysis is a fundamental, although often neglected, step in Null Hypothesis Significance Testing (the statistical framework that returns <em>p</em>-values). A power analysis is a method to estimate the minimum sample size necessary to detect a particular effect. The statistical power of a test is the percentage of tests that correctly detect an effect when the effect indeed exists. The recommended statistical power is 80% or greater.</p>
+<p>Power analyses with linear models can become quite complex, especially if random effects are included. Simulation is a way to simplify the calculations necessary to find the minimum sample size. <strong>The R package <a href="https://github.com/pitakakariki/simr">simr</a> provides users with a set of functions to perform a power analysis with linear models using simulations.</strong> You can find a <a href="https://besjournals.onlinelibrary.wiley.com/doi/full/10.1111/2041-210X.12504">tutorial here</a>.</p>
+<p>If you are running <strong>Bayesian linear models, you can check out this post on <a href="https://stefanocoretta.github.io/post/2022-04-05-bayesian-ci-width-power-analysis/">Bayesian CrI-width power analysis</a></strong>.</p>
+</section>
+<section id="multivariate-linear-models" class="level2" data-number="3.2">
+<h2 data-number="3.2" class="anchored" data-anchor-id="multivariate-linear-models"><span class="header-section-number">3.2</span> Multivariate linear models</h2>
+<p><a href="https://cran.r-project.org/web/packages/brms/vignettes/brms_multivariate.html">Estimating Multivariate Models with brms</a> by Paul Bürkner explains how to fit linear models with two or more outcome variables (i.e.&nbsp;multivariate models) using <a href="https://paul-buerkner.github.io/brms/">brms</a>.</p>
+
+
+</section>
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+
+
+
+</body></html>

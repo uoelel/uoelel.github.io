@@ -1,0 +1,15 @@
+---
+# title: "Data Analysis @ UoE LEL"
+format: 
+  html:
+    number-sections: false
+    toc: false
+---
+
+### Want to learn about data analysis for language research?
+
+For resources on research methods in linguistics, check out the [Study design](./study-design/), [Measures](./measures/) and [Data analysis](./analysis/) pages. For more general research skills and software, check the [Skills](./skills/) and [Software](./software/) pages. To know which courses in research methods/data analysis are offered to LEL students, see the [Courses](./courses/) page.
+
+### Need help with quantitative data analysis and statistics?
+
+If you need help with quantitative data analysis or statistical aspects of your research or dissertation, please find the available support channels on the [Support](./support/) page.

@@ -1,0 +1,40 @@
+---
+title: "Variable types"
+---
+
+### Continuous variables
+
+* The variable can take on <u>any positive and negative real number, including 0</u>: **Gaussian** (aka normal) distribution.
+
+    * There are very few truly Gaussian variables, although in some cases one can speak of "approximate" or "assumed" normality.
+    * This family is fitted by default in `lm()`, `lme4::lmer()` and `brms::brm()`.
+
+* The variable can take on <u>any positive number only</u>: **Log-normal** distribution.
+
+    * Duration of segments, words, pauses, etc, are known to be log-normally distributed.
+    * Measurements taken in Hz (like f0, formants, centre of gravity, ...) could be considered to be log-normal.
+    * There other families that could potentially be used depending on the nature of the variable: exponential-Gaussian (reaction times), gamma, ...
+
+* The variable can take on <u>any number between 0 and 1, but not 0 nor 1</u>: **Beta** distribution.
+
+    * Proportions fall into this category (for example proportion of voicing within closure), although 0 and 1 are not allowed in the beta distribution.
+
+* The variable can take on <u>any number between 0 and 1, including 0 or 0 and 1</u>: **Zero-inflated** or **Zero/one-inflated beta** (ZOIB) distribution.
+
+    * If the proportion data includes many 0s and 1s, then this is the ideal distribution to use. ZOIB distributions are somewhat more difficult to fit than a simple beta distribution, so a common practice is to transform the data so that it doesn't include 0s nor 1s (this can be achieved using different techniques, some better than others).
+
+### Discrete variables
+
+* The variable is <u>dichotomous</u>, i.e. it can take one of two levels: **Bernoulli** distribution.
+
+    * Categorical outcome variables like yes/no, correct/incorrect, voiced/voiceless, follow this distribution.
+    * This family is fitted by default when you run `glm(family = binomial)`, aka "logistic regression" or "binomial regression".
+
+* The variable is <u>counts</u>: **Poisson** distribution.
+
+    * Counts of words, segments, gestures, f0 peaks, ...
+
+* The variable is a <u>scale</u>: **ordinal** linear model.
+
+    * Likert scales and ratings, language attitude questionnaires.
+    * Ordinal linear models, a.k.a. ordinal logistic regression, can be fitted with the [ordinal](https://cran.r-project.org/web/packages/ordinal/index.html) and the [brms](https://paul-buerkner.github.io/brms/) package.
