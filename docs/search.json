@@ -4,7 +4,35 @@
     "href": "support.html",
     "title": "Support",
     "section": "",
-    "text": "There are different support channels for Hons/MSc/PhD students who are writing their dissertation, and researchers/staff who are seeking help with any aspect of quantitative data analysis.\n\n0.1 General support\nAs a general guideline aimed at students, supervisors, and staff, we have compiled a checklist that covers all the main aspects of quantitative analyses.\nYou can use the checklist as a template to think about your quantitative analysis plan at the early stages of your dissertation/research project.\nGo to checklist\n\n\n0.2 Honours and MSc students\nIf you are a student writing your Honours or MSc dissertation and you are looking after help with your quantitative data analysis/statistics, you can book an appointment with Stefano, the LEL Stats coordinator (a university account is required).\nBook an appointment\n\n\n0.3 Consultation for PhD students, postdocs and staff\nMany of the issues arising during the data analysis stage can be prevented by planning your analysis while designing the study and ahead of data collection. We strongly recommend you to work out your quantitative data analysis plan in details as early as possible. This expedient will save you time later on.\nPhD students, postdoc researchers and staff can get in touch with the LEL Senior Teaching Coordinator for Statistics, Dr Stefano Coretta, or directly book an appointment via the link below (a university account is required).\nBook an appointment\n\nHelp is offered for the following areas:\n\nStudy design and operationalisation of research hypothesis.\nData wrangling and visualisation.\nStatistical modelling.\nResearch data management (including Data Management Plans).\nReporting.\nOpen Science practices.\n\n\n\n0.4 Statistical service for staff\nDr Stefano Coretta is available as a collaborator on projects or papers requiring the planning and execution of quantitative and statistical analyses.\nInterested postdocs or staff should contact Stefano for enquiries."
+    "text": "There are different support channels for Hons/MSc/PhD students who are writing their dissertation, and researchers/staff who are seeking help with any aspect of quantitative data analysis."
+  },
+  {
+    "objectID": "support.html#general-support",
+    "href": "support.html#general-support",
+    "title": "Support",
+    "section": "1 General support",
+    "text": "1 General support\nAs a general guideline aimed at students, supervisors, and staff, we have compiled a checklist that covers all the main aspects of quantitative analyses.\nYou can use the checklist as a template to think about your quantitative analysis plan at the early stages of your dissertation/research project.\nGo to checklist"
+  },
+  {
+    "objectID": "support.html#honours-and-msc-students",
+    "href": "support.html#honours-and-msc-students",
+    "title": "Support",
+    "section": "2 Honours and MSc students",
+    "text": "2 Honours and MSc students\nIf you are a student writing your Honours or MSc dissertation and you are looking after help with your quantitative data analysis/statistics, you can book an appointment with Stefano, the LEL Stats coordinator (a university account is required).\nBook an appointment"
+  },
+  {
+    "objectID": "support.html#consultation-for-phd-students-postdocs-and-staff",
+    "href": "support.html#consultation-for-phd-students-postdocs-and-staff",
+    "title": "Support",
+    "section": "3 Consultation for PhD students, postdocs and staff",
+    "text": "3 Consultation for PhD students, postdocs and staff\nMany of the issues arising during the data analysis stage can be prevented by planning your analysis while designing the study and ahead of data collection. We strongly recommend you to work out your quantitative data analysis plan in details as early as possible. This expedient will save you time later on.\nPhD students, postdoc researchers and staff can get in touch with the LEL Senior Teaching Coordinator for Statistics, Dr Stefano Coretta, or directly book an appointment via the link below (a university account is required).\nBook an appointment\n\nHelp is offered for the following areas:\n\nStudy design and operationalisation of research hypothesis.\nData wrangling and visualisation.\nStatistical modelling.\nResearch data management (including Data Management Plans).\nReporting.\nOpen Science practices."
+  },
+  {
+    "objectID": "support.html#statistical-service-for-staff",
+    "href": "support.html#statistical-service-for-staff",
+    "title": "Support",
+    "section": "4 Statistical service for staff",
+    "text": "4 Statistical service for staff\nDr Stefano Coretta is available as a collaborator on projects or papers requiring the planning and execution of quantitative and statistical analyses.\nInterested postdocs or staff should contact Stefano for enquiries."
   },
   {
     "objectID": "software.html",
@@ -74,7 +102,35 @@
     "href": "measures/phonetics.html",
     "title": "Measures and metrics",
     "section": "",
-    "text": "0.1 Acoustics\nUsing Praat for linguistic research is an excellent starting point for learning which measurements and metrics can be used for which purposes and how to obtain them in Praat.\nCommon measurements are: Voice Onset Time, f0, pulses, jitter, shimmer, Harmonics-To-Noise ratio, formant frequency and bandwidth, intensity, harmonic amplitude, spectral tilt, centre of gravity, …\nThis tutorial explains how to extract cepstral peak prominence (CPP) measures in Praat: A Practical Guide to Calculating Cepstral Peak Prominence in Praat, https://doi.org/10.31219/osf.io/yvp4s.\n\n\n0.2 Perceptual data\nThis tutorial by Joseph Casillas explains how to analyse categorisation data using linear models.\nIn particular, the tutorial shows how to obtain an estimate of the category boundary and the sharpness of the boundary.\n\n\n0.3 Articulatory data\n…\n\n\n0.4 Recent developments\n\nNasality from Acoustic Features (NAF): Chris Carignan. 2021. A practical method of estimating the time-varying degree of vowel nasalization from acoustic features https://doi.org/10.1121/10.0002925."
+    "text": "Using Praat for linguistic research is an excellent starting point for learning which measurements and metrics can be used for which purposes and how to obtain them in Praat.\nCommon measurements are: Voice Onset Time, f0, pulses, jitter, shimmer, Harmonics-To-Noise ratio, formant frequency and bandwidth, intensity, harmonic amplitude, spectral tilt, centre of gravity, …\nThis tutorial explains how to extract cepstral peak prominence (CPP) measures in Praat: A Practical Guide to Calculating Cepstral Peak Prominence in Praat, https://doi.org/10.31219/osf.io/yvp4s."
+  },
+  {
+    "objectID": "measures/phonetics.html#acoustics",
+    "href": "measures/phonetics.html#acoustics",
+    "title": "Measures and metrics",
+    "section": "",
+    "text": "Using Praat for linguistic research is an excellent starting point for learning which measurements and metrics can be used for which purposes and how to obtain them in Praat.\nCommon measurements are: Voice Onset Time, f0, pulses, jitter, shimmer, Harmonics-To-Noise ratio, formant frequency and bandwidth, intensity, harmonic amplitude, spectral tilt, centre of gravity, …\nThis tutorial explains how to extract cepstral peak prominence (CPP) measures in Praat: A Practical Guide to Calculating Cepstral Peak Prominence in Praat, https://doi.org/10.31219/osf.io/yvp4s."
+  },
+  {
+    "objectID": "measures/phonetics.html#perceptual-data",
+    "href": "measures/phonetics.html#perceptual-data",
+    "title": "Measures and metrics",
+    "section": "2 Perceptual data",
+    "text": "2 Perceptual data\nThis tutorial by Joseph Casillas explains how to analyse categorisation data using linear models.\nIn particular, the tutorial shows how to obtain an estimate of the category boundary and the sharpness of the boundary."
+  },
+  {
+    "objectID": "measures/phonetics.html#articulatory-data",
+    "href": "measures/phonetics.html#articulatory-data",
+    "title": "Measures and metrics",
+    "section": "3 Articulatory data",
+    "text": "3 Articulatory data\n…"
+  },
+  {
+    "objectID": "measures/phonetics.html#recent-developments",
+    "href": "measures/phonetics.html#recent-developments",
+    "title": "Measures and metrics",
+    "section": "4 Recent developments",
+    "text": "4 Recent developments\n\nNasality from Acoustic Features (NAF): Chris Carignan. 2021. A practical method of estimating the time-varying degree of vowel nasalization from acoustic features https://doi.org/10.1121/10.0002925."
   },
   {
     "objectID": "index.html",

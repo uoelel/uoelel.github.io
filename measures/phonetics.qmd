@@ -2,7 +2,7 @@
 title: "Measures and metrics"
 ---
 
-### Acoustics
+## Acoustics
 
 [Using Praat for linguistic research](https://github.com/stylerw/usingpraat) is an excellent starting point for learning which measurements and metrics can be used for which purposes and how to obtain them in Praat.
 
@@ -10,16 +10,16 @@ Common measurements are: Voice Onset Time, f0, pulses, jitter, shimmer, Harmonic
 
 This tutorial explains how to extract cepstral peak prominence (CPP) measures in Praat: *A Practical Guide to Calculating Cepstral Peak Prominence in Praat*, <https://doi.org/10.31219/osf.io/yvp4s>.
 
-### Perceptual data
+## Perceptual data
 
 [This tutorial](https://www.jvcasillas.com/posts/2021-05-15_logistic_regression_and_phonemic_boundaries/) by Joseph Casillas explains how to analyse categorisation data using linear models.
 
 In particular, the tutorial shows how to obtain an estimate of the category boundary and the sharpness of the boundary.
 
-### Articulatory data
+## Articulatory data
 
 ... 
 
-### Recent developments
+## Recent developments
 
 - **Nasality from Acoustic Features (NAF)**: Chris Carignan. 2021. *A practical method of estimating the time-varying degree of vowel nasalization from acoustic features* <https://doi.org/10.1121/10.0002925>.

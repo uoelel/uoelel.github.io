@@ -4,7 +4,7 @@ title: "Support"
 
 There are different support channels for Hons/MSc/PhD students who are writing their dissertation, and researchers/staff who are seeking help with any aspect of quantitative data analysis.
 
-### General support
+## General support
 
 As a general guideline aimed at students, supervisors, and staff, we have compiled a checklist that covers all the main aspects of quantitative analyses.
 
@@ -14,14 +14,15 @@ You can use the checklist as a template to think about your quantitative analysi
 <a class="btn btn-primary" href="./extra/analysis-checklist.html" role="button">Go to checklist</a>
 ```
 
-### Honours and MSc students
+## Honours and MSc students
 
 If you are a student writing your Honours or MSc dissertation and you are looking after help with your quantitative data analysis/statistics, you can book an appointment with Stefano, the LEL Stats coordinator (a university account is required).
 
 ```{=html}
 <a class="btn btn-primary" href="https://outlook.office365.com/owa/calendar/Stefanosofficehours@uoe.onmicrosoft.com/bookings/s/CYTtarS6AUSqGdZi5dzBzw2" role="button">Book an appointment</a>
 ```
-### Consultation for PhD students, postdocs and staff
+
+## Consultation for PhD students, postdocs and staff
 
 Many of the issues arising during the data analysis stage can be prevented by planning your analysis while designing the study and ahead of data collection.
 <u>**We strongly recommend you to work out your quantitative data analysis plan in details as early as possible.**</u> This expedient will save you time later on.
@@ -42,7 +43,7 @@ Help is offered for the following areas:
 -   Reporting.
 -   Open Science practices.
 
-### Statistical service for staff
+## Statistical service for staff
 
 Dr Stefano Coretta is available as a collaborator on projects or papers requiring the planning and execution of quantitative and statistical analyses.
 
