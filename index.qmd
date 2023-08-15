@@ -6,9 +6,17 @@ format:
     toc: false
 ---
 
+::: {layout-ncol=2}
+![](assets/figs/61-programmer-female-african-american.svg){fig-align="center" width="250"}
+
+![](assets/figs/63-osx-programmer-male-caucasian.svg){fig-align="center" width="250"}
+:::
+
 ### Want to learn about data analysis for language research?
 
-For resources on research methods in linguistics, check out the [Study design](study-design.qmd), [Measures](measures/overview.qmd) and [Data analysis](analysis.qmd) pages. For more general research skills and software, check the [Skills](skills.qmd) and [Software](software.qmd) pages. To know which courses in research methods/data analysis are offered to LEL students, see the [Courses](courses.qmd) page.
+For resources on research methods in linguistics, check out the [Study design](study-design.qmd), [Measures](measures/overview.qmd) and [Data analysis](analysis.qmd) pages.
+For more general research skills and software, check the [Skills](skills.qmd) and [Software](software.qmd) pages.
+To know which courses in research methods/data analysis are offered to LEL students, see the [Courses](courses.qmd) page.
 
 ### Need help with quantitative data analysis and statistics?
 
