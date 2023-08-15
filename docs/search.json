@@ -74,7 +74,7 @@
     "href": "software.html#phonology",
     "title": "Software",
     "section": "5 Phonology",
-    "text": "5 Phonology\n\nExperiGen.\nOTSoft: OTSoft is a Windows program meant to facilitate analysis in Optimality Theory and related frameworks by using algorithms to do tasks that are too large or complex to be done reliably by hand.\nPhonology Assistant: it automatically charts the sounds and through its searching capabilities, helps a user discover and test the rules of sound in a language."
+    "text": "5 Phonology\n\nExperiGen.\nOTSoft: OTSoft is a Windows program meant to facilitate analysis in Optimality Theory and related frameworks by using algorithms to do tasks that are too large or complex to be done reliably by hand.\nPhonology Assistant: it automatically charts the sounds and through its searching capabilities, helps a user discover and test the rules of sound in a language.\nPhonoApps contains computational and learning tools for phonologists."
   },
   {
     "objectID": "software.html#behavioural-experiments",

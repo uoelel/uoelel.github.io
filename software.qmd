@@ -47,6 +47,7 @@ title: "Software"
 - [ExperiGen](https://becker.phonologist.org/experigen/).
 - [OTSoft](https://linguistics.ucla.edu/people/hayes/otsoft/): OTSoft is a Windows program meant to facilitate analysis in Optimality Theory and related frameworks by using algorithms to do tasks that are too large or complex to be done reliably by hand.
 - [Phonology Assistant](https://software.sil.org/phonologyassistant/): it automatically charts the sounds and through its searching capabilities, helps a user discover and test the rules of sound in a language.
+- [PhonoApps](https://www.phonology.us/) contains computational and learning tools for phonologists.
 
 ## Behavioural experiments
 
