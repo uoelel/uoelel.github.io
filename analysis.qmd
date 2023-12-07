@@ -145,7 +145,7 @@ They are particularly useful with data that come from time series (e.g. f0 and f
 
 **Functional Principal Component Analysis** (FPCA) is another approach to modelling time-series data.
 
--   [Functional Data Analysis for Speech Research](http://lands.let.ru.nl/FDA/index.htm) by Michele Gubian is a collection of resources, workshop materials and papers on Functional Data Analysis with a focus on speech research data.
+-   [Functional Data Analysis for Speech Research](https://github.com/uasolo/FPCA-phonetics-workshop) by Michele Gubian is a collection of workshop materials on Functional Data Analysis with a focus on speech research data.
 
 ## Bayesian inference
 

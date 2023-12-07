@@ -35,6 +35,195 @@
     "text": "4 Statistical service for staff\nDr Stefano Coretta is available as a collaborator on projects or papers requiring the planning and execution of quantitative and statistical analyses.\nInterested postdocs or staff should contact Stefano for enquiries."
   },
   {
+    "objectID": "stew.html",
+    "href": "stew.html",
+    "title": "LEL Statistical Training Workshops (STeW)",
+    "section": "",
+    "text": "The Linguistics and English Language Statistical Training Workshops (STeW) is a series of workshops that runs throughout the academic year and is aimed at students and staff who would like to advance their statistical knowledge and skills.\nOn this page you can find information on the current plan for the a.y. 2023-24. Attending requires you register and registration links are sent out via email at the beginning of each semester. Further workshops might be added later during the year.\nMost workshops are recorded and can be watched on the LEL Quantitative Methods channel on the UoE Media Hopper Create.\nIf you have any question, you can get in touch with Dr Stefano Coretta."
+  },
+  {
+    "objectID": "stew.html#semester-1",
+    "href": "stew.html#semester-1",
+    "title": "LEL Statistical Training Workshops (STeW)",
+    "section": "1 2023-24 Semester 1",
+    "text": "1 2023-24 Semester 1\n\n\n\n\n\n\nIntroduction to Bayesian Linear Models\n\n\n\n\nThu 26 Oct 2023, 15.00-17.00 (Intermediate)\nWatch it."
+  },
+  {
+    "objectID": "stew.html#semester-2",
+    "href": "stew.html#semester-2",
+    "title": "LEL Statistical Training Workshops (STeW)",
+    "section": "2 2023-24 Semester 2",
+    "text": "2 2023-24 Semester 2\n\n\n\n\n\n\nBayesian Priors in Linear Models\n\n\n\n\nThu 22 February 2024, 15.00-17.00 (Advanced)\nNeed to be familiar with Bayesian Linear Models including Random Effects and/or have attended the Introduction to Bayesian Linear Models workshop. This is not suitable for students who have only attended the QML course (see below for dedicated workshop).\n\n\n\n\n\n\n\n\n\nGeneralised Additive Mixed Models (GAMMs)\n\n\n\n\nThu 18 April 2024, 15.00-17.00 (Intermediate)\nGAMMs are useful to analyse historical data, time-series data or data that could have non-linear effects (like language development data).\nIt assumes some familiarity with linear models fitted with lmer/glmer.\n\n\n\n\n\n\n\n\n\nIncluding random effects in Bayesian Linear models with brm()\n\n\n\n\nThu 16 May 2024, 15.00-17.00 (Intermediate)\nThis is thought especially for MSc students who have attended the QML course. But anybody who has attended the previous Bayesian workshops or who has experience with basic linear models with brm() is welcome to join."
+  },
+  {
+    "objectID": "skills.html",
+    "href": "skills.html",
+    "title": "Research Skills",
+    "section": "",
+    "text": "Best practices for researchers compiled by the Open Science Foundation. From file management to publishing research output.\n\n\n\nSeven Easy Steps to Open Science: An Annotated Reading List will provide you with a great overview of Open Science and how to implement Open Science practices in your own research.\nThe first thing you can do to make your research open is to share the data and analysis code in public repositories, like the Open Science Framework.\n\n\n\nLearn Version Control with Git is a gentle introduction to version control using the software git. With git you can easily keep “snapshots” of your code, papers or dissertation, and track the full history of changes so that you can easily roll back to a previous state if necessary."
+  },
+  {
+    "objectID": "skills.html#research-management",
+    "href": "skills.html#research-management",
+    "title": "Research Skills",
+    "section": "",
+    "text": "Best practices for researchers compiled by the Open Science Foundation. From file management to publishing research output.\n\n\n\nSeven Easy Steps to Open Science: An Annotated Reading List will provide you with a great overview of Open Science and how to implement Open Science practices in your own research.\nThe first thing you can do to make your research open is to share the data and analysis code in public repositories, like the Open Science Framework.\n\n\n\nLearn Version Control with Git is a gentle introduction to version control using the software git. With git you can easily keep “snapshots” of your code, papers or dissertation, and track the full history of changes so that you can easily roll back to a previous state if necessary."
+  },
+  {
+    "objectID": "skills.html#write-up",
+    "href": "skills.html#write-up",
+    "title": "Research Skills",
+    "section": "2 Write up",
+    "text": "2 Write up\nFor help on Writing skills, please check the Writing Skills Centre [login required].\n\n2.1 Dynamic documents with Quarto and Rmarkdown\nWrite dynamic documents, from papers to dissertations, with Quarto or Rmarkdown.\nDynamic documents are documents that mix plain text and code, so that you can embed your analyses straight into the document.\nCode output like model summaries and plots are directly rendered within the document, and you don’t have to include them manually. The benefit is that if your data or analysis has changed, you can simply render the document again and everything will be up-to-date!\n\n\n\n\n\n\nQuarto or Rmarkdown?\n\n\n\nQuarto is the official successor of Rmarkdown and it is heavily based on Rmarkdown. In fact, Quarto is 100% backward compatible with Rmarkdown. Rmarkdown will not go away!\n\n\n\n\n2.2 Write with LaTeX\nLearn LaTeX in 30 minutes and focus on writing content rather than formatting it."
+  },
+  {
+    "objectID": "skills.html#other-resources",
+    "href": "skills.html#other-resources",
+    "title": "Research Skills",
+    "section": "3 Other resources",
+    "text": "3 Other resources\nYou should also check out the Practical Research Skills website. Although it focusses on psychological research, most of the methods and concepts also apply to linguistic research."
+  },
+  {
+    "objectID": "measures/overview.html",
+    "href": "measures/overview.html",
+    "title": "Measures and metrics",
+    "section": "",
+    "text": "Warning\n\n\n\nWork in progress…\n\n\nWe are collecting commonly used measurements and metrics for different branches of linguistics and types of data.\nExplore the available pages using the drop-down menu under “Measures”."
+  },
+  {
+    "objectID": "extra/variable-types.html",
+    "href": "extra/variable-types.html",
+    "title": "Variable types",
+    "section": "",
+    "text": "0.1 Continuous variables\n\nThe variable can take on any positive and negative real number, including 0: Gaussian (aka normal) distribution.\n\nThere are very few truly Gaussian variables, although in some cases one can speak of “approximate” or “assumed” normality.\nThis family is fitted by default in lm(), lme4::lmer() and brms::brm().\n\nThe variable can take on any positive number only: Log-normal distribution.\n\nDuration of segments, words, pauses, etc, are known to be log-normally distributed.\nMeasurements taken in Hz (like f0, formants, centre of gravity, …) could be considered to be log-normal.\nThere other families that could potentially be used depending on the nature of the variable: exponential-Gaussian (reaction times), gamma, …\n\nThe variable can take on any number between 0 and 1, but not 0 nor 1: Beta distribution.\n\nProportions fall into this category (for example proportion of voicing within closure), although 0 and 1 are not allowed in the beta distribution.\n\nThe variable can take on any number between 0 and 1, including 0 or 0 and 1: Zero-inflated or Zero/one-inflated beta (ZOIB) distribution.\n\nIf the proportion data includes many 0s and 1s, then this is the ideal distribution to use. ZOIB distributions are somewhat more difficult to fit than a simple beta distribution, so a common practice is to transform the data so that it doesn’t include 0s nor 1s (this can be achieved using different techniques, some better than others).\n\n\n\n\n0.2 Discrete variables\n\nThe variable is dichotomous, i.e. it can take one of two levels: Bernoulli distribution.\n\nCategorical outcome variables like yes/no, correct/incorrect, voiced/voiceless, follow this distribution.\nThis family is fitted by default when you run glm(family = binomial), aka “logistic regression” or “binomial regression”.\n\nThe variable is counts: Poisson distribution.\n\nCounts of words, segments, gestures, f0 peaks, …\n\nThe variable is a scale: ordinal linear model.\n\nLikert scales and ratings, language attitude questionnaires.\nOrdinal linear models, a.k.a. ordinal logistic regression, can be fitted with the ordinal and the brms package."
+  },
+  {
+    "objectID": "extra/analysis-checklist.html",
+    "href": "extra/analysis-checklist.html",
+    "title": "Quantitative analysis plan",
+    "section": "",
+    "text": "The information given on this page concerns only students who will carry out quantitative analyses (so it does not apply to students doing qualitative analyses).\nMake sure you plan ahead and think about the quantitative analysis of the data you will collect for your study. The best time to do so is when you are planning your study/project. Do not wait until after you started collecting data.\nWe have compiled a checklist for you and your supervisor to go over at the beginning of your supervision, while thinking about the project you will carry out.\nIt is important that you are able to answer all of these questions if you wish to make the most out of the statistical support we offer and more importantly if you want to avoid irreparable issues later on."
+  },
+  {
+    "objectID": "extra/analysis-checklist.html#the-checklist",
+    "href": "extra/analysis-checklist.html#the-checklist",
+    "title": "Quantitative analysis plan",
+    "section": "1 The checklist",
+    "text": "1 The checklist\nDuring the early stages of your project, bring this list of questions to your supervisor and discuss them. If, after talking to your supervisor, you are still unsure about any of these points, please book an appointment with Stefano.\n\nCan you clearly state, in simple language, what the research question(s) of your project is/are?\nIf you are testing a specific hypothesis, did you formulate it so that it is a falsifiable statement? Note that it is OK if you don’t or cannot formulate a hypothesis! As long as you have one meaningful research question, you are all set.\nHave you clearly defined the concepts/objects of study in your research question and hypothesis?\nHave you operationalised the concepts/objects of study into clearly measurable variables?\nWhich are your outcome (dependent) variable(s) and your predictor (independent) variable(s)?\nYour outcome variable(s) is of which type?\nWhich statistical model or test will you use to answer your research question or test your research hypothesis? Note that you should consider statistical modelling or testing only if you have attended a course on statistics/quantitative methods.\nHave you specified and justified the minimal sample size you would need to obtain the required estimate precision or statistical power (if you will be doing statistical modelling or testing)?"
+  },
+  {
+    "objectID": "analysis.html",
+    "href": "analysis.html",
+    "title": "Data analysis",
+    "section": "",
+    "text": "Note\n\n\n\nThis page provides resources on how to analyse measurements (e.g. formant values, word counts, collexeme association metrics, semantic distance, etc.) you have obtained from your data.\nFor methods to obtain specialised measurements and metrics (e.g. formant values, word counts, collexeme association metrics, semantic distance, etc.), please check the (work-in-progress) Measure page.\nThere are several resources you can use to teach yourself quantitative data analysis skills, depending on your level. Don’t forget to also check Measures and the Skills page, for more general research-related skills."
+  },
+  {
+    "objectID": "analysis.html#data-wrangling-and-visualisation",
+    "href": "analysis.html#data-wrangling-and-visualisation",
+    "title": "Data analysis",
+    "section": "1.1 Data wrangling and visualisation",
+    "text": "1.1 Data wrangling and visualisation\n\nThe simple graph has brought more information to the data analyst’s mind than any other device.\n—John Tukey\n\nData wrangling is about getting your data into a useful format for visualisation and modelling.\nThe programming languages Python and R are two very common languages used for data analysis.\nPython is a general-purpose programming language while R is specifically developed for statistical analysis and visualisation. Most academic research uses R for data analysis, although Python is also employed especially for data processing.\nIf you want to teach yourself R, the following resources are an excellent place to start from:\n\nThe R for Data Science (R4DS) free online book is an excellent introduction to R and quantitative data analysis.\nThe Data Visualisation Catalogue is a project developed by Severino Ribecca to create a (non-code-based) library of different information visualisation types. The website serves as a learning and inspirational resource for those working with data visualisation.\nThe workshop intRo: Data Analysis with R introduces absolute beginners from the Humanities to R, quantitative data analysis and visualisation. Check out the videos on YouTube: videos. You can find the materials and slides here: materials and slides.\n\n\n\n\n\n\n\nJoining and pivoting data\n\n\n\n\n\nMost data wrangling problems can be solved with the following sets of R tidyverse functions (of course if you use Python or other languages, feel free to use their equivalents): mutating joins and pivoting.\n\nMutating joins allow you to join two or more tibbles together so that you can include information from one tibble into another (for example, if you have participant info in one tibble and you want to join that with the main experiment results tibble). See here for a visual representation of join operations.\nPivoting makes it easy to transform a data table that has all the information you need but not in the right format (for example you have a two columns with the participant’s scores at time point 1 and 2, but you want one column that has the time point and one that has the score). See here for a visual representation of pivoting."
+  },
+  {
+    "objectID": "analysis.html#statistical-modelling",
+    "href": "analysis.html#statistical-modelling",
+    "title": "Data analysis",
+    "section": "1.2 Statistical modelling",
+    "text": "1.2 Statistical modelling\n\nThe numbers have no way of speaking for themselves. We speak for them. We imbue them with meaning.\n—Nate Silver, The Signal and the Noise\n\nStatistics and statistical modelling are about finding meaning in the patterns that can be observed in the data.\n\nStatistics for Linguists: An introduction using R by Bodo Winter is ideal both for absolute beginners and experienced researchers. It is packed with everything you need to successfully and effectively conduct statistical analyses.\nStatistical (Re)thinking by Richard McElreath is an excellent introduction for absolute beginners, by Richard McElreath, which covers a wide variety of linear models. It focusses on Bayesian inference and how this framework can help us directly answer research questions, assess evidence for different hypothesis, and quantify uncertainty. If you are familiar with the tidyverse, the code from the Statistical (Re)thinking book has been translated into tidyverse by Solomon Kurz, and it can be accessed here: Statistical rethinking with brms, ggplot2, and the tidyverse.\nThe Art of Statistics: Learning from data by David Spiegelhalter uses real-world examples to explain principles of data visualisation and analysis. It touches upon a wide range of topics and disciplines, from communicating proportions, to probability and Bayesian inference, making it a great complement to the other books and resources mentioned here. If you just wish to dip your toes in statistics without committing (yet) to learning how to do statistics, this book is for you.\n\n\n1.2.1 Linear models\n\nOne model to rule them all, one model to fit them, One model to shrink them all, and in probability bind them; In the Land of Inference where the distributions lie.\n—The Statistical Hobbit.\n\nLinear models are a very flexible and relatively straightforward way to model and analyse quantitative data. They have gained momentum and are increasingly being adopted across the entire field of linguistics.\nThe main perk of learning linear models is that they can be applied to many different types of data, so that once you learn this approach you will be able to apply it to a lot of data analysis scenarios.\nThe resources mentioned above all focus on linear modelling, so whether you are just starting your statistical journey or you are an experienced researcher who wants to consolidate their understanding of linear modelling, those resources are right for you.\nAfter you have learnt the basics, the Linear models cheat-sheet can guide you through the process of choosing among the appropriate types of linear model depending on the nature of your data. The post also lists tutorials on linear models that use other less common probability distribution families, like the beta, Poisson and ordinal.\nConfused about all the model names? Check out this post on how we don’t really need to use all of those names: they are all linear models!"
+  },
+  {
+    "objectID": "analysis.html#dimensionality-reduction",
+    "href": "analysis.html#dimensionality-reduction",
+    "title": "Data analysis",
+    "section": "2.1 Dimensionality reduction",
+    "text": "2.1 Dimensionality reduction\nIf your data is highly dimensional, i.e. you have a lot of different variables (some of which might even be correlated to each other), you can employ data dimensionality reduction techniques to “synthesise” all the variables into fewer variables that represent components, dimensions or clusters in the data.\nThese techniques can be used both (a) to find patterns or groupings in the data and to obtain measures that capture these patterns and groupings and (b) to simplify analyses from a set of 15/20 variables to 2/3 components or dimensions.\nNote that once you have reduced your data to a few variables (components or dimensions), these can still be further analysed with the other techniques mentioned on this page.\n\nA common reduction technique is Principal Component Analysis (PCA). This method combines all of your variables into a limited set of numeric principal components. The scores of the principal components capture variation in the data and can be used for further analysis. You can learn how to carry out a PCA with this tutorial. Also check out Functional Principal Component Analysis below.\nMultiple Correspondence Analysis (McA) is the discrete equivalent of PCA, i.e. it can be used with discrete/categorical variables. See this tutorial for an introduction.\nAnother dimensionality reduction technique is Cluster Analysis (CA, aka hierarchical clustering). This tutorial guides you through a CA in R."
+  },
+  {
+    "objectID": "analysis.html#time-series-and-coordinates",
+    "href": "analysis.html#time-series-and-coordinates",
+    "title": "Data analysis",
+    "section": "2.2 Time series and coordinates",
+    "text": "2.2 Time series and coordinates\nGeneralised Additive (Mixed) Models (GAMMs) are a flexible extension of linear models that allows us to fit non-linear effects. They are particularly useful with data that come from time series (e.g. f0 and formants, corpus occurrences across time, longitudinal data, etc.) and they can be employed with any kind of data that can be thought of as being represented on a coordinate space (e.g., geolocations, electroencephalographic (EEG) data, 3D tongue imaging, etc).\n\nThe tutorial Generalised additive mixed models for dynamic analysis in linguistics: a practical introduction by Márton Sóskuthy is an excellent introduction to Generalised Additive Mixed Models (GAMMs).\nAnother excellent resource is Hierarchical generalized additive models in ecology: an introduction with mgcv by Pedersen and colleagues. In particular, Figure 4 is a beautiful visual summary of how different types of trends and groupings can be modelled with GAMs.\nThe paper Generalized Additive Mixed Models for intra-speaker variation by Tamminga and colleagues advocates for the adoption of GAMMs to advance the use of naturalistic data for studying psycholinguistic questions about intra-speaker variation.\n\nFunctional Principal Component Analysis (FPCA) is another approach to modelling time-series data.\n\nFunctional Data Analysis for Speech Research by Michele Gubian is a collection of workshop materials on Functional Data Analysis with a focus on speech research data."
+  },
+  {
+    "objectID": "analysis.html#bayesian-inference",
+    "href": "analysis.html#bayesian-inference",
+    "title": "Data analysis",
+    "section": "2.3 Bayesian inference",
+    "text": "2.3 Bayesian inference\n\nThe overview by Etz et al., How to become a Bayesian in eight easy steps: An annotated reading list, is a good place to start from if you want to learn more about Bayesian statistics and inference.\nFor an more practice-oriented introduction, you should read Statistical (Re)thinking (see above).\nThe learnB4SS workshop is an introduction to Bayesian analysis for the Speech Sciences. It requires familiarity with linear models and Null Hypothesis Significance Testing."
+  },
+  {
+    "objectID": "analysis.html#power-analysis",
+    "href": "analysis.html#power-analysis",
+    "title": "Data analysis",
+    "section": "3.1 Power analysis",
+    "text": "3.1 Power analysis\nPower analysis is a fundamental, although often neglected, step in Null Hypothesis Significance Testing (the statistical framework that returns p-values). A power analysis is a method to estimate the minimum sample size necessary to detect a particular effect. The statistical power of a test is the percentage of tests that correctly detect an effect when the effect indeed exists. The recommended statistical power is 80% or greater.\nPower analyses with linear models can become quite complex, especially if random effects are included. Simulation is a way to simplify the calculations necessary to find the minimum sample size. The R package simr provides users with a set of functions to perform a power analysis with linear models using simulations. You can find a tutorial here.\nIf you are running Bayesian linear models, you can check out this post on Bayesian CrI-width power analysis."
+  },
+  {
+    "objectID": "analysis.html#multivariate-linear-models",
+    "href": "analysis.html#multivariate-linear-models",
+    "title": "Data analysis",
+    "section": "3.2 Multivariate linear models",
+    "text": "3.2 Multivariate linear models\nEstimating Multivariate Models with brms by Paul Bürkner explains how to fit linear models with two or more outcome variables (i.e. multivariate models) using brms."
+  },
+  {
+    "objectID": "courses.html",
+    "href": "courses.html",
+    "title": "Courses",
+    "section": "",
+    "text": "LEL students can take the following courses that focus on research methods and data analysis. See DRPS for course info.\n\nComputer Programming for Speech and Language Processing.\nData Analysis for LEL (UG).\nDiscourse Analysis.\nIntroduction to Discourse Analysis (PG).\nLinguistic Fieldwork and Language Description (UG/PG).\nMethods in Theoretical Linguistics (UG).\nOnline Experiments for Language Scientists (UG/PG).\nQuantitative Methods for LEL (PG).\nResearch Ethics Training in Linguistics & English Language (UG/PG).\nResearch Methods in Developmental Linguistics (PG).\nSociolinguistic Research Design (PG)."
+  },
+  {
+    "objectID": "extra/falsifiable.html",
+    "href": "extra/falsifiable.html",
+    "title": "Falsifiability",
+    "section": "",
+    "text": "0.1 Definition\n\nA statement is falsifiable if it can be contradicted by an observation. If such observation is impossible to make with current technology, falsifiability is not achieved.\n\nFrom Seven examples of falsifiability by John Spacey.\n\n\n0.2 Falsifiable statements\n\n“Life only exists on Earth.” (it would be falsified by the observation of life somewhere else).\n“If there is a 1st person exclusive dual, then there is also a 1st person inclusive dual.” [Universal 1871] (it would be falsified by the observation of languages with a 1st person exclusive dual but without the incluve alternative).\n“Infants start uttering full sentences only after their 12th month of life.” (it would be falsified by the observation of infants uttering full sentences before their 12th month of life).\n\n\n\n0.3 Non-falsifiable statements\n\n“Life might exist outside of the Solar system.” (if we observe life outside the Solar system or we don’t, the statement is still true).\n“Languages with a 1st person inclusive dual can have a 1st person exclusive dual.” (whether we observe a language with both 1st inclusive and exclusive dual or not, the statement is still true.)"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Data Analysis @ UoE LEL",
+    "section": "",
+    "text": "Want to learn about data analysis for language research?\nFor resources on research methods in linguistics, check out the Study design, Measures and Data analysis pages. For more general research skills and software, check the Skills and Software pages. To know which courses in research methods/data analysis are offered to LEL students, see the Courses page.\nWe also run the LEL STeW series (LEL Statistical Training Workshops series) which is open to both students and staff. More information can be found on the STeW page.\n\n\nNeed help with quantitative data analysis and statistics?\nIf you need help with quantitative data analysis or statistical aspects of your research or dissertation, please find the available support channels on the Support page."
+  },
+  {
+    "objectID": "measures/phonetics.html",
+    "href": "measures/phonetics.html",
+    "title": "Measures and metrics",
+    "section": "",
+    "text": "Using Praat for linguistic research is an excellent starting point for learning which measurements and metrics can be used for which purposes and how to obtain them in Praat.\nCommon measurements are: Voice Onset Time, f0, pulses, jitter, shimmer, Harmonics-To-Noise ratio, formant frequency and bandwidth, intensity, harmonic amplitude, spectral tilt, centre of gravity, …\nThis tutorial explains how to extract cepstral peak prominence (CPP) measures in Praat: A Practical Guide to Calculating Cepstral Peak Prominence in Praat, https://doi.org/10.31219/osf.io/yvp4s."
+  },
+  {
+    "objectID": "measures/phonetics.html#acoustics",
+    "href": "measures/phonetics.html#acoustics",
+    "title": "Measures and metrics",
+    "section": "",
+    "text": "Using Praat for linguistic research is an excellent starting point for learning which measurements and metrics can be used for which purposes and how to obtain them in Praat.\nCommon measurements are: Voice Onset Time, f0, pulses, jitter, shimmer, Harmonics-To-Noise ratio, formant frequency and bandwidth, intensity, harmonic amplitude, spectral tilt, centre of gravity, …\nThis tutorial explains how to extract cepstral peak prominence (CPP) measures in Praat: A Practical Guide to Calculating Cepstral Peak Prominence in Praat, https://doi.org/10.31219/osf.io/yvp4s."
+  },
+  {
+    "objectID": "measures/phonetics.html#perceptual-data",
+    "href": "measures/phonetics.html#perceptual-data",
+    "title": "Measures and metrics",
+    "section": "2 Perceptual data",
+    "text": "2 Perceptual data\nThis tutorial by Joseph Casillas explains how to analyse categorisation data using linear models.\nIn particular, the tutorial shows how to obtain an estimate of the category boundary and the sharpness of the boundary."
+  },
+  {
+    "objectID": "measures/phonetics.html#articulatory-data",
+    "href": "measures/phonetics.html#articulatory-data",
+    "title": "Measures and metrics",
+    "section": "3 Articulatory data",
+    "text": "3 Articulatory data\n…"
+  },
+  {
+    "objectID": "measures/phonetics.html#recent-developments",
+    "href": "measures/phonetics.html#recent-developments",
+    "title": "Measures and metrics",
+    "section": "4 Recent developments",
+    "text": "4 Recent developments\n\nNasality from Acoustic Features (NAF): Chris Carignan. 2021. A practical method of estimating the time-varying degree of vowel nasalization from acoustic features https://doi.org/10.1121/10.0002925."
+  },
+  {
     "objectID": "software.html",
     "href": "software.html",
     "title": "Software",
@@ -96,174 +285,6 @@
     "title": "Software",
     "section": "8 Typefaces and input methods",
     "text": "8 Typefaces and input methods\n\n8.1 Serif\n\nBrill typeface.\nConstructium.\nHeuristica.\nJunicode.\nLinguistics Pro.\nTinos.\n\n\n\n8.2 Sans-serif\n\nAtkinson Hyperlegible.\nVoces.\n\n\n\n8.3 Mono-space\n\nIosevka.\n\n\n\n8.4 Bundles\n\nDejaVu.\nFira fonts: Fira Sans, Fira Code, Fira Mono.\nGNU FreeFont.\nNoto.\n\n\n\n8.5 Input methods\n\nIPA Palette: IPA Input Method for Mac OS X 10.6 and later.\nSIL IPA Unicode keybords."
-  },
-  {
-    "objectID": "measures/phonetics.html",
-    "href": "measures/phonetics.html",
-    "title": "Measures and metrics",
-    "section": "",
-    "text": "Using Praat for linguistic research is an excellent starting point for learning which measurements and metrics can be used for which purposes and how to obtain them in Praat.\nCommon measurements are: Voice Onset Time, f0, pulses, jitter, shimmer, Harmonics-To-Noise ratio, formant frequency and bandwidth, intensity, harmonic amplitude, spectral tilt, centre of gravity, …\nThis tutorial explains how to extract cepstral peak prominence (CPP) measures in Praat: A Practical Guide to Calculating Cepstral Peak Prominence in Praat, https://doi.org/10.31219/osf.io/yvp4s."
-  },
-  {
-    "objectID": "measures/phonetics.html#acoustics",
-    "href": "measures/phonetics.html#acoustics",
-    "title": "Measures and metrics",
-    "section": "",
-    "text": "Using Praat for linguistic research is an excellent starting point for learning which measurements and metrics can be used for which purposes and how to obtain them in Praat.\nCommon measurements are: Voice Onset Time, f0, pulses, jitter, shimmer, Harmonics-To-Noise ratio, formant frequency and bandwidth, intensity, harmonic amplitude, spectral tilt, centre of gravity, …\nThis tutorial explains how to extract cepstral peak prominence (CPP) measures in Praat: A Practical Guide to Calculating Cepstral Peak Prominence in Praat, https://doi.org/10.31219/osf.io/yvp4s."
-  },
-  {
-    "objectID": "measures/phonetics.html#perceptual-data",
-    "href": "measures/phonetics.html#perceptual-data",
-    "title": "Measures and metrics",
-    "section": "2 Perceptual data",
-    "text": "2 Perceptual data\nThis tutorial by Joseph Casillas explains how to analyse categorisation data using linear models.\nIn particular, the tutorial shows how to obtain an estimate of the category boundary and the sharpness of the boundary."
-  },
-  {
-    "objectID": "measures/phonetics.html#articulatory-data",
-    "href": "measures/phonetics.html#articulatory-data",
-    "title": "Measures and metrics",
-    "section": "3 Articulatory data",
-    "text": "3 Articulatory data\n…"
-  },
-  {
-    "objectID": "measures/phonetics.html#recent-developments",
-    "href": "measures/phonetics.html#recent-developments",
-    "title": "Measures and metrics",
-    "section": "4 Recent developments",
-    "text": "4 Recent developments\n\nNasality from Acoustic Features (NAF): Chris Carignan. 2021. A practical method of estimating the time-varying degree of vowel nasalization from acoustic features https://doi.org/10.1121/10.0002925."
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Data Analysis @ UoE LEL",
-    "section": "",
-    "text": "Want to learn about data analysis for language research?\nFor resources on research methods in linguistics, check out the Study design, Measures and Data analysis pages. For more general research skills and software, check the Skills and Software pages. To know which courses in research methods/data analysis are offered to LEL students, see the Courses page.\n\n\nNeed help with quantitative data analysis and statistics?\nIf you need help with quantitative data analysis or statistical aspects of your research or dissertation, please find the available support channels on the Support page."
-  },
-  {
-    "objectID": "extra/falsifiable.html",
-    "href": "extra/falsifiable.html",
-    "title": "Falsifiability",
-    "section": "",
-    "text": "0.1 Definition\n\nA statement is falsifiable if it can be contradicted by an observation. If such observation is impossible to make with current technology, falsifiability is not achieved.\n\nFrom Seven examples of falsifiability by John Spacey.\n\n\n0.2 Falsifiable statements\n\n“Life only exists on Earth.” (it would be falsified by the observation of life somewhere else).\n“If there is a 1st person exclusive dual, then there is also a 1st person inclusive dual.” [Universal 1871] (it would be falsified by the observation of languages with a 1st person exclusive dual but without the incluve alternative).\n“Infants start uttering full sentences only after their 12th month of life.” (it would be falsified by the observation of infants uttering full sentences before their 12th month of life).\n\n\n\n0.3 Non-falsifiable statements\n\n“Life might exist outside of the Solar system.” (if we observe life outside the Solar system or we don’t, the statement is still true).\n“Languages with a 1st person inclusive dual can have a 1st person exclusive dual.” (whether we observe a language with both 1st inclusive and exclusive dual or not, the statement is still true.)"
-  },
-  {
-    "objectID": "courses.html",
-    "href": "courses.html",
-    "title": "Courses",
-    "section": "",
-    "text": "LEL students can take the following courses that focus on research methods and data analysis. See DRPS for course info.\n\nComputer Programming for Speech and Language Processing.\nDiscourse Analysis.\nIntroduction to Discourse Analysis (PG).\nLinguistic Fieldwork and Language Description (UG/PG).\nMethods in Theoretical Linguistics (UG).\nOnline Experiments for Language Scientists (UG/PG).\nResearch Ethics Training in Linguistics & English Language (UG/PG).\nResearch Methods in Developmental Linguistics (PG).\nSociolinguistic Research Design (PG).\nStatistics and Quantitative Methods (Semester 1 OR Semester 2, UG/PG)."
-  },
-  {
-    "objectID": "analysis.html",
-    "href": "analysis.html",
-    "title": "Data analysis",
-    "section": "",
-    "text": "Note\n\n\n\nThis page provides resources on how to analyse measurements (e.g. formant values, word counts, collexeme association metrics, semantic distance, etc.) you have obtained from your data.\nFor methods to obtain specialised measurements and metrics (e.g. formant values, word counts, collexeme association metrics, semantic distance, etc.), please check the (work-in-progress) Measure page.\nThere are several resources you can use to teach yourself quantitative data analysis skills, depending on your level. Don’t forget to also check Measures and the Skills page, for more general research-related skills."
-  },
-  {
-    "objectID": "analysis.html#data-wrangling-and-visualisation",
-    "href": "analysis.html#data-wrangling-and-visualisation",
-    "title": "Data analysis",
-    "section": "1.1 Data wrangling and visualisation",
-    "text": "1.1 Data wrangling and visualisation\n\nThe simple graph has brought more information to the data analyst’s mind than any other device.\n—John Tukey\n\nData wrangling is about getting your data into a useful format for visualisation and modelling.\nThe programming languages Python and R are two very common languages used for data analysis.\nPython is a general-purpose programming language while R is specifically developed for statistical analysis and visualisation. Most academic research uses R for data analysis, although Python is also employed especially for data processing.\nIf you want to teach yourself R, the following resources are an excellent place to start from:\n\nThe R for Data Science (R4DS) free online book is an excellent introduction to R and quantitative data analysis.\nThe Data Visualisation Catalogue is a project developed by Severino Ribecca to create a (non-code-based) library of different information visualisation types. The website serves as a learning and inspirational resource for those working with data visualisation.\nThe workshop intRo: Data Analysis with R introduces absolute beginners from the Humanities to R, quantitative data analysis and visualisation. Check out the videos on YouTube: videos. You can find the materials and slides here: materials and slides.\n\n\n\n\n\n\n\nJoining and pivoting data\n\n\n\n\n\nMost data wrangling problems can be solved with the following sets of R tidyverse functions (of course if you use Python or other languages, feel free to use their equivalents): mutating joins and pivoting.\n\nMutating joins allow you to join two or more tibbles together so that you can include information from one tibble into another (for example, if you have participant info in one tibble and you want to join that with the main experiment results tibble). See here for a visual representation of join operations.\nPivoting makes it easy to transform a data table that has all the information you need but not in the right format (for example you have a two columns with the participant’s scores at time point 1 and 2, but you want one column that has the time point and one that has the score). See here for a visual representation of pivoting."
-  },
-  {
-    "objectID": "analysis.html#statistical-modelling",
-    "href": "analysis.html#statistical-modelling",
-    "title": "Data analysis",
-    "section": "1.2 Statistical modelling",
-    "text": "1.2 Statistical modelling\n\nThe numbers have no way of speaking for themselves. We speak for them. We imbue them with meaning.\n—Nate Silver, The Signal and the Noise\n\nStatistics and statistical modelling are about finding meaning in the patterns that can be observed in the data.\n\nStatistics for Linguists: An introduction using R by Bodo Winter is ideal both for absolute beginners and experienced researchers. It is packed with everything you need to successfully and effectively conduct statistical analyses.\nStatistical (Re)thinking by Richard McElreath is an excellent introduction for absolute beginners, by Richard McElreath, which covers a wide variety of linear models. It focusses on Bayesian inference and how this framework can help us directly answer research questions, assess evidence for different hypothesis, and quantify uncertainty. If you are familiar with the tidyverse, the code from the Statistical (Re)thinking book has been translated into tidyverse by Solomon Kurz, and it can be accessed here: Statistical rethinking with brms, ggplot2, and the tidyverse.\nThe Art of Statistics: Learning from data by David Spiegelhalter uses real-world examples to explain principles of data visualisation and analysis. It touches upon a wide range of topics and disciplines, from communicating proportions, to probability and Bayesian inference, making it a great complement to the other books and resources mentioned here. If you just wish to dip your toes in statistics without committing (yet) to learning how to do statistics, this book is for you.\n\n\n1.2.1 Linear models\n\nOne model to rule them all, one model to fit them, One model to shrink them all, and in probability bind them; In the Land of Inference where the distributions lie.\n—The Statistical Hobbit.\n\nLinear models are a very flexible and relatively straightforward way to model and analyse quantitative data. They have gained momentum and are increasingly being adopted across the entire field of linguistics.\nThe main perk of learning linear models is that they can be applied to many different types of data, so that once you learn this approach you will be able to apply it to a lot of data analysis scenarios.\nThe resources mentioned above all focus on linear modelling, so whether you are just starting your statistical journey or you are an experienced researcher who wants to consolidate their understanding of linear modelling, those resources are right for you.\nAfter you have learnt the basics, the Linear models cheat-sheet can guide you through the process of choosing among the appropriate types of linear model depending on the nature of your data. The post also lists tutorials on linear models that use other less common probability distribution families, like the beta, Poisson and ordinal.\nConfused about all the model names? Check out this post on how we don’t really need to use all of those names: they are all linear models!"
-  },
-  {
-    "objectID": "analysis.html#dimensionality-reduction",
-    "href": "analysis.html#dimensionality-reduction",
-    "title": "Data analysis",
-    "section": "2.1 Dimensionality reduction",
-    "text": "2.1 Dimensionality reduction\nIf your data is highly dimensional, i.e. you have a lot of different variables (some of which might even be correlated to each other), you can employ data dimensionality reduction techniques to “synthesise” all the variables into fewer variables that represent components, dimensions or clusters in the data.\nThese techniques can be used both (a) to find patterns or groupings in the data and to obtain measures that capture these patterns and groupings and (b) to simplify analyses from a set of 15/20 variables to 2/3 components or dimensions.\nNote that once you have reduced your data to a few variables (components or dimensions), these can still be further analysed with the other techniques mentioned on this page.\n\nA common reduction technique is Principal Component Analysis (PCA). This method combines all of your variables into a limited set of numeric principal components. The scores of the principal components capture variation in the data and can be used for further analysis. You can learn how to carry out a PCA with this tutorial. Also check out Functional Principal Component Analysis below.\nMultiple Correspondence Analysis (McA) is the discrete equivalent of PCA, i.e. it can be used with discrete/categorical variables. See this tutorial for an introduction.\nAnother dimensionality reduction technique is Cluster Analysis (CA, aka hierarchical clustering). This tutorial guides you through a CA in R."
-  },
-  {
-    "objectID": "analysis.html#time-series-and-coordinates",
-    "href": "analysis.html#time-series-and-coordinates",
-    "title": "Data analysis",
-    "section": "2.2 Time series and coordinates",
-    "text": "2.2 Time series and coordinates\nGeneralised Additive (Mixed) Models (GAMMs) are a flexible extension of linear models that allows us to fit non-linear effects. They are particularly useful with data that come from time series (e.g. f0 and formants, corpus occurrences across time, longitudinal data, etc.) and they can be employed with any kind of data that can be thought of as being represented on a coordinate space (e.g., geolocations, electroencephalographic (EEG) data, 3D tongue imaging, etc).\n\nThe tutorial Generalised additive mixed models for dynamic analysis in linguistics: a practical introduction by Márton Sóskuthy is an excellent introduction to Generalised Additive Mixed Models (GAMMs).\nAnother excellent resource is Hierarchical generalized additive models in ecology: an introduction with mgcv by Pedersen and colleagues. In particular, Figure 4 is a beautiful visual summary of how different types of trends and groupings can be modelled with GAMs.\nThe paper Generalized Additive Mixed Models for intra-speaker variation by Tamminga and colleagues advocates for the adoption of GAMMs to advance the use of naturalistic data for studying psycholinguistic questions about intra-speaker variation.\n\nFunctional Principal Component Analysis (FPCA) is another approach to modelling time-series data.\n\nFunctional Data Analysis for Speech Research by Michele Gubian is a collection of resources, workshop materials and papers on Functional Data Analysis with a focus on speech research data."
-  },
-  {
-    "objectID": "analysis.html#bayesian-inference",
-    "href": "analysis.html#bayesian-inference",
-    "title": "Data analysis",
-    "section": "2.3 Bayesian inference",
-    "text": "2.3 Bayesian inference\n\nThe overview by Etz et al., How to become a Bayesian in eight easy steps: An annotated reading list, is a good place to start from if you want to learn more about Bayesian statistics and inference.\nFor an more practice-oriented introduction, you should read Statistical (Re)thinking (see above).\nThe learnB4SS workshop is an introduction to Bayesian analysis for the Speech Sciences. It requires familiarity with linear models and Null Hypothesis Significance Testing."
-  },
-  {
-    "objectID": "analysis.html#power-analysis",
-    "href": "analysis.html#power-analysis",
-    "title": "Data analysis",
-    "section": "3.1 Power analysis",
-    "text": "3.1 Power analysis\nPower analysis is a fundamental, although often neglected, step in Null Hypothesis Significance Testing (the statistical framework that returns p-values). A power analysis is a method to estimate the minimum sample size necessary to detect a particular effect. The statistical power of a test is the percentage of tests that correctly detect an effect when the effect indeed exists. The recommended statistical power is 80% or greater.\nPower analyses with linear models can become quite complex, especially if random effects are included. Simulation is a way to simplify the calculations necessary to find the minimum sample size. The R package simr provides users with a set of functions to perform a power analysis with linear models using simulations. You can find a tutorial here.\nIf you are running Bayesian linear models, you can check out this post on Bayesian CrI-width power analysis."
-  },
-  {
-    "objectID": "analysis.html#multivariate-linear-models",
-    "href": "analysis.html#multivariate-linear-models",
-    "title": "Data analysis",
-    "section": "3.2 Multivariate linear models",
-    "text": "3.2 Multivariate linear models\nEstimating Multivariate Models with brms by Paul Bürkner explains how to fit linear models with two or more outcome variables (i.e. multivariate models) using brms."
-  },
-  {
-    "objectID": "extra/analysis-checklist.html",
-    "href": "extra/analysis-checklist.html",
-    "title": "Quantitative analysis plan",
-    "section": "",
-    "text": "The information given on this page concerns only students who will carry out quantitative analyses (so it does not apply to students doing qualitative analyses).\nMake sure you plan ahead and think about the quantitative analysis of the data you will collect for your study. The best time to do so is when you are planning your study/project. Do not wait until after you started collecting data.\nWe have compiled a checklist for you and your supervisor to go over at the beginning of your supervision, while thinking about the project you will carry out.\nIt is important that you are able to answer all of these questions if you wish to make the most out of the statistical support we offer and more importantly if you want to avoid irreparable issues later on."
-  },
-  {
-    "objectID": "extra/analysis-checklist.html#the-checklist",
-    "href": "extra/analysis-checklist.html#the-checklist",
-    "title": "Quantitative analysis plan",
-    "section": "1 The checklist",
-    "text": "1 The checklist\nDuring the early stages of your project, bring this list of questions to your supervisor and discuss them. If, after talking to your supervisor, you are still unsure about any of these points, please book an appointment with Stefano.\n\nCan you clearly state, in simple language, what the research question(s) of your project is/are?\nIf you are testing a specific hypothesis, did you formulate it so that it is a falsifiable statement? Note that it is OK if you don’t or cannot formulate a hypothesis! As long as you have one meaningful research question, you are all set.\nHave you clearly defined the concepts/objects of study in your research question and hypothesis?\nHave you operationalised the concepts/objects of study into clearly measurable variables?\nWhich are your outcome (dependent) variable(s) and your predictor (independent) variable(s)?\nYour outcome variable(s) is of which type?\nWhich statistical model or test will you use to answer your research question or test your research hypothesis? Note that you should consider statistical modelling or testing only if you have attended a course on statistics/quantitative methods.\nHave you specified and justified the minimal sample size you would need to obtain the required estimate precision or statistical power (if you will be doing statistical modelling or testing)?"
-  },
-  {
-    "objectID": "extra/variable-types.html",
-    "href": "extra/variable-types.html",
-    "title": "Variable types",
-    "section": "",
-    "text": "0.1 Continuous variables\n\nThe variable can take on any positive and negative real number, including 0: Gaussian (aka normal) distribution.\n\nThere are very few truly Gaussian variables, although in some cases one can speak of “approximate” or “assumed” normality.\nThis family is fitted by default in lm(), lme4::lmer() and brms::brm().\n\nThe variable can take on any positive number only: Log-normal distribution.\n\nDuration of segments, words, pauses, etc, are known to be log-normally distributed.\nMeasurements taken in Hz (like f0, formants, centre of gravity, …) could be considered to be log-normal.\nThere other families that could potentially be used depending on the nature of the variable: exponential-Gaussian (reaction times), gamma, …\n\nThe variable can take on any number between 0 and 1, but not 0 nor 1: Beta distribution.\n\nProportions fall into this category (for example proportion of voicing within closure), although 0 and 1 are not allowed in the beta distribution.\n\nThe variable can take on any number between 0 and 1, including 0 or 0 and 1: Zero-inflated or Zero/one-inflated beta (ZOIB) distribution.\n\nIf the proportion data includes many 0s and 1s, then this is the ideal distribution to use. ZOIB distributions are somewhat more difficult to fit than a simple beta distribution, so a common practice is to transform the data so that it doesn’t include 0s nor 1s (this can be achieved using different techniques, some better than others).\n\n\n\n\n0.2 Discrete variables\n\nThe variable is dichotomous, i.e. it can take one of two levels: Bernoulli distribution.\n\nCategorical outcome variables like yes/no, correct/incorrect, voiced/voiceless, follow this distribution.\nThis family is fitted by default when you run glm(family = binomial), aka “logistic regression” or “binomial regression”.\n\nThe variable is counts: Poisson distribution.\n\nCounts of words, segments, gestures, f0 peaks, …\n\nThe variable is a scale: ordinal linear model.\n\nLikert scales and ratings, language attitude questionnaires.\nOrdinal linear models, a.k.a. ordinal logistic regression, can be fitted with the ordinal and the brms package."
-  },
-  {
-    "objectID": "measures/overview.html",
-    "href": "measures/overview.html",
-    "title": "Measures and metrics",
-    "section": "",
-    "text": "Warning\n\n\n\nWork in progress…\n\n\nWe are collecting commonly used measurements and metrics for different branches of linguistics and types of data.\nExplore the available pages using the drop-down menu under “Measures”."
-  },
-  {
-    "objectID": "skills.html",
-    "href": "skills.html",
-    "title": "Research Skills",
-    "section": "",
-    "text": "Best practices for researchers compiled by the Open Science Foundation. From file management to publishing research output.\n\n\n\nSeven Easy Steps to Open Science: An Annotated Reading List will provide you with a great overview of Open Science and how to implement Open Science practices in your own research.\nThe first thing you can do to make your research open is to share the data and analysis code in public repositories, like the Open Science Framework.\n\n\n\nLearn Version Control with Git is a gentle introduction to version control using the software git. With git you can easily keep “snapshots” of your code, papers or dissertation, and track the full history of changes so that you can easily roll back to a previous state if necessary."
-  },
-  {
-    "objectID": "skills.html#research-management",
-    "href": "skills.html#research-management",
-    "title": "Research Skills",
-    "section": "",
-    "text": "Best practices for researchers compiled by the Open Science Foundation. From file management to publishing research output.\n\n\n\nSeven Easy Steps to Open Science: An Annotated Reading List will provide you with a great overview of Open Science and how to implement Open Science practices in your own research.\nThe first thing you can do to make your research open is to share the data and analysis code in public repositories, like the Open Science Framework.\n\n\n\nLearn Version Control with Git is a gentle introduction to version control using the software git. With git you can easily keep “snapshots” of your code, papers or dissertation, and track the full history of changes so that you can easily roll back to a previous state if necessary."
-  },
-  {
-    "objectID": "skills.html#write-up",
-    "href": "skills.html#write-up",
-    "title": "Research Skills",
-    "section": "2 Write up",
-    "text": "2 Write up\nFor help on Writing skills, please check the Writing Skills Centre [login required].\n\n2.1 Dynamic documents with Quarto and Rmarkdown\nWrite dynamic documents, from papers to dissertations, with Quarto or Rmarkdown.\nDynamic documents are documents that mix plain text and code, so that you can embed your analyses straight into the document.\nCode output like model summaries and plots are directly rendered within the document, and you don’t have to include them manually. The benefit is that if your data or analysis has changed, you can simply render the document again and everything will be up-to-date!\n\n\n\n\n\n\nQuarto or Rmarkdown?\n\n\n\nQuarto is the official successor of Rmarkdown and it is heavily based on Rmarkdown. In fact, Quarto is 100% backward compatible with Rmarkdown. Rmarkdown will not go away!\n\n\n\n\n2.2 Write with LaTeX\nLearn LaTeX in 30 minutes and focus on writing content rather than formatting it."
-  },
-  {
-    "objectID": "skills.html#other-resources",
-    "href": "skills.html#other-resources",
-    "title": "Research Skills",
-    "section": "3 Other resources",
-    "text": "3 Other resources\nYou should also check out the Practical Research Skills website. Although it focusses on psychological research, most of the methods and concepts also apply to linguistic research."
   },
   {
     "objectID": "study-design.html",

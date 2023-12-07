@@ -16,6 +16,8 @@ website:
     left:
       - href: index.qmd
         text: Home
+      - href: stew.qmd
+        text: STeW
       - href: study-design.qmd
         text: Study design
       - text: Measures
