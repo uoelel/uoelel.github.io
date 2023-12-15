@@ -2,6 +2,8 @@
 title: "Data analysis"
 ---
 
+# Overview
+
 ::: {.callout-note icon="false"}
 This page provides resources on how to **analyse measurements** (e.g. formant values, word counts, collexeme association metrics, semantic distance, etc.) you have obtained from your data.
 
@@ -9,7 +11,7 @@ For methods to **obtain specialised measurements and metrics** (e.g. formant val
 :::
 
 ::: {.callout-warning icon="false"}
-## Disclaimer
+#### Disclaimer
 
 This is not intended to be an exhaustive list, but rather a compendium of approaches and techniques that are currently gaining momentum across linguistic research.
 For specialised approaches, we recommend to consult methods books written with specific audiences in mind.
@@ -110,6 +112,23 @@ Check out [this post](https://stefanocoretta.github.io/post/2022-07-22-one-thous
 # Intermediate
 
 If you already have a basic understanding of quantitative data analysis, statistics and R, the following resources can help you develop your skills further.
+
+## Likert scales
+
+Likert-scale data are quite common in many fields of linguistics.
+Likert scales are common especially in sociolinguistics work, for example in work that investigates attitudes: e.g. a 5-point scale "disagree, somewhat disagree, neutral, somewhat agree, agree".
+
+Likert-scale data special because they are categorical *and* ordered.
+
+Ordered data must be modelled using the appropriate distribution, namely the **cumulative distribution**. **Ordinal linear models** are an extension of linear models that use the cumulative distribution to model ordinal data, like Likert-scale data.
+
+For an excellent tutorial on how to fit ordinal linear models using brms, see [Analysis of rating scales: A pervasive problem in bilingualism research and a solution with Bayesian ordinal models](https://doi.org/10.1017/S1366728921000316) by João Veríssimo.
+
+## Count data (and corpus data)
+
+Count data, like number of a particular construction in a corpus, number of interjection in a conversation, number of infant gestures, etc, should be modelled using a **Poisson distribution**.
+
+See [Poisson regression for linguists: A tutorial introduction to modelling count data with brms](https://doi.org/10.1111/lnc3.12439) by Bodo Winter for a fantastic tutorial.
 
 ## Dimensionality reduction
 
