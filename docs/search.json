@@ -193,7 +193,28 @@
     "href": "extra/falsifiable.html",
     "title": "Falsifiability",
     "section": "",
-    "text": "0.1 Definition\n\nA statement is falsifiable if it can be contradicted by an observation. If such observation is impossible to make with current technology, falsifiability is not achieved.\n\nFrom Seven examples of falsifiability by John Spacey.\n\n\n0.2 Falsifiable statements\n\n“Life only exists on Earth.” (it would be falsified by the observation of life somewhere else).\n“If there is a 1st person exclusive dual, then there is also a 1st person inclusive dual.” [Universal 1871] (it would be falsified by the observation of languages with a 1st person exclusive dual but without the incluve alternative).\n“Infants start uttering full sentences only after their 12th month of life.” (it would be falsified by the observation of infants uttering full sentences before their 12th month of life).\n\n\n\n0.3 Non-falsifiable statements\n\n“Life might exist outside of the Solar system.” (if we observe life outside the Solar system or we don’t, the statement is still true).\n“Languages with a 1st person inclusive dual can have a 1st person exclusive dual.” (whether we observe a language with both 1st inclusive and exclusive dual or not, the statement is still true.)"
+    "text": "A statement is falsifiable if it can be contradicted by an observation. If such observation is impossible to make with current technology, falsifiability is not achieved.\n\nFrom Seven examples of falsifiability by John Spacey."
+  },
+  {
+    "objectID": "extra/falsifiable.html#definition",
+    "href": "extra/falsifiable.html#definition",
+    "title": "Falsifiability",
+    "section": "",
+    "text": "A statement is falsifiable if it can be contradicted by an observation. If such observation is impossible to make with current technology, falsifiability is not achieved.\n\nFrom Seven examples of falsifiability by John Spacey."
+  },
+  {
+    "objectID": "extra/falsifiable.html#falsifiable-statements",
+    "href": "extra/falsifiable.html#falsifiable-statements",
+    "title": "Falsifiability",
+    "section": "2 Falsifiable statements",
+    "text": "2 Falsifiable statements\n\n“Life only exists on Earth.” (it would be falsified by the observation of life somewhere else).\n“If there is a 1st person exclusive dual, then there is also a 1st person inclusive dual.” [Universal 1871] (it would be falsified by the observation of languages with a 1st person exclusive dual but without the incluve alternative).\n“Infants start uttering full sentences only after their 12th month of life.” (it would be falsified by the observation of infants uttering full sentences before their 12th month of life)."
+  },
+  {
+    "objectID": "extra/falsifiable.html#non-falsifiable-statements",
+    "href": "extra/falsifiable.html#non-falsifiable-statements",
+    "title": "Falsifiability",
+    "section": "3 Non-falsifiable statements",
+    "text": "3 Non-falsifiable statements\n\n“Life might exist outside of the Solar system.” (if we observe life outside the Solar system or we don’t, the statement is still true).\n“Languages with a 1st person inclusive dual can have a 1st person exclusive dual.” (whether we observe a language with both 1st inclusive and exclusive dual or not, the statement is still true.)"
   },
   {
     "objectID": "index.html",
