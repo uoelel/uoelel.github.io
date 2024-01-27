@@ -147,8 +147,11 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#semester-1" id="toc-semester-1" class="nav-link active" data-scroll-target="#semester-1"><span class="header-section-number">1</span> 2023-24 Semester 1</a></li>
-  <li><a href="#semester-2" id="toc-semester-2" class="nav-link" data-scroll-target="#semester-2"><span class="header-section-number">2</span> 2023-24 Semester 2</a></li>
+  <li><a href="#section" id="toc-section" class="nav-link active" data-scroll-target="#section"><span class="header-section-number">1</span> 2023-24</a>
+  <ul class="collapse">
+  <li><a href="#semester-1" id="toc-semester-1" class="nav-link" data-scroll-target="#semester-1"><span class="header-section-number">1.1</span> Semester 1</a></li>
+  <li><a href="#semester-2" id="toc-semester-2" class="nav-link" data-scroll-target="#semester-2"><span class="header-section-number">1.2</span> Semester 2</a></li>
+  </ul></li>
   </ul>
 </nav>
     </div>
@@ -178,8 +181,10 @@ ul.task-list li input[type="checkbox"] {
 <p>On this page you can find information on the current plan for the a.y. 2023-24. Attending requires you register and registration links are sent out via email at the beginning of each semester. Further workshops might be added later during the year.</p>
 <p>Most workshops are recorded and can be watched on the <a href="https://media.ed.ac.uk/channel/LEL%2BQuantitative%2BMethods/308657412">LEL Quantitative Methods channel</a> on the UoE Media Hopper Create.</p>
 <p>If you have any question, you can get in touch with Dr Stefano Coretta.</p>
-<section id="semester-1" class="level2" data-number="1">
-<h2 data-number="1" class="anchored" data-anchor-id="semester-1"><span class="header-section-number">1</span> 2023-24 Semester 1</h2>
+<section id="section" class="level2" data-number="1">
+<h2 data-number="1" class="anchored" data-anchor-id="section"><span class="header-section-number">1</span> 2023-24</h2>
+<section id="semester-1" class="level3" data-number="1.1">
+<h3 data-number="1.1" class="anchored" data-anchor-id="semester-1"><span class="header-section-number">1.1</span> Semester 1</h3>
 <div class="callout callout-style-default callout-warning no-icon callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
@@ -190,15 +195,31 @@ Introduction to Bayesian Linear Models
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<ul>
-<li><p>Thu 26 Oct 2023, 15.00-17.00 (<strong>Intermediate</strong>)</p></li>
-<li><p><a href="https://media.ed.ac.uk/playlist/dedicated/308657412/1_c56su7gr/1_slt88gj6">Watch it</a>.</p></li>
-</ul>
+<table class="table">
+<tbody>
+<tr class="odd">
+<td>Date</td>
+<td>Thursday 26 October 2023</td>
+</tr>
+<tr class="even">
+<td>Time</td>
+<td>15.00–17.00</td>
+</tr>
+<tr class="odd">
+<td>Level</td>
+<td>🟠 Intermediate</td>
+</tr>
+<tr class="even">
+<td>Recording</td>
+<td><a href="https://media.ed.ac.uk/playlist/dedicated/308657412/1_c56su7gr/1_slt88gj6" class="uri">https://media.ed.ac.uk/playlist/dedicated/308657412/1_c56su7gr/1_slt88gj6</a></td>
+</tr>
+</tbody>
+</table>
 </div>
 </div>
 </section>
-<section id="semester-2" class="level2" data-number="2">
-<h2 data-number="2" class="anchored" data-anchor-id="semester-2"><span class="header-section-number">2</span> 2023-24 Semester 2</h2>
+<section id="semester-2" class="level3" data-number="1.2">
+<h3 data-number="1.2" class="anchored" data-anchor-id="semester-2"><span class="header-section-number">1.2</span> Semester 2</h3>
 <div class="callout callout-style-default callout-important no-icon callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
@@ -211,8 +232,8 @@ Bayesian Priors in Linear Models
 <div class="callout-body-container callout-body">
 <table class="table">
 <colgroup>
-<col style="width: 6%">
-<col style="width: 93%">
+<col style="width: 16%">
+<col style="width: 83%">
 </colgroup>
 <tbody>
 <tr class="odd">
@@ -247,8 +268,8 @@ Generalised Additive Mixed Models (GAMMs)
 <div class="callout-body-container callout-body">
 <table class="table">
 <colgroup>
-<col style="width: 11%">
-<col style="width: 88%">
+<col style="width: 19%">
+<col style="width: 80%">
 </colgroup>
 <tbody>
 <tr class="odd">
@@ -287,8 +308,8 @@ Including random effects in Bayesian Linear models with <code>brm()</code>
 <div class="callout-body-container callout-body">
 <table class="table">
 <colgroup>
-<col style="width: 12%">
-<col style="width: 87%">
+<col style="width: 19%">
+<col style="width: 80%">
 </colgroup>
 <tbody>
 <tr class="odd">
@@ -317,6 +338,7 @@ Including random effects in Bayesian Linear models with <code>brm()</code>
 </div>
 
 
+</section>
 </section>
 
 </main> <!-- /main -->

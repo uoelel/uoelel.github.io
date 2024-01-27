@@ -14,23 +14,28 @@ Most workshops are recorded and can be watched on the [LEL Quantitative Methods 
 
 If you have any question, you can get in touch with Dr Stefano Coretta.
 
-## 2023-24 Semester 1
+## 2023-24
+
+### Semester 1
 
 ::: callout-warning
 #### Introduction to Bayesian Linear Models
 
--   Thu 26 Oct 2023, 15.00-17.00 (**Intermediate**)
-
--   [Watch it](https://media.ed.ac.uk/playlist/dedicated/308657412/1_c56su7gr/1_slt88gj6).
+|           |                                                                             |
+|-----------|-----------------------------------------------------------------------------|
+| Date      | Thursday 26 October 2023                                                    |
+| Time      | 15.00--17.00                                                                |
+| Level     | 🟠 Intermediate                                                             |
+| Recording | <https://media.ed.ac.uk/playlist/dedicated/308657412/1_c56su7gr/1_slt88gj6> |
 :::
 
-## 2023-24 Semester 2
+### Semester 2
 
 ::: callout-important
 #### Bayesian Priors in Linear Models
 
 |                   |                                                                                                                                                                                                                                                                      |
-|-------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|------------|-----------------------------------------------------------|
 | **Date**          | Thursday 22 February 2024                                                                                                                                                                                                                                            |
 | **Time**          | 15.00--17.00                                                                                                                                                                                                                                                         |
 | **Level**         | 🔴 Advanced                                                                                                                                                                                                                                                          |
@@ -41,7 +46,7 @@ If you have any question, you can get in touch with Dr Stefano Coretta.
 #### Generalised Additive Mixed Models (GAMMs)
 
 |                   |                                                                                                                                            |
-|-------------------|--------------------------------------------------------------------------------------------------------------------------------------------|
+|--------------|----------------------------------------------------------|
 | **Date**          | Thursday 18 April 2024                                                                                                                     |
 | **Time**          | 15.00--17.00                                                                                                                               |
 | **Level**         | 🟠 Intermediate                                                                                                                            |
@@ -53,7 +58,7 @@ If you have any question, you can get in touch with Dr Stefano Coretta.
 #### Including random effects in Bayesian Linear models with `brm()`
 
 |                   |                                                                                                                                          |
-|-------------------|------------------------------------------------------------------------------------------------------------------------------------------|
+|--------------|----------------------------------------------------------|
 | **Date**          | Thursday 16 May 2024                                                                                                                     |
 | **Time**          | 15.00--17.00                                                                                                                             |
 | **Level**         | 🟠 Intermediate                                                                                                                          |

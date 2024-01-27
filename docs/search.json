@@ -42,18 +42,11 @@
     "text": "The Linguistics and English Language Statistical Training Workshops (STeW) is a series of workshops that runs throughout the academic year and is aimed at students and staff who would like to advance their statistical knowledge and skills.\nOn this page you can find information on the current plan for the a.y. 2023-24. Attending requires you register and registration links are sent out via email at the beginning of each semester. Further workshops might be added later during the year.\nMost workshops are recorded and can be watched on the LEL Quantitative Methods channel on the UoE Media Hopper Create.\nIf you have any question, you can get in touch with Dr Stefano Coretta."
   },
   {
-    "objectID": "stew.html#semester-1",
-    "href": "stew.html#semester-1",
+    "objectID": "stew.html#section",
+    "href": "stew.html#section",
     "title": "LEL Statistical Training Workshops (STeW)",
-    "section": "1 2023-24 Semester 1",
-    "text": "1 2023-24 Semester 1\n\n\n\n\n\n\nIntroduction to Bayesian Linear Models\n\n\n\n\nThu 26 Oct 2023, 15.00-17.00 (Intermediate)\nWatch it."
-  },
-  {
-    "objectID": "stew.html#semester-2",
-    "href": "stew.html#semester-2",
-    "title": "LEL Statistical Training Workshops (STeW)",
-    "section": "2 2023-24 Semester 2",
-    "text": "2 2023-24 Semester 2\n\n\n\n\n\n\nBayesian Priors in Linear Models\n\n\n\n\n\n\n\n\n\n\nDate\nThursday 22 February 2024\n\n\nTime\n15.00–17.00\n\n\nLevel\n🔴 Advanced\n\n\nPrerequisites\nNeed to be familiar with Bayesian Linear Models including Random Effects and/or have attended the Introduction to Bayesian Linear Models workshop. This is not suitable for students who have only attended the QML course (see below for dedicated workshop).\n\n\n\n\n\n\n\n\n\n\n\nGeneralised Additive Mixed Models (GAMMs)\n\n\n\n\n\n\n\n\n\n\nDate\nThursday 18 April 2024\n\n\nTime\n15.00–17.00\n\n\nLevel\n🟠 Intermediate\n\n\nDescription\nGAMMs are useful to analyse historical data, time-series data or data that could have non-linear effects (like language development data).\n\n\nPrerequisites\nIt assumes some familiarity with linear models fitted with lmer()/glmer().\n\n\n\n\n\n\n\n\n\n\n\nIncluding random effects in Bayesian Linear models with brm()\n\n\n\n\n\n\n\n\n\n\nDate\nThursday 16 May 2024\n\n\nTime\n15.00–17.00\n\n\nLevel\n🟠 Intermediate\n\n\nDescription\nThis workshop is targeted especially to MSc students who have attended the QML course.\n\n\nPrerequisites\nAnybody who has attended the previous Bayesian workshops or who has experience with basic linear models with brm() is welcome to join."
+    "section": "1 2023-24",
+    "text": "1 2023-24\n\n1.1 Semester 1\n\n\n\n\n\n\nIntroduction to Bayesian Linear Models\n\n\n\n\n\n\nDate\nThursday 26 October 2023\n\n\nTime\n15.00–17.00\n\n\nLevel\n🟠 Intermediate\n\n\nRecording\nhttps://media.ed.ac.uk/playlist/dedicated/308657412/1_c56su7gr/1_slt88gj6\n\n\n\n\n\n\n\n1.2 Semester 2\n\n\n\n\n\n\nBayesian Priors in Linear Models\n\n\n\n\n\n\n\n\n\n\nDate\nThursday 22 February 2024\n\n\nTime\n15.00–17.00\n\n\nLevel\n🔴 Advanced\n\n\nPrerequisites\nNeed to be familiar with Bayesian Linear Models including Random Effects and/or have attended the Introduction to Bayesian Linear Models workshop. This is not suitable for students who have only attended the QML course (see below for dedicated workshop).\n\n\n\n\n\n\n\n\n\n\n\nGeneralised Additive Mixed Models (GAMMs)\n\n\n\n\n\n\n\n\n\n\nDate\nThursday 18 April 2024\n\n\nTime\n15.00–17.00\n\n\nLevel\n🟠 Intermediate\n\n\nDescription\nGAMMs are useful to analyse historical data, time-series data or data that could have non-linear effects (like language development data).\n\n\nPrerequisites\nIt assumes some familiarity with linear models fitted with lmer()/glmer().\n\n\n\n\n\n\n\n\n\n\n\nIncluding random effects in Bayesian Linear models with brm()\n\n\n\n\n\n\n\n\n\n\nDate\nThursday 16 May 2024\n\n\nTime\n15.00–17.00\n\n\nLevel\n🟠 Intermediate\n\n\nDescription\nThis workshop is targeted especially to MSc students who have attended the QML course.\n\n\nPrerequisites\nAnybody who has attended the previous Bayesian workshops or who has experience with basic linear models with brm() is welcome to join."
   },
   {
     "objectID": "skills.html",
