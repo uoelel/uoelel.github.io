@@ -29,26 +29,34 @@ If you have any question, you can get in touch with Dr Stefano Coretta.
 ::: callout-important
 #### Bayesian Priors in Linear Models
 
--   Thu 22 February 2024, 15.00-17.00 (**Advanced**)
-
--   Need to be familiar with Bayesian Linear Models including Random Effects and/or have attended the *Introduction to Bayesian Linear Models* workshop.
-    This is **not** suitable for students who have only attended the QML course (see below for dedicated workshop).
+|                   |                                                                                                                                                                                                                                                                      |
+|-------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Date**          | Thursday 22 February 2024                                                                                                                                                                                                                                            |
+| **Time**          | 15.00--17.00                                                                                                                                                                                                                                                         |
+| **Level**         | 🔴 Advanced                                                                                                                                                                                                                                                          |
+| **Prerequisites** | Need to be familiar with Bayesian Linear Models including Random Effects and/or have attended the *Introduction to Bayesian Linear Models* workshop. This is **not** suitable for students who have only attended the QML course (see below for dedicated workshop). |
 :::
 
 ::: callout-warning
 #### Generalised Additive Mixed Models (GAMMs)
 
--   Thu 18 April 2024, 15.00-17.00 (**Intermediate**)
-
--   GAMMs are useful to analyse historical data, time-series data or data that could have non-linear effects (like language development data).
-
--   It assumes some familiarity with linear models fitted with lmer/glmer.
+|                   |                                                                                                                                            |
+|-------------------|--------------------------------------------------------------------------------------------------------------------------------------------|
+| **Date**          | Thursday 18 April 2024                                                                                                                     |
+| **Time**          | 15.00--17.00                                                                                                                               |
+| **Level**         | 🟠 Intermediate                                                                                                                            |
+| **Description**   | GAMMs are useful to analyse historical data, time-series data or data that could have non-linear effects (like language development data). |
+| **Prerequisites** | It assumes some familiarity with linear models fitted with `lmer()`/`glmer()`.                                                             |
 :::
 
 ::: callout-warning
 #### Including random effects in Bayesian Linear models with `brm()`
 
--   Thu 16 May 2024, 15.00-17.00 (**Intermediate**)
-
--   **This is thought especially for MSc students who have attended the QML course.** But anybody who has attended the previous Bayesian workshops or who has experience with basic linear models with `brm()` is welcome to join.
+|                   |                                                                                                                                          |
+|-------------------|------------------------------------------------------------------------------------------------------------------------------------------|
+| **Date**          | Thursday 16 May 2024                                                                                                                     |
+| **Time**          | 15.00--17.00                                                                                                                             |
+| **Level**         | 🟠 Intermediate                                                                                                                          |
+| **Description**   | This workshop is targeted especially to **MSc students** who have attended the **QML course**.                                           |
+| **Prerequisites** | Anybody who has attended the previous Bayesian workshops or who has experience with basic linear models with `brm()` is welcome to join. |
 :::
