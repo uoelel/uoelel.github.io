@@ -53,6 +53,7 @@ title: "Software"
 
 - [Gorilla Experiment Builder](https://gorilla.sc) [license needed].
 - [Prolific](https://www.prolific.co): Quickly find research participants you can trust [paid service].
+- [PsychJS](https://www.jspsych.org/7.3/): Build online experiments with JavaScript. A [tutorial](https://kennysmithed.github.io/oels2023/) by Kenny Smith.
 - [PsychoPy](https://www.psychopy.org): PsychoPy is a free cross-platform package allowing you to run a wide range of experiments in the behavioural sciences.
 - [Qualtrics](https://www.ed.ac.uk/information-services/learning-technology/survey-tools/qualtrics-for-cahss-members): Survey platform [license needed].
 - [Testable](https://www.testable.org): Solution for behavioural experiments, surveys and data collection [free and licensed options].
