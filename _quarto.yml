@@ -11,6 +11,7 @@ project:
 
 website:
   title: "Data Analysis @ UoE LEL"
+  favicon: assets/figs/favicon.png
   navbar:
     background: dark
     left:
