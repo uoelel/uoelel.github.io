@@ -22,7 +22,7 @@ If you have any question, you can get in touch with Dr Stefano Coretta.
 #### Introduction to Bayesian Linear Models
 
 |           |                                                                             |
-|-----------|-----------------------------------------------------------------------------|
+|--------------|----------------------------------------------------------|
 | Date      | Thursday 26 October 2023                                                    |
 | Time      | 15.00--17.00                                                                |
 | Level     | 🟠 Intermediate                                                             |
@@ -35,7 +35,7 @@ If you have any question, you can get in touch with Dr Stefano Coretta.
 #### Bayesian Priors in Linear Models
 
 |                   |                                                                                                                                                                                                                                                                      |
-|------------|-----------------------------------------------------------|
+|----------------|--------------------------------------------------------|
 | **Date**          | Thursday 22 February 2024                                                                                                                                                                                                                                            |
 | **Time**          | 15.00--17.00                                                                                                                                                                                                                                                         |
 | **Level**         | 🔴 Advanced                                                                                                                                                                                                                                                          |
@@ -46,19 +46,19 @@ If you have any question, you can get in touch with Dr Stefano Coretta.
 #### Generalised Additive Mixed Models (GAMMs)
 
 |                   |                                                                                                                                            |
-|--------------|----------------------------------------------------------|
+|-----------------|-------------------------------------------------------|
 | **Date**          | Thursday 18 April 2024                                                                                                                     |
 | **Time**          | 15.00--17.00                                                                                                                               |
 | **Level**         | 🟠 Intermediate                                                                                                                            |
 | **Description**   | GAMMs are useful to analyse historical data, time-series data or data that could have non-linear effects (like language development data). |
-| **Prerequisites** | It assumes some familiarity with linear models fitted with `lmer()`/`glmer()`.                                                             |
+| **Prerequisites** | It assumes some familiarity with linear models fitted with `lmer()`/`glmer()` or `brm()`.                                                  |
 :::
 
 ::: callout-warning
 #### Including random effects in Bayesian Linear models with `brm()`
 
 |                   |                                                                                                                                          |
-|--------------|----------------------------------------------------------|
+|-----------------|-------------------------------------------------------|
 | **Date**          | Thursday 16 May 2024                                                                                                                     |
 | **Time**          | 15.00--17.00                                                                                                                             |
 | **Level**         | 🟠 Intermediate                                                                                                                          |
