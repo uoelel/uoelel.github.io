@@ -90,6 +90,10 @@ If you have any question, you can get in touch with Dr Stefano Coretta.
 +-------------------+------------------------------------------------------------------------------------------------------------------------------------------+
 | **Prerequisites** | Anybody who has attended the previous Bayesian workshops or who has experience with basic linear models with `brm()` is welcome to join. |
 +-------------------+------------------------------------------------------------------------------------------------------------------------------------------+
+| **Materials**     | <https://uoelel.github.io/brm-group/>                                                                                                    |
++-------------------+------------------------------------------------------------------------------------------------------------------------------------------+
+| **Recording**     | [Watch](https://media.ed.ac.uk/media/STeW+-+Including+random+effects+in+Bayesian+Linear+models+with+brm%28%29/1_5tz3sfdl)                |
++-------------------+------------------------------------------------------------------------------------------------------------------------------------------+
 :::
 
 ## Previously
