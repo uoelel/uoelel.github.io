@@ -52,7 +52,7 @@ If you have any question, you can get in touch with Dr Stefano Coretta.
 +-------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | **Prerequisites** | Need to be familiar with regression/linear models in R including models with random effects and binomial/Bernoulli (aka logistic) regressions. While a background in Bayesian inference is useful, the workshop will explain the basics of Bayesian inference in the context of ordinal models. |
 +-------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| **Materials**     | TBA                                                                                                                                                                                                                                                                                             |
+| **Materials**     | <https://stefanocoretta.github.io/learnOrd/>                                                                                                                                                                                                                                                    |
 +-------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 :::
 
@@ -167,8 +167,6 @@ If you have any question, you can get in touch with Dr Stefano Coretta.
 | **Recording**     | [Watch](https://media.ed.ac.uk/media/learnGAMA+GAMMs+workshop+for+LEL+%282023%29/1_qsbcwusm) (recording of previous run of the workshop)   |
 +-------------------+--------------------------------------------------------------------------------------------------------------------------------------------+
 :::
-
-
 
 ::: callout-important
 #### Bayesian Priors in Linear Models
