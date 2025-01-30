@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.5.57">
+<meta name="generator" content="quarto-1.6.40">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -36,10 +36,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-549806ee2085284f45b00abea8c6df48.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-85fd5068f3268323a1154533f056ef3e.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -187,7 +187,7 @@ ul.task-list li input[type="checkbox"] {
 <section id="honours-and-msc-students" class="level2" data-number="2">
 <h2 data-number="2" class="anchored" data-anchor-id="honours-and-msc-students"><span class="header-section-number">2</span> Honours and MSc students</h2>
 <p>If you are a student writing your Honours or MSc dissertation and you are looking after help with your quantitative data analysis/statistics, you can book an appointment with Dr Stefano Coretta or Elizabeth Pankratz. Note that a university account is required for booking.</p>
-<a class="btn btn-primary" href="https://outlook.office365.com/owa/calendar/Stefanosofficehours@uoe.onmicrosoft.com/bookings/s/CYTtarS6AUSqGdZi5dzBzw2" role="button">Book with Stefano</a>
+<a class="btn btn-primary" href="https://outlook.office365.com/owa/calendar/Stefanosofficehours@uoe.onmicrosoft.com/bookings/" role="button">Book with Stefano</a>
 
 <a class="btn btn-primary" href="https://outlook.office.com/bookwithme/user/49afe80a7e344adb8ff5770868f0729d@sms.ed.ac.uk?anonymous&amp;ep=pcard" role="button">Book with Elizabeth</a>
 </section>
@@ -195,7 +195,7 @@ ul.task-list li input[type="checkbox"] {
 <h2 data-number="3" class="anchored" data-anchor-id="consultation-for-phd-students-postdocs-and-staff"><span class="header-section-number">3</span> Consultation for PhD students, postdocs and staff</h2>
 <p>Many of the issues arising during the data analysis stage can be prevented by planning your analysis while designing the study and ahead of data collection. <u><strong>We strongly recommend you to work out your quantitative data analysis plan in details as early as possible.</strong></u> This expedient will save you time later on.</p>
 <p>PhD students, postdoc researchers and staff can get in touch with Dr Stefano Coretta, or directly book an appointment with Stefano via the link below (a university account is required).</p>
-<a class="btn btn-primary" href="https://outlook.office365.com/owa/calendar/Stefanosofficehours@uoe.onmicrosoft.com/bookings/s/CYTtarS6AUSqGdZi5dzBzw2" role="button">Book an appointment</a>
+<a class="btn btn-primary" href="https://outlook.office365.com/owa/calendar/Stefanosofficehours@uoe.onmicrosoft.com/bookings/" role="button">Book an appointment</a>
 <br><br>
 <p>Help is offered for the following areas:</p>
 <ul>
@@ -298,8 +298,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   });
   clipboard.on('success', onCopySuccess);
   if (window.document.getElementById('quarto-embedded-source-code-modal')) {
-    // For code content inside modals, clipBoardJS needs to be initialized with a container option
-    // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
     const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
       text: getTextToCopy,
       container: window.document.getElementById('quarto-embedded-source-code-modal')
@@ -410,7 +408,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       if (window.Quarto?.typesetMath) {
         window.Quarto.typesetMath(note);
       }
-      // TODO in 1.5, we should make sure this works without a callout special case
       if (note.classList.contains("callout")) {
         return note.outerHTML;
       } else {
