@@ -12,7 +12,7 @@ This tutorial explains how to extract cepstral peak prominence (CPP) measures in
 
 ## Perceptual data
 
-[This tutorial](https://www.jvcasillas.com/posts/2021-05-15_logistic_regression_and_phonemic_boundaries/) by Joseph Casillas explains how to analyse categorisation data using linear models.
+[This tutorial](https://www.jvcasillas.com/posts/2021-05-15_logistic_regression_and_phonemic_boundaries/2021-05-15_logistic_regression_and_phonemic_boundaries.html) by Joseph Casillas explains how to analyse categorisation data using linear models.
 
 In particular, the tutorial shows how to obtain an estimate of the category boundary and the sharpness of the boundary.
 
