@@ -1,5 +1,6 @@
 ---
 title: "Data analysis"
+bibliography: references.bib
 ---
 
 # Overview
@@ -41,7 +42,8 @@ The following resources are suitable for beginners who want to learn **quantitat
 
 The programming languages **Python and R** are two very common languages used for data analysis.
 
-**Python** is a general-purpose programming language while **R** is specifically developed for statistical analysis and visualisation. Most academic research uses R for data analysis, although Python is also employed especially for data processing.
+**Python** is a general-purpose programming language while **R** is specifically developed for statistical analysis and visualisation.
+Most academic research uses R for data analysis, although Python is also employed especially for data processing.
 
 If you want to teach yourself R, the following resources are an excellent place to start from:
 
@@ -53,7 +55,6 @@ If you want to teach yourself R, the following resources are an excellent place 
 -   The workshop [intRo: Data Analysis with R](https://intro-rstats.github.io) introduces absolute beginners from the Humanities to R, quantitative data analysis and visualisation.
     Check out the videos on YouTube: [videos](https://youtube.com/playlist?list=PLiqxyEAY_i3nqPb2bp2zufXgPoFk8Tum9).
     You can find the materials and slides here: [materials](https://intro-rstats.github.io/intRo/) and [slides](https://intro-rstats.github.io/intro-slides/).
-
 
 ::: {.callout-note icon="false" collapse="true"}
 #### Joining and pivoting data
@@ -77,7 +78,7 @@ Most data wrangling problems can be solved with the following sets of R tidyvers
 
 Statistics and statistical modelling are about finding meaning in the patterns that can be observed in the data.
 
--   [Statistics for Linguists: An introduction using R](https://discovered.ed.ac.uk/permalink/44UOE_INST/7g3mt6/alma9924344853202466) by Bodo Winter is ideal both for absolute beginners and experienced researchers.
+-   [Statistics for Linguists: An introduction using R](https://discovered.ed.ac.uk/permalink/44UOE_INST/7g3mt6/alma9924344853202466) by Bodo Winter [@winter2020] is ideal both for absolute beginners and experienced researchers.
     It is packed with everything you need to successfully and effectively conduct statistical analyses.
 
 -   [Statistical (Re)thinking](https://discovered.ed.ac.uk/permalink/44UOE_INST/110jsec/alma9924362502302466) by Richard McElreath is an excellent introduction for absolute beginners, by Richard McElreath, which covers a wide variety of linear models.
@@ -88,7 +89,9 @@ Statistics and statistical modelling are about finding meaning in the patterns t
     It touches upon a wide range of topics and disciplines, from communicating proportions, to probability and Bayesian inference, making it a great complement to the other books and resources mentioned here.
     If you just wish to dip your toes in statistics without committing (yet) to learning how to do statistics, this book is for you.
 
-- [Linear models and linear mixed effects models in R with linguistic applications](https://arxiv.org/abs/1308.5499) by Bodo Winter is a short and intense tutorial on linear models. The first part introduces you to Gaussian linear models and the second part to Gaussian linear models that include random effects (variably called mixed, hierarchical, nested models). **Note** that Gaussian linear models are not appropriate for the data of most linguistic research and you will have to learn and use other types of linear models.
+-   [Linear models and linear mixed effects models in R with linguistic applications](https://arxiv.org/abs/1308.5499) by Bodo Winter is a short and intense tutorial on linear models [@winter2013].
+    The first part introduces you to Gaussian linear models and the second part to Gaussian linear models that include random effects (variably called mixed, hierarchical, nested models).
+    **Note** that Gaussian linear models are not appropriate for the data of most linguistic research and you will have to learn and use other types of linear models.
 
 ### Linear models
 
@@ -122,15 +125,16 @@ Likert scales are common especially in sociolinguistics work, for example in wor
 
 Likert-scale data special because they are categorical *and* ordered.
 
-Ordered data must be modelled using the appropriate distribution, namely the **cumulative distribution**. **Ordinal linear models** are an extension of linear models that use the cumulative distribution to model ordinal data, like Likert-scale data.
+Ordered data must be modelled using the appropriate distribution, namely the **cumulative distribution**.
+**Ordinal linear models** are an extension of linear models that use the cumulative distribution to model ordinal data, like Likert-scale data.
 
-For an excellent tutorial on how to fit ordinal linear models using brms, see [Analysis of rating scales: A pervasive problem in bilingualism research and a solution with Bayesian ordinal models](https://doi.org/10.1017/S1366728921000316) by João Veríssimo.
+For an excellent tutorial on how to fit ordinal linear models using brms applied to linguistics data, see @verissimo2021. You should also check out the more general tutorial @burkner2019. A recording of the [STeW](stew.qmd) workshop on ordinal regression model is also available [here](here).
 
 ## Count data (and corpus data)
 
 Count data, like number of a particular construction in a corpus, number of interjection in a conversation, number of infant gestures, etc, should be modelled using a **Poisson distribution**.
 
-See [Poisson regression for linguists: A tutorial introduction to modelling count data with brms](https://doi.org/10.1111/lnc3.12439) by Bodo Winter for a fantastic tutorial.
+See the tutorial by @winter2021.
 
 ## Dimensionality reduction
 
@@ -157,12 +161,12 @@ Note that once you have reduced your data to a few variables (components or dime
 **Generalised Additive (Mixed) Models** (GAMMs) are a flexible extension of linear models that allows us to fit non-linear effects.
 They are particularly useful with data that come from time series (e.g. f0 and formants, corpus occurrences across time, longitudinal data, etc.) and they can be employed with any kind of data that can be thought of as being represented on a coordinate space (e.g., geolocations, electroencephalographic (EEG) data, 3D tongue imaging, etc).
 
--   The tutorial [Generalised additive mixed models for dynamic analysis in linguistics: a practical introduction](https://eprints.whiterose.ac.uk/113858/2/1703_05339v1.pdf) by Márton Sóskuthy is an excellent introduction to Generalised Additive Mixed Models (GAMMs).
+-   The tutorial by @soskuthy2017a is an excellent introduction to Generalised Additive Mixed Models (GAMMs).
+    Also see @soskuthy2021.
 
--   Another excellent resource is [Hierarchical generalized additive models in ecology: an introduction with mgcv](https://peerj.com/articles/6876/) by Pedersen and colleagues.
-    In particular, [Figure 4](https://doi.org/10.7717/peerj.6876/fig-4) is a beautiful visual summary of how different types of trends and groupings can be modelled with GAMs.
+-   Another excellent resource is @pedersen2019. In particular, [Figure 4](https://doi.org/10.7717/peerj.6876/fig-4) is a beautiful visual summary of how different types of trends and groupings can be modelled with GAMs.
 
--   The paper [Generalized Additive Mixed Models for intra-speaker variation](https://www.degruyter.com/document/doi/10.1515/lingvan-2016-0030/html) by Tamminga and colleagues advocates for the adoption of GAMMs to advance the use of naturalistic data for studying psycholinguistic questions about intra-speaker variation.
+-   The paper by @tamminga2016 advocates for the adoption of GAMMs to advance the use of naturalistic data for studying psycholinguistic questions about intra-speaker variation.
 
 **Functional Principal Component Analysis** (FPCA) is another approach to modelling time-series data.
 
@@ -170,7 +174,7 @@ They are particularly useful with data that come from time series (e.g. f0 and f
 
 ## Bayesian inference
 
--   The overview by Etz et al., [How to become a Bayesian in eight easy steps: An annotated reading list](https://doi.org/10.3758/s13423-017-1317-5), is a good place to start from if you want to learn more about Bayesian statistics and inference.
+-   The overview by @etz2018, *How to become a Bayesian in eight easy steps: An annotated reading list*, is a good place to start from if you want to learn more about Bayesian statistics and inference.
 
 -   For an more practice-oriented introduction, you should read [Statistical (Re)thinking](https://discovered.ed.ac.uk/permalink/44UOE_INST/110jsec/alma9924362502302466) (see above).
 
@@ -197,3 +201,5 @@ If you are running **Bayesian linear models, you can check out this post on [Bay
 ## Multivariate linear models
 
 [Estimating Multivariate Models with brms](https://cran.r-project.org/web/packages/brms/vignettes/brms_multivariate.html) by Paul Bürkner explains how to fit linear models with two or more outcome variables (i.e. multivariate models) using [brms](https://paul-buerkner.github.io/brms/).
+
+## References  {.unnumbered}
