@@ -141,6 +141,29 @@ div.csl-indent {
     <a class="nav-link active" href="./analysis.html" aria-current="page"> 
 <span class="menu-text">Data analysis</span></a>
   </li>  
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-extra" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Extra</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-extra">    
+        <li>
+    <a class="dropdown-item" href="./extra/variable-types.html">
+ <span class="dropdown-text">Variable types</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./extra/analysis-checklist.html">
+ <span class="dropdown-text">Analysis checklist</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./extra/falsifiable.html">
+ <span class="dropdown-text">Falsificability</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./extra/regression-sheet.html">
+ <span class="dropdown-text">Regression cheat sheet</span></a>
+  </li>  
+    </ul>
+  </li>
   <li class="nav-item">
     <a class="nav-link" href="./skills.html"> 
 <span class="menu-text">Skills</span></a>
@@ -311,7 +334,7 @@ Joining and pivoting data
 <li><p><a href="https://discovered.ed.ac.uk/permalink/44UOE_INST/7g3mt6/alma9924344853202466">Statistics for Linguists: An introduction using R</a> by Bodo Winter <span class="citation" data-cites="winter2020">(<a href="#ref-winter2020" role="doc-biblioref">Winter 2020</a>)</span> is ideal both for absolute beginners and experienced researchers. It is packed with everything you need to successfully and effectively conduct statistical analyses.</p></li>
 <li><p><a href="https://discovered.ed.ac.uk/permalink/44UOE_INST/110jsec/alma9924362502302466">Statistical (Re)thinking</a> by Richard McElreath is an excellent introduction for absolute beginners, by Richard McElreath, which covers a wide variety of linear models. It focusses on Bayesian inference and how this framework can help us directly answer research questions, assess evidence for different hypothesis, and quantify uncertainty. If you are familiar with the <a href="https://www.tidyverse.org">tidyverse</a>, the code from the <em>Statistical (Re)thinking</em> book has been translated into tidyverse by Solomon Kurz, and it can be accessed here: <a href="https://bookdown.org/content/4857/">Statistical rethinking with brms, ggplot2, and the tidyverse</a>.</p></li>
 <li><p><a href="https://www.penguin.co.uk/books/294/294857/learning-from-data/9780241258767.html">The Art of Statistics: Learning from data</a> by David Spiegelhalter uses real-world examples to explain principles of data visualisation and analysis. It touches upon a wide range of topics and disciplines, from communicating proportions, to probability and Bayesian inference, making it a great complement to the other books and resources mentioned here. If you just wish to dip your toes in statistics without committing (yet) to learning how to do statistics, this book is for you.</p></li>
-<li><p><a href="https://arxiv.org/abs/1308.5499">Linear models and linear mixed effects models in R with linguistic applications</a> by Bodo Winter is a short and intense tutorial on linear models <span class="citation" data-cites="winter2013">(<a href="#ref-winter2013" role="doc-biblioref">Winter, n.d.</a>)</span>. The first part introduces you to Gaussian linear models and the second part to Gaussian linear models that include random effects (variably called mixed, hierarchical, nested models). <strong>Note</strong> that Gaussian linear models are not appropriate for the data of most linguistic research and you will have to learn and use other types of linear models.</p></li>
+<li><p><a href="https://arxiv.org/abs/1308.5499">Linear models and linear mixed effects models in R with linguistic applications</a> by Bodo Winter is a short and intense tutorial on linear models <span class="citation" data-cites="winter2013">(<a href="#ref-winter2013" role="doc-biblioref">Winter 2013</a>)</span>. The first part introduces you to Gaussian linear models and the second part to Gaussian linear models that include random effects (variably called mixed, hierarchical, nested models). <strong>Note</strong> that Gaussian linear models are not appropriate for the data of most linguistic research and you will have to learn and use other types of linear models.</p></li>
 </ul>
 <section id="linear-models" class="level3" data-number="2.2.1">
 <h3 data-number="2.2.1" class="anchored" data-anchor-id="linear-models"><span class="header-section-number">2.2.1</span> Linear models</h3>
@@ -358,7 +381,7 @@ Joining and pivoting data
 <h2 data-number="3.4" class="anchored" data-anchor-id="time-series-and-coordinates"><span class="header-section-number">3.4</span> Time series and coordinates</h2>
 <p><strong>Generalised Additive (Mixed) Models</strong> (GAMMs) are a flexible extension of linear models that allows us to fit non-linear effects. They are particularly useful with data that come from time series (e.g.&nbsp;f0 and formants, corpus occurrences across time, longitudinal data, etc.) and they can be employed with any kind of data that can be thought of as being represented on a coordinate space (e.g., geolocations, electroencephalographic (EEG) data, 3D tongue imaging, etc).</p>
 <ul>
-<li><p>The tutorial by <span class="citation" data-cites="soskuthy2017a">Sóskuthy (<a href="#ref-soskuthy2017a" role="doc-biblioref">n.d.</a>)</span> is an excellent introduction to Generalised Additive Mixed Models (GAMMs). Also see <span class="citation" data-cites="soskuthy2021">Sóskuthy (<a href="#ref-soskuthy2021" role="doc-biblioref">2021</a>)</span>.</p></li>
+<li><p>The tutorial by <span class="citation" data-cites="soskuthy2017a">Sóskuthy (<a href="#ref-soskuthy2017a" role="doc-biblioref">2017</a>)</span> is an excellent introduction to Generalised Additive Mixed Models (GAMMs). Also see <span class="citation" data-cites="soskuthy2021">Sóskuthy (<a href="#ref-soskuthy2021" role="doc-biblioref">2021</a>)</span>.</p></li>
 <li><p>Another excellent resource is <span class="citation" data-cites="pedersen2019">Pedersen et al. (<a href="#ref-pedersen2019" role="doc-biblioref">2019</a>)</span>. In particular, <a href="https://doi.org/10.7717/peerj.6876/fig-4">Figure 4</a> is a beautiful visual summary of how different types of trends and groupings can be modelled with GAMs.</p></li>
 <li><p>The paper by <span class="citation" data-cites="tamminga2016">Tamminga, Ahern, and Ecay (<a href="#ref-tamminga2016" role="doc-biblioref">2016</a>)</span> advocates for the adoption of GAMMs to advance the use of naturalistic data for studying psycholinguistic questions about intra-speaker variation.</p></li>
 </ul>
@@ -407,11 +430,11 @@ Etz, Alexander, Quentin F. Gronau, Fabian Dablander, Peter A. Edelsbrunner, and 
 <div id="ref-pedersen2019" class="csl-entry" role="listitem">
 Pedersen, Eric J., David L. Miller, Gavin L. Simpson, and Noam Ross. 2019. <span>“Hierarchical Generalized Additive Models in Ecology: An Introduction with Mgcv.”</span> <em>PeerJ</em> 7: e6876. <a href="https://doi.org/10.7717/peerj.6876">https://doi.org/10.7717/peerj.6876</a>.
 </div>
-<div id="ref-soskuthy2021" class="csl-entry" role="listitem">
-Sóskuthy, Márton. 2021. <span>“Evaluating Generalised Additive Mixed Modelling Strategies for Dynamic Speech Analysis.”</span> <em>Journal of Phonetics</em> 84: 101017. <a href="https://doi.org/10.1016/j.wocn.2020.101017">https://doi.org/10.1016/j.wocn.2020.101017</a>.
-</div>
 <div id="ref-soskuthy2017a" class="csl-entry" role="listitem">
-———. n.d. <span>“Generalised Additive Mixed Models for Dynamic Analysis in Linguistics: A Practical Introduction.”</span> <a href="https://doi.org/10.48550/arXiv.1703.05339">https://doi.org/10.48550/arXiv.1703.05339</a>.
+Sóskuthy, Márton. 2017. <span>“Generalised Additive Mixed Models for Dynamic Analysis in Linguistics: A Practical Introduction.”</span> arXiv. <a href="https://doi.org/10.48550/arXiv.1703.05339">https://doi.org/10.48550/arXiv.1703.05339</a>.
+</div>
+<div id="ref-soskuthy2021" class="csl-entry" role="listitem">
+———. 2021. <span>“Evaluating Generalised Additive Mixed Modelling Strategies for Dynamic Speech Analysis.”</span> <em>Journal of Phonetics</em> 84: 101017. <a href="https://doi.org/10.1016/j.wocn.2020.101017">https://doi.org/10.1016/j.wocn.2020.101017</a>.
 </div>
 <div id="ref-tamminga2016" class="csl-entry" role="listitem">
 Tamminga, Meredith, Christopher Ahern, and Aaron Ecay. 2016. <span>“Generalized Additive Mixed Models for Intraspeaker Variation.”</span> <em>Linguistics Vanguard</em> 2 (s1): 3341. <a href="https://doi.org/10.1515/lingvan-2016-0030">https://doi.org/10.1515/lingvan-2016-0030</a>.
@@ -419,11 +442,11 @@ Tamminga, Meredith, Christopher Ahern, and Aaron Ecay. 2016. <span>“Generalize
 <div id="ref-verissimo2021" class="csl-entry" role="listitem">
 Verissimo, Joao. 2021. <span>“Analysis of Rating Scales: A Pervasive Problem in Bilingualism Research and a Solution with Bayesian Ordinal Models.”</span> <em>Bilingualism: Language and Cognition</em> 24 (5): 842848. <a href="https://doi.org/10.1017/S1366728921000316">https://doi.org/10.1017/S1366728921000316</a>.
 </div>
-<div id="ref-winter2020" class="csl-entry" role="listitem">
-Winter, Bodo. 2020. <em>Statistics for Linguists: An Introduction Using r</em>. Routledge.
-</div>
 <div id="ref-winter2013" class="csl-entry" role="listitem">
-———. n.d. <span>“Linear Models and Linear Mixed Effects Models in r with Linguistic Applications.”</span>
+Winter, Bodo. 2013. <span>“Linear Models and Linear Mixed Effects Models in <span>R</span> with Linguistic Applications.”</span> <a href="https://arxiv.org/abs/1308.5499" class="uri">https://arxiv.org/abs/1308.5499</a>; arXiv. <a href="https://arxiv.org/abs/1308.5499">https://arxiv.org/abs/1308.5499</a>.
+</div>
+<div id="ref-winter2020" class="csl-entry" role="listitem">
+———. 2020. <em>Statistics for Linguists: An Introduction Using r</em>. Routledge.
 </div>
 <div id="ref-winter2021" class="csl-entry" role="listitem">
 Winter, Bodo, and Paul-Christian Bürkner. 2021. <span>“Poisson Regression for Linguists: A Tutorial Introduction to Modelling Count Data with Brms.”</span> <em>Language and Linguistics Compass</em> 15 (11): e12439. <a href="https://doi.org/10.1111/lnc3.12439">https://doi.org/10.1111/lnc3.12439</a>.

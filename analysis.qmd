@@ -128,7 +128,9 @@ Likert-scale data special because they are categorical *and* ordered.
 Ordered data must be modelled using the appropriate distribution, namely the **cumulative distribution**.
 **Ordinal linear models** are an extension of linear models that use the cumulative distribution to model ordinal data, like Likert-scale data.
 
-For an excellent tutorial on how to fit ordinal linear models using brms applied to linguistics data, see @verissimo2021. You should also check out the more general tutorial @burkner2019. A recording of the [STeW](stew.qmd) workshop on ordinal regression model is also available [here](here).
+For an excellent tutorial on how to fit ordinal linear models using brms applied to linguistics data, see @verissimo2021.
+You should also check out the more general tutorial @burkner2019.
+A recording of the [STeW](stew.qmd) workshop on ordinal regression model is also available [here](here).
 
 ## Count data (and corpus data)
 
@@ -164,7 +166,8 @@ They are particularly useful with data that come from time series (e.g. f0 and f
 -   The tutorial by @soskuthy2017a is an excellent introduction to Generalised Additive Mixed Models (GAMMs).
     Also see @soskuthy2021.
 
--   Another excellent resource is @pedersen2019. In particular, [Figure 4](https://doi.org/10.7717/peerj.6876/fig-4) is a beautiful visual summary of how different types of trends and groupings can be modelled with GAMs.
+-   Another excellent resource is @pedersen2019.
+    In particular, [Figure 4](https://doi.org/10.7717/peerj.6876/fig-4) is a beautiful visual summary of how different types of trends and groupings can be modelled with GAMs.
 
 -   The paper by @tamminga2016 advocates for the adoption of GAMMs to advance the use of naturalistic data for studying psycholinguistic questions about intra-speaker variation.
 
@@ -202,4 +205,4 @@ If you are running **Bayesian linear models, you can check out this post on [Bay
 
 [Estimating Multivariate Models with brms](https://cran.r-project.org/web/packages/brms/vignettes/brms_multivariate.html) by Paul Bürkner explains how to fit linear models with two or more outcome variables (i.e. multivariate models) using [brms](https://paul-buerkner.github.io/brms/).
 
-## References  {.unnumbered}
+## References {.unnumbered}

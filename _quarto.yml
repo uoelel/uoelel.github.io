@@ -29,6 +29,16 @@ website:
             text: Phonetics
       - href: analysis.qmd
         text: Data analysis
+      - text: Extra
+        menu:
+          - href: extra/variable-types.qmd
+            text: Variable types
+          - href: extra/analysis-checklist.qmd
+            text: Analysis checklist
+          - href: extra/falsifiable.qmd
+            text: Falsificability
+          - href: extra/regression-sheet.qmd
+            text: Regression cheat sheet
       - href: skills.qmd
         text: Skills
       - href: software.qmd
