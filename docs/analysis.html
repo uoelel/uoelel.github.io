@@ -198,8 +198,10 @@ div.csl-indent {
   <li><a href="#data-wrangling-and-visualisation" id="toc-data-wrangling-and-visualisation" class="nav-link" data-scroll-target="#data-wrangling-and-visualisation"><span class="header-section-number">2.1</span> Data wrangling and visualisation</a></li>
   <li><a href="#statistical-modelling" id="toc-statistical-modelling" class="nav-link" data-scroll-target="#statistical-modelling"><span class="header-section-number">2.2</span> Statistical modelling</a>
   <ul class="collapse">
-  <li><a href="#linear-models" id="toc-linear-models" class="nav-link" data-scroll-target="#linear-models"><span class="header-section-number">2.2.1</span> Linear models</a></li>
+  <li><a href="#regression-models" id="toc-regression-models" class="nav-link" data-scroll-target="#regression-models"><span class="header-section-number">2.2.1</span> Regression models</a></li>
   </ul></li>
+  <li><a href="#modelling-mindset" id="toc-modelling-mindset" class="nav-link" data-scroll-target="#modelling-mindset"><span class="header-section-number">2.3</span> Modelling mindset</a></li>
+  <li><a href="#causal-inference" id="toc-causal-inference" class="nav-link" data-scroll-target="#causal-inference"><span class="header-section-number">2.4</span> Causal inference</a></li>
   </ul></li>
   <li><a href="#intermediate" id="toc-intermediate" class="nav-link" data-scroll-target="#intermediate"><span class="header-section-number">3</span> Intermediate</a>
   <ul class="collapse">
@@ -332,23 +334,31 @@ Joining and pivoting data
 <p>Statistics and statistical modelling are about finding meaning in the patterns that can be observed in the data.</p>
 <ul>
 <li><p><a href="https://discovered.ed.ac.uk/permalink/44UOE_INST/7g3mt6/alma9924344853202466">Statistics for Linguists: An introduction using R</a> by Bodo Winter <span class="citation" data-cites="winter2020">(<a href="#ref-winter2020" role="doc-biblioref">Winter 2020</a>)</span> is ideal both for absolute beginners and experienced researchers. It is packed with everything you need to successfully and effectively conduct statistical analyses.</p></li>
-<li><p><a href="https://discovered.ed.ac.uk/permalink/44UOE_INST/110jsec/alma9924362502302466">Statistical (Re)thinking</a> by Richard McElreath is an excellent introduction for absolute beginners, by Richard McElreath, which covers a wide variety of linear models. It focusses on Bayesian inference and how this framework can help us directly answer research questions, assess evidence for different hypothesis, and quantify uncertainty. If you are familiar with the <a href="https://www.tidyverse.org">tidyverse</a>, the code from the <em>Statistical (Re)thinking</em> book has been translated into tidyverse by Solomon Kurz, and it can be accessed here: <a href="https://bookdown.org/content/4857/">Statistical rethinking with brms, ggplot2, and the tidyverse</a>.</p></li>
-<li><p><a href="https://www.penguin.co.uk/books/294/294857/learning-from-data/9780241258767.html">The Art of Statistics: Learning from data</a> by David Spiegelhalter uses real-world examples to explain principles of data visualisation and analysis. It touches upon a wide range of topics and disciplines, from communicating proportions, to probability and Bayesian inference, making it a great complement to the other books and resources mentioned here. If you just wish to dip your toes in statistics without committing (yet) to learning how to do statistics, this book is for you.</p></li>
+<li><p><a href="https://discovered.ed.ac.uk/permalink/44UOE_INST/110jsec/alma9924362502302466">Statistical (Re)thinking</a> by Richard McElreath <span class="citation" data-cites="mcelreath2020">(<a href="#ref-mcelreath2020" role="doc-biblioref">McElreath 2020</a>)</span> is an excellent introduction for absolute beginners, by Richard McElreath, which covers a wide variety of linear models. It focusses on Bayesian inference and how this framework can help us directly answer research questions, assess evidence for different hypothesis, and quantify uncertainty. If you are familiar with the <a href="https://www.tidyverse.org">tidyverse</a>, the code from the <em>Statistical (Re)thinking</em> book has been translated into tidyverse by Solomon Kurz, and it can be accessed here: <a href="https://bookdown.org/content/4857/">Statistical rethinking with brms, ggplot2, and the tidyverse</a>.</p></li>
+<li><p><a href="https://www.penguin.co.uk/books/294/294857/learning-from-data/9780241258767.html">The Art of Statistics: Learning from data</a> by David Spiegelhalter <span class="citation" data-cites="spiegelhalter2020">(<a href="#ref-spiegelhalter2020" role="doc-biblioref">Spiegelhalter 2020</a>)</span> uses real-world examples to explain principles of data visualisation and analysis. It touches upon a wide range of topics and disciplines, from communicating proportions, to probability and Bayesian inference, making it a great complement to the other books and resources mentioned here. If you just wish to dip your toes in statistics without committing (yet) to learning how to do statistics, this book is for you.</p></li>
 <li><p><a href="https://arxiv.org/abs/1308.5499">Linear models and linear mixed effects models in R with linguistic applications</a> by Bodo Winter is a short and intense tutorial on linear models <span class="citation" data-cites="winter2013">(<a href="#ref-winter2013" role="doc-biblioref">Winter 2013</a>)</span>. The first part introduces you to Gaussian linear models and the second part to Gaussian linear models that include random effects (variably called mixed, hierarchical, nested models). <strong>Note</strong> that Gaussian linear models are not appropriate for the data of most linguistic research and you will have to learn and use other types of linear models.</p></li>
 </ul>
-<section id="linear-models" class="level3" data-number="2.2.1">
-<h3 data-number="2.2.1" class="anchored" data-anchor-id="linear-models"><span class="header-section-number">2.2.1</span> Linear models</h3>
+<section id="regression-models" class="level3" data-number="2.2.1">
+<h3 data-number="2.2.1" class="anchored" data-anchor-id="regression-models"><span class="header-section-number">2.2.1</span> Regression models</h3>
 <blockquote class="blockquote">
 <p>One model to rule them all, one model to fit them,<br> One model to shrink them all, and in probability bind them;<br> In the Land of Inference where the distributions lie.</p>
 <p>—The Statistical Hobbit.</p>
 </blockquote>
-<p><strong>Linear models are a very flexible and relatively straightforward way to model and analyse quantitative data</strong>. They have gained momentum and are increasingly being adopted across the entire field of linguistics.</p>
-<p>The main perk of learning linear models is that they <strong>can be applied to many different types of data</strong>, so that once you learn this approach you will be able to apply it to a lot of data analysis scenarios.</p>
-<p>The resources mentioned above all focus on linear modelling, so whether you are just starting your statistical journey or you are an experienced researcher who wants to consolidate their understanding of linear modelling, those resources are right for you.</p>
-<p>After you have learnt the basics, the <a href="https://stefanocoretta.github.io/post/2021-08-21-regression-models-a-cheat-sheet/">Linear models cheat-sheet</a> can guide you through the process of choosing among the appropriate types of linear model depending on the nature of your data. The post also lists tutorials on linear models that use other less common probability distribution families, like the beta, Poisson and ordinal.</p>
-<p>Confused about all the model names? Check out <a href="https://stefanocoretta.github.io/post/2022-07-22-one-thousand-and-one-names/">this post</a> on how we don’t really need to use all of those names: they are all linear models!</p>
-<hr>
+<p><strong>Regression models are a very flexible and relatively straightforward way to model and analyse quantitative data</strong>. They have gained momentum and are increasingly being adopted across the entire field of linguistics.</p>
+<p>The main perk of learning regression models is that they <strong>can be applied to many different types of data</strong>, so that once you learn this approach you will be able to apply it to a lot of data analysis scenarios.</p>
+<p>The resources mentioned above all focus on regression modelling, so whether you are just starting your statistical journey or you are an experienced researcher who wants to consolidate their understanding of regression modelling, those resources are right for you.</p>
+<p>After you have learnt the basics, the <a href="./extra/regression-sheet.html">Regression models cheat-sheet</a> can guide you through the process of choosing among the appropriate types of models depending on the nature of your data. The post also lists tutorials on regression models that use other less common probability distribution families, like the beta, Poisson and ordinal.</p>
+<p>Confused about all the model names? Check out <a href="https://stefanocoretta.github.io/post/2022-07-22-one-thousand-and-one-names/">this post</a> on how we don’t really need to use all of those names: they are all regression models!</p>
 </section>
+</section>
+<section id="modelling-mindset" class="level2" data-number="2.3">
+<h2 data-number="2.3" class="anchored" data-anchor-id="modelling-mindset"><span class="header-section-number">2.3</span> Modelling mindset</h2>
+<p>We tend to think of statistics as a monolith, with prescribed recipes and well-established procedures. This is further from the truth: <span class="citation" data-cites="molnar2022">Molnar (<a href="#ref-molnar2022" role="doc-biblioref">2022</a>)</span> introduces beginners to different approaches to statistics (more precisely, to modelling data). Some approaches even use the same tools, but with very different aims.</p>
+</section>
+<section id="causal-inference" class="level2" data-number="2.4">
+<h2 data-number="2.4" class="anchored" data-anchor-id="causal-inference"><span class="header-section-number">2.4</span> Causal inference</h2>
+<p>“Correlation is not causation!”, you might have heard. Well, if you adopt a causal inference approach, then correlation can be causation. Causal inference allows researchers to select variables needed to estimate particular causal effects. One approach to causal inference is based on do-calculus and Directed Acyclic Graphs (DAGs). Causal inference is explained in <span class="citation" data-cites="mcelreath2020">McElreath (<a href="#ref-mcelreath2020" role="doc-biblioref">2020</a>)</span>, especially chapters 5 and 6. For a brief conceptual introduction, see <span class="citation" data-cites="mcelreath2021">McElreath (<a href="#ref-mcelreath2021" role="doc-biblioref">2021</a>)</span>.</p>
+<hr>
 </section>
 </section>
 <section id="intermediate" class="level1" data-number="3">
@@ -394,7 +404,7 @@ Joining and pivoting data
 <h2 data-number="3.5" class="anchored" data-anchor-id="bayesian-inference"><span class="header-section-number">3.5</span> Bayesian inference</h2>
 <ul>
 <li><p>The overview by <span class="citation" data-cites="etz2018">Etz et al. (<a href="#ref-etz2018" role="doc-biblioref">2018</a>)</span>, <em>How to become a Bayesian in eight easy steps: An annotated reading list</em>, is a good place to start from if you want to learn more about Bayesian statistics and inference.</p></li>
-<li><p>For an more practice-oriented introduction, you should read <a href="https://discovered.ed.ac.uk/permalink/44UOE_INST/110jsec/alma9924362502302466">Statistical (Re)thinking</a> (see above).</p></li>
+<li><p>For an more practice-oriented introduction, you should read <span class="citation" data-cites="mcelreath2020">McElreath (<a href="#ref-mcelreath2020" role="doc-biblioref">2020</a>)</span>.</p></li>
 <li><p>The <a href="https://learnb4ss.github.io">learnB4SS</a> workshop is an introduction to <strong>Bayesian analysis for the Speech Sciences</strong>. It requires familiarity with linear models and Null Hypothesis Significance Testing.</p></li>
 </ul>
 <hr>
@@ -410,7 +420,7 @@ Joining and pivoting data
 </section>
 <section id="multivariate-linear-models" class="level2" data-number="4.2">
 <h2 data-number="4.2" class="anchored" data-anchor-id="multivariate-linear-models"><span class="header-section-number">4.2</span> Multivariate linear models</h2>
-<p><a href="https://cran.r-project.org/web/packages/brms/vignettes/brms_multivariate.html">Estimating Multivariate Models with brms</a> by Paul Bürkner explains how to fit linear models with two or more outcome variables (i.e.&nbsp;multivariate models) using <a href="https://paul-buerkner.github.io/brms/">brms</a>.</p>
+<p><span class="citation" data-cites="burkner2024a">Bürkner (<a href="#ref-burkner2024a" role="doc-biblioref">2024</a>)</span> explains how to fit linear models with two or more outcome variables (i.e.&nbsp;multivariate models) using <a href="#0">brms</a>.</p>
 </section>
 <section id="references" class="level2 unnumbered">
 
@@ -421,11 +431,23 @@ Joining and pivoting data
 </section>
 
 <div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
+<div id="ref-burkner2024a" class="csl-entry" role="listitem">
+Bürkner, Paul-Christian. 2024. <span>“Estimating Multivariate Models with Brms.”</span> <a href="https://cran.r-project.org/web/packages/brms/vignettes/brms_multivariate.html">https://cran.r-project.org/web/packages/brms/vignettes/brms_multivariate.html</a>.
+</div>
 <div id="ref-burkner2019" class="csl-entry" role="listitem">
 Bürkner, Paul-Christian, and Matti Vuorre. 2019. <span>“Ordinal Regression Models in Psychology: A Tutorial.”</span> <em>Advances in Methods and Practices in Psychological Science</em> 2 (1): 77101. <a href="https://doi.org/10.1177/2515245918823199">https://doi.org/10.1177/2515245918823199</a>.
 </div>
 <div id="ref-etz2018" class="csl-entry" role="listitem">
 Etz, Alexander, Quentin F. Gronau, Fabian Dablander, Peter A. Edelsbrunner, and Beth Baribault. 2018. <span>“How to Become a Bayesian in Eight Easy Steps: An Annotated Reading List.”</span> <em>Psychonomic Bulletin &amp; Review</em> 25 (1): 219234. <a href="https://doi.org/10.3758/s13423-017-1317-5">https://doi.org/10.3758/s13423-017-1317-5</a>.
+</div>
+<div id="ref-mcelreath2020" class="csl-entry" role="listitem">
+McElreath, Richard. 2020. <em>Statistical Rethinking: A Bayesian Course with Examples in R and Stan</em>. Second edition. Chapman &amp; Hall/CRC Texts in Statistical Science Series. Boca Raton: CRC Press.
+</div>
+<div id="ref-mcelreath2021" class="csl-entry" role="listitem">
+———. 2021. <span>“Regression, Fire, and Dangerous Things (Parts 1, 2, 3).”</span> <a href="https://elevanth.org/blog/2021/06/15/regression-fire-and-dangerous-things-1-3/">https://elevanth.org/blog/2021/06/15/regression-fire-and-dangerous-things-1-3/</a>.
+</div>
+<div id="ref-molnar2022" class="csl-entry" role="listitem">
+Molnar, Christoph. 2022. <em>Modeling Mindsets: The Many Cultures of Learning from Data</em>. MUCBOOK.
 </div>
 <div id="ref-pedersen2019" class="csl-entry" role="listitem">
 Pedersen, Eric J., David L. Miller, Gavin L. Simpson, and Noam Ross. 2019. <span>“Hierarchical Generalized Additive Models in Ecology: An Introduction with Mgcv.”</span> <em>PeerJ</em> 7: e6876. <a href="https://doi.org/10.7717/peerj.6876">https://doi.org/10.7717/peerj.6876</a>.
@@ -435,6 +457,9 @@ Sóskuthy, Márton. 2017. <span>“Generalised Additive Mixed Models for Dynamic
 </div>
 <div id="ref-soskuthy2021" class="csl-entry" role="listitem">
 ———. 2021. <span>“Evaluating Generalised Additive Mixed Modelling Strategies for Dynamic Speech Analysis.”</span> <em>Journal of Phonetics</em> 84: 101017. <a href="https://doi.org/10.1016/j.wocn.2020.101017">https://doi.org/10.1016/j.wocn.2020.101017</a>.
+</div>
+<div id="ref-spiegelhalter2020" class="csl-entry" role="listitem">
+Spiegelhalter, David J. 2020. <em>The art of statistics: learning from data</em>. Published in paperback. Pelican.
 </div>
 <div id="ref-tamminga2016" class="csl-entry" role="listitem">
 Tamminga, Meredith, Christopher Ahern, and Aaron Ecay. 2016. <span>“Generalized Additive Mixed Models for Intraspeaker Variation.”</span> <em>Linguistics Vanguard</em> 2 (s1): 3341. <a href="https://doi.org/10.1515/lingvan-2016-0030">https://doi.org/10.1515/lingvan-2016-0030</a>.

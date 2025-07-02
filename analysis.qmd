@@ -81,11 +81,11 @@ Statistics and statistical modelling are about finding meaning in the patterns t
 -   [Statistics for Linguists: An introduction using R](https://discovered.ed.ac.uk/permalink/44UOE_INST/7g3mt6/alma9924344853202466) by Bodo Winter [@winter2020] is ideal both for absolute beginners and experienced researchers.
     It is packed with everything you need to successfully and effectively conduct statistical analyses.
 
--   [Statistical (Re)thinking](https://discovered.ed.ac.uk/permalink/44UOE_INST/110jsec/alma9924362502302466) by Richard McElreath is an excellent introduction for absolute beginners, by Richard McElreath, which covers a wide variety of linear models.
+-   [Statistical (Re)thinking](https://discovered.ed.ac.uk/permalink/44UOE_INST/110jsec/alma9924362502302466) by Richard McElreath [@mcelreath2020] is an excellent introduction for absolute beginners, by Richard McElreath, which covers a wide variety of linear models.
     It focusses on Bayesian inference and how this framework can help us directly answer research questions, assess evidence for different hypothesis, and quantify uncertainty.
     If you are familiar with the [tidyverse](https://www.tidyverse.org), the code from the *Statistical (Re)thinking* book has been translated into tidyverse by Solomon Kurz, and it can be accessed here: [Statistical rethinking with brms, ggplot2, and the tidyverse](https://bookdown.org/content/4857/).
 
--   [The Art of Statistics: Learning from data](https://www.penguin.co.uk/books/294/294857/learning-from-data/9780241258767.html) by David Spiegelhalter uses real-world examples to explain principles of data visualisation and analysis.
+-   [The Art of Statistics: Learning from data](https://www.penguin.co.uk/books/294/294857/learning-from-data/9780241258767.html) by David Spiegelhalter [@spiegelhalter2020] uses real-world examples to explain principles of data visualisation and analysis.
     It touches upon a wide range of topics and disciplines, from communicating proportions, to probability and Bayesian inference, making it a great complement to the other books and resources mentioned here.
     If you just wish to dip your toes in statistics without committing (yet) to learning how to do statistics, this book is for you.
 
@@ -93,24 +93,39 @@ Statistics and statistical modelling are about finding meaning in the patterns t
     The first part introduces you to Gaussian linear models and the second part to Gaussian linear models that include random effects (variably called mixed, hierarchical, nested models).
     **Note** that Gaussian linear models are not appropriate for the data of most linguistic research and you will have to learn and use other types of linear models.
 
-### Linear models
+### Regression models
 
 > One model to rule them all, one model to fit them,<br> One model to shrink them all, and in probability bind them;<br> In the Land of Inference where the distributions lie.
 >
 > ---The Statistical Hobbit.
 
-**Linear models are a very flexible and relatively straightforward way to model and analyse quantitative data**.
+**Regression models are a very flexible and relatively straightforward way to model and analyse quantitative data**.
 They have gained momentum and are increasingly being adopted across the entire field of linguistics.
 
-The main perk of learning linear models is that they **can be applied to many different types of data**, so that once you learn this approach you will be able to apply it to a lot of data analysis scenarios.
+The main perk of learning regression models is that they **can be applied to many different types of data**, so that once you learn this approach you will be able to apply it to a lot of data analysis scenarios.
 
-The resources mentioned above all focus on linear modelling, so whether you are just starting your statistical journey or you are an experienced researcher who wants to consolidate their understanding of linear modelling, those resources are right for you.
+The resources mentioned above all focus on regression modelling, so whether you are just starting your statistical journey or you are an experienced researcher who wants to consolidate their understanding of regression modelling, those resources are right for you.
 
-After you have learnt the basics, the [Linear models cheat-sheet](https://stefanocoretta.github.io/post/2021-08-21-regression-models-a-cheat-sheet/) can guide you through the process of choosing among the appropriate types of linear model depending on the nature of your data.
-The post also lists tutorials on linear models that use other less common probability distribution families, like the beta, Poisson and ordinal.
+After you have learnt the basics, the [Regression models cheat-sheet](extra/regression-sheet.qmd) can guide you through the process of choosing among the appropriate types of models depending on the nature of your data.
+The post also lists tutorials on regression models that use other less common probability distribution families, like the beta, Poisson and ordinal.
 
 Confused about all the model names?
-Check out [this post](https://stefanocoretta.github.io/post/2022-07-22-one-thousand-and-one-names/) on how we don't really need to use all of those names: they are all linear models!
+Check out [this post](https://stefanocoretta.github.io/post/2022-07-22-one-thousand-and-one-names/) on how we don't really need to use all of those names: they are all regression models!
+
+## Modelling mindset
+
+We tend to think of statistics as a monolith, with prescribed recipes and well-established procedures.
+This is further from the truth: @molnar2022 introduces beginners to different approaches to statistics (more precisely, to modelling data).
+Some approaches even use the same tools, but with very different aims.
+
+## Causal inference
+
+"Correlation is not causation!", you might have heard.
+Well, if you adopt a causal inference approach, then correlation can be causation.
+Causal inference allows researchers to select variables needed to estimate particular causal effects.
+One approach to causal inference is based on do-calculus and Directed Acyclic Graphs (DAGs).
+Causal inference is explained in @mcelreath2020, especially chapters 5 and 6.
+For a brief conceptual introduction, see @mcelreath2021.
 
 ------------------------------------------------------------------------
 
@@ -179,7 +194,7 @@ They are particularly useful with data that come from time series (e.g. f0 and f
 
 -   The overview by @etz2018, *How to become a Bayesian in eight easy steps: An annotated reading list*, is a good place to start from if you want to learn more about Bayesian statistics and inference.
 
--   For an more practice-oriented introduction, you should read [Statistical (Re)thinking](https://discovered.ed.ac.uk/permalink/44UOE_INST/110jsec/alma9924362502302466) (see above).
+-   For an more practice-oriented introduction, you should read @mcelreath2020.
 
 -   The [learnB4SS](https://learnb4ss.github.io) workshop is an introduction to **Bayesian analysis for the Speech Sciences**.
     It requires familiarity with linear models and Null Hypothesis Significance Testing.
@@ -203,6 +218,6 @@ If you are running **Bayesian linear models, you can check out this post on [Bay
 
 ## Multivariate linear models
 
-[Estimating Multivariate Models with brms](https://cran.r-project.org/web/packages/brms/vignettes/brms_multivariate.html) by Paul Bürkner explains how to fit linear models with two or more outcome variables (i.e. multivariate models) using [brms](https://paul-buerkner.github.io/brms/).
+@burkner2024a explains how to fit linear models with two or more outcome variables (i.e. multivariate models) using [brms](#0).
 
 ## References {.unnumbered}
