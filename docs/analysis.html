@@ -207,9 +207,10 @@ div.csl-indent {
   <ul class="collapse">
   <li><a href="#likert-scales" id="toc-likert-scales" class="nav-link" data-scroll-target="#likert-scales"><span class="header-section-number">3.1</span> Likert scales</a></li>
   <li><a href="#count-data-and-corpus-data" id="toc-count-data-and-corpus-data" class="nav-link" data-scroll-target="#count-data-and-corpus-data"><span class="header-section-number">3.2</span> Count data (and corpus data)</a></li>
-  <li><a href="#dimensionality-reduction" id="toc-dimensionality-reduction" class="nav-link" data-scroll-target="#dimensionality-reduction"><span class="header-section-number">3.3</span> Dimensionality reduction</a></li>
-  <li><a href="#time-series-and-coordinates" id="toc-time-series-and-coordinates" class="nav-link" data-scroll-target="#time-series-and-coordinates"><span class="header-section-number">3.4</span> Time series and coordinates</a></li>
-  <li><a href="#bayesian-inference" id="toc-bayesian-inference" class="nav-link" data-scroll-target="#bayesian-inference"><span class="header-section-number">3.5</span> Bayesian inference</a></li>
+  <li><a href="#categorical-multinomial-data-with-more-than-two-levels" id="toc-categorical-multinomial-data-with-more-than-two-levels" class="nav-link" data-scroll-target="#categorical-multinomial-data-with-more-than-two-levels"><span class="header-section-number">3.3</span> Categorical (multinomial) data with more than two levels</a></li>
+  <li><a href="#dimensionality-reduction" id="toc-dimensionality-reduction" class="nav-link" data-scroll-target="#dimensionality-reduction"><span class="header-section-number">3.4</span> Dimensionality reduction</a></li>
+  <li><a href="#time-series-and-coordinates" id="toc-time-series-and-coordinates" class="nav-link" data-scroll-target="#time-series-and-coordinates"><span class="header-section-number">3.5</span> Time series and coordinates</a></li>
+  <li><a href="#bayesian-inference" id="toc-bayesian-inference" class="nav-link" data-scroll-target="#bayesian-inference"><span class="header-section-number">3.6</span> Bayesian inference</a></li>
   </ul></li>
   <li><a href="#advanced" id="toc-advanced" class="nav-link" data-scroll-target="#advanced"><span class="header-section-number">4</span> Advanced</a>
   <ul class="collapse">
@@ -272,6 +273,7 @@ Disclaimer
 </div>
 </div>
 <p>There are several resources you can use to teach yourself quantitative data analysis skills, depending on your level. Don’t forget to also check <a href="./measures/overview.html">Measures</a> and the <a href="./skills.html">Skills</a> page, for more general research-related skills.</p>
+<p>You should also check out the <a href="./stew.html">Statistical Training Workshop</a> (STeW) series: most workshops have been recorded and the link to the video is available on that page.</p>
 </section>
 <section id="beginners" class="level1" data-number="2">
 <h1 data-number="2"><span class="header-section-number">2</span> Beginners</h1>
@@ -376,8 +378,13 @@ Joining and pivoting data
 <p>Count data, like number of a particular construction in a corpus, number of interjection in a conversation, number of infant gestures, etc, should be modelled using a <strong>Poisson distribution</strong>.</p>
 <p>See the tutorial by <span class="citation" data-cites="winter2021">Winter and Bürkner (<a href="#ref-winter2021" role="doc-biblioref">2021</a>)</span>.</p>
 </section>
-<section id="dimensionality-reduction" class="level2" data-number="3.3">
-<h2 data-number="3.3" class="anchored" data-anchor-id="dimensionality-reduction"><span class="header-section-number">3.3</span> Dimensionality reduction</h2>
+<section id="categorical-multinomial-data-with-more-than-two-levels" class="level2" data-number="3.3">
+<h2 data-number="3.3" class="anchored" data-anchor-id="categorical-multinomial-data-with-more-than-two-levels"><span class="header-section-number">3.3</span> Categorical (multinomial) data with more than two levels</h2>
+<p>When you are working with outcome variables that have more than two levels, and the levels are not ordered, you should fit a multinomial model using the <strong>categorical distribution</strong>.</p>
+<p>See the <a href="./extra/regression-sheet.html#sec-disc">Regression cheat sheet</a>.</p>
+</section>
+<section id="dimensionality-reduction" class="level2" data-number="3.4">
+<h2 data-number="3.4" class="anchored" data-anchor-id="dimensionality-reduction"><span class="header-section-number">3.4</span> Dimensionality reduction</h2>
 <p>If your data is <strong>highly dimensional</strong>, i.e.&nbsp;<strong>you have a lot of different variables</strong> (some of which might even be correlated to each other), you can employ data dimensionality reduction techniques to “synthesise” all the variables into fewer variables that represent components, dimensions or clusters in the data.</p>
 <p>These techniques can be used both (a) to find patterns or groupings in the data and to obtain measures that capture these patterns and groupings and (b) to simplify analyses from a set of 15/20 variables to 2/3 components or dimensions.</p>
 <p>Note that once you have reduced your data to a few variables (components or dimensions), these can still be further analysed with the other techniques mentioned on this page.</p>
@@ -387,8 +394,8 @@ Joining and pivoting data
 <li><p>Another dimensionality reduction technique is <strong>Cluster Analysis</strong> (CA, aka hierarchical clustering). <a href="https://www.datanovia.com/en/blog/cluster-analysis-in-r-practical-guide/">This tutorial</a> guides you through a CA in R.</p></li>
 </ul>
 </section>
-<section id="time-series-and-coordinates" class="level2" data-number="3.4">
-<h2 data-number="3.4" class="anchored" data-anchor-id="time-series-and-coordinates"><span class="header-section-number">3.4</span> Time series and coordinates</h2>
+<section id="time-series-and-coordinates" class="level2" data-number="3.5">
+<h2 data-number="3.5" class="anchored" data-anchor-id="time-series-and-coordinates"><span class="header-section-number">3.5</span> Time series and coordinates</h2>
 <p><strong>Generalised Additive (Mixed) Models</strong> (GAMMs) are a flexible extension of linear models that allows us to fit non-linear effects. They are particularly useful with data that come from time series (e.g.&nbsp;f0 and formants, corpus occurrences across time, longitudinal data, etc.) and they can be employed with any kind of data that can be thought of as being represented on a coordinate space (e.g., geolocations, electroencephalographic (EEG) data, 3D tongue imaging, etc).</p>
 <ul>
 <li><p>The tutorial by <span class="citation" data-cites="soskuthy2017a">Sóskuthy (<a href="#ref-soskuthy2017a" role="doc-biblioref">2017</a>)</span> is an excellent introduction to Generalised Additive Mixed Models (GAMMs). Also see <span class="citation" data-cites="soskuthy2021">Sóskuthy (<a href="#ref-soskuthy2021" role="doc-biblioref">2021</a>)</span>.</p></li>
@@ -400,8 +407,8 @@ Joining and pivoting data
 <li><a href="https://github.com/uasolo/FPCA-phonetics-workshop">Functional Data Analysis for Speech Research</a> by Michele Gubian is a collection of workshop materials on Functional Data Analysis with a focus on speech research data.</li>
 </ul>
 </section>
-<section id="bayesian-inference" class="level2" data-number="3.5">
-<h2 data-number="3.5" class="anchored" data-anchor-id="bayesian-inference"><span class="header-section-number">3.5</span> Bayesian inference</h2>
+<section id="bayesian-inference" class="level2" data-number="3.6">
+<h2 data-number="3.6" class="anchored" data-anchor-id="bayesian-inference"><span class="header-section-number">3.6</span> Bayesian inference</h2>
 <ul>
 <li><p>The overview by <span class="citation" data-cites="etz2018">Etz et al. (<a href="#ref-etz2018" role="doc-biblioref">2018</a>)</span>, <em>How to become a Bayesian in eight easy steps: An annotated reading list</em>, is a good place to start from if you want to learn more about Bayesian statistics and inference.</p></li>
 <li><p>For an more practice-oriented introduction, you should read <span class="citation" data-cites="mcelreath2020">McElreath (<a href="#ref-mcelreath2020" role="doc-biblioref">2020</a>)</span>.</p></li>

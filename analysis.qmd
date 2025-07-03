@@ -22,6 +22,8 @@ Note that the methods presented here are general enough that they can be applied
 There are several resources you can use to teach yourself quantitative data analysis skills, depending on your level.
 Don't forget to also check [Measures](measures/overview.qmd) and the [Skills](skills.qmd) page, for more general research-related skills.
 
+You should also check out the [Statistical Training Workshop](stew.qmd) (STeW) series: most workshops have been recorded and the link to the video is available on that page.
+
 # Beginners
 
 ::: {.callout-note icon="false"}
@@ -152,6 +154,12 @@ A recording of the [STeW](stew.qmd) workshop on ordinal regression model is also
 Count data, like number of a particular construction in a corpus, number of interjection in a conversation, number of infant gestures, etc, should be modelled using a **Poisson distribution**.
 
 See the tutorial by @winter2021.
+
+## Categorical (multinomial) data with more than two levels
+
+When you are working with outcome variables that have more than two levels, and the levels are not ordered, you should fit a multinomial model using the **categorical distribution**.
+
+See the [Regression cheat sheet](extra/regression-sheet.qmd#sec-disc).
 
 ## Dimensionality reduction
 
