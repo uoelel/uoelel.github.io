@@ -16,12 +16,11 @@ You can use the checklist as a template to think about your quantitative analysi
 
 ## Honours and MSc students
 
-If you are a student writing your Honours or MSc dissertation and you are looking after help with your quantitative data analysis/statistics, you can book an appointment with Dr Stefano Coretta or Elizabeth Pankratz. Note that a university account is required for booking.
+If you are a student writing your Honours or MSc dissertation in Linguistics and English Language and you are looking after help with your quantitative data analysis/statistics, you can book an appointment with Dr Stefano Coretta.
+Note that a university account is required for booking.
 
 ```{=html}
-<a class="btn btn-primary" href="https://outlook.office365.com/owa/calendar/Stefanosofficehours@uoe.onmicrosoft.com/bookings/" role="button">Book with Stefano</a>
-
-<a class="btn btn-primary" href="https://outlook.office.com/bookwithme/user/49afe80a7e344adb8ff5770868f0729d@sms.ed.ac.uk?anonymous&ep=pcard" role="button">Book with Elizabeth</a>
+<a class="btn btn-primary" href="https://outlook.office365.com/owa/calendar/Stefanosofficehours@uoe.onmicrosoft.com/bookings/" role="button">Book an appointment</a>
 ```
 
 ## Consultation for PhD students, postdocs and staff
