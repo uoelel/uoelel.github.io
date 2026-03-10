@@ -5,7 +5,10 @@ editor: visual
 
 The Linguistics and English Language **Statistical Training Workshops** (**STeW**) is a series of workshops that runs throughout the academic year and is aimed at students and staff who would like to advance their statistical knowledge and skills.
 
-On this page you can find information on the current plan for the a.y. 2024-25. Attending requires you register and registration links are sent out via email at the beginning of each semester. Further workshops might be added later during the year.
+On this page you can find information on the current plan for the a.y.
+2024-25.
+Attending requires you register and registration links are sent out via email at the beginning of each semester.
+Further workshops might be added later during the year.
 
 Most workshops are recorded and can be watched on the [LEL Quantitative Methods channel](https://media.ed.ac.uk/channel/LEL%2BQuantitative%2BMethods/308657412) on the UoE Media Hopper Create.
 
@@ -73,7 +76,7 @@ If you have any question, you can get in touch with Dr Stefano Coretta.
 +-------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | **Prerequisites** | None.                                                                                                                                                                                    |
 +-------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| **Materials**     |                                                                                                                                                                                          |
+| **Materials**     | <https://stefanocoretta.github.io/open-research/>                                                                                                                                        |
 +-------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | **Recording**     |                                                                                                                                                                                          |
 +-------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
